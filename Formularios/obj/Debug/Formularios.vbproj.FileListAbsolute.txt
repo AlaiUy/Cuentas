@@ -1,0 +1,9 @@
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\bin\Debug\Formularios.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\bin\Debug\Formularios.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\bin\Debug\Formularios.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.frmMenu.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.Resources.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.vbproj.GenerateResource.Cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Formularios\obj\Debug\Formularios.pdb

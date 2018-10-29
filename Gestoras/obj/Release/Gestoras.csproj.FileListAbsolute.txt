@@ -1,0 +1,398 @@
+E:\Src\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+E:\Src\CTAManager\Gestoras\bin\Release\Gestoras.dll
+E:\Src\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+E:\Src\CTAManager\Gestoras\bin\Release\Entidades.dll
+E:\Src\CTAManager\Gestoras\bin\Release\Interfaces.dll
+E:\Src\CTAManager\Gestoras\bin\Release\SQL.dll
+E:\Src\CTAManager\Gestoras\bin\Release\Entidades.pdb
+E:\Src\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+E:\Src\CTAManager\Gestoras\bin\Release\SQL.pdb
+E:\Src\CTAManager\Gestoras\obj\Release\Gestoras.dll
+E:\Src\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+D:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+D:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+G:\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+G:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+G:\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll.config
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Gestoras.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\SQL.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Tools.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\itextsharp.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\MySql.Data.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\FlashControlV71.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\stdole.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Tools.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\Reportes.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\SQL.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\XMLManager.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.xml
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Gestoras\obj\Release\Gestoras.pdb

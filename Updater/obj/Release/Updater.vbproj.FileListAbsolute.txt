@@ -1,0 +1,12 @@
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\bin\Release\Updater.exe
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\bin\Release\Updater.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\bin\Release\Updater.xml
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\bin\Release\DotNetZip.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\bin\Release\DotNetZip.xml
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.frmUpMain.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.Resources.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.vbproj.GenerateResource.Cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.exe
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.xml
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Updater\obj\Release\Updater.vbprojResolveAssemblyReference.cache

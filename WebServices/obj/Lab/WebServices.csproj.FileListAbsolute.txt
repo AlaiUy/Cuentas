@@ -1,0 +1,10 @@
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\bin\Lab\WebServices.dll.config
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\bin\Lab\WebServices.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\bin\Lab\WebServices.XmlSerializers.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\bin\Lab\WebServices.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\WebServices.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\Aguiñagalde.WebServices.Properties.Resources.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\WebServices.csproj.GenerateResource.Cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\WebServices.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\WebServices.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Lab\WebServices.XmlSerializers.dll

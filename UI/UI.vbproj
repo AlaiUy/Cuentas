@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23F486C5-ABAE-4EB6-A517-D7F30EBBE5EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UI.Loader</StartupObject>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>Cuentas Corrientes</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cuentas Corrientes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cuentas Corrientes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Lab|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Lab\</OutputPath>
+    <DocumentationFile>Cuentas Corrientes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Controles">
+      <HintPath>..\Controles\obj\Debug\Controles.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clientes\ABM\frmClienteNuevo.Designer.vb">
+      <DependentUpon>frmClienteNuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\ABM\frmClienteNuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\ABM\frmModificaCliente.Designer.vb">
+      <DependentUpon>frmModificaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\ABM\frmModificaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Estados de cuentas\frmEC.Designer.vb">
+      <DependentUpon>frmEC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Estados de cuentas\frmEC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Estados de cuentas\frmEnvioEmail.Designer.vb">
+      <DependentUpon>frmEnvioEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Estados de cuentas\frmEnvioEmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frmMenuClientes.Designer.vb">
+      <DependentUpon>frmMenuClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frmMenuClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoader.Designer.vb">
+      <DependentUpon>frmLoader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones.vb" />
+    <Compile Include="Loader.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Clientes\ABM\frmClienteNuevo.resx">
+      <DependentUpon>frmClienteNuevo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\ABM\frmModificaCliente.resx">
+      <DependentUpon>frmModificaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\Estados de cuentas\frmEC.resx">
+      <DependentUpon>frmEC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\Estados de cuentas\frmEnvioEmail.resx">
+      <DependentUpon>frmEnvioEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frmMenuClientes.resx">
+      <DependentUpon>frmMenuClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoader.resx">
+      <DependentUpon>frmLoader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SCLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{69D97866-361E-4476-847A-E900B56E4108}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Escritura\AguiTools.csproj">
+      <Project>{5D1E78FF-7041-450D-89B6-13B1B8AC90AD}</Project>
+      <Name>AguiTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gestoras\Gestoras.csproj">
+      <Project>{14104e13-9bf5-43db-ad5d-5bffef548b1f}</Project>
+      <Name>Gestoras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{B9181BF6-36EC-4900-9692-528D3472F11B}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reportes\Reportes.csproj">
+      <Project>{79043A16-F9E3-4C7E-B41E-8CB177CE9F29}</Project>
+      <Name>Reportes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Updater\Updater.vbproj">
+      <Project>{657CE004-B96D-4FF2-B139-E6BB2D528F79}</Project>
+      <Name>Updater</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dash32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrong24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuEC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmailEC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AperturaHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modheader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subcuentasheader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personasutheader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rightarrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

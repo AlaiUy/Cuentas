@@ -1,0 +1,54 @@
+E:\Src\CTAManager\Entidades\bin\Release\Entidades.dll
+E:\Src\CTAManager\Entidades\bin\Release\Entidades.pdb
+E:\Src\CTAManager\Entidades\obj\Release\Entidades.dll
+E:\Src\CTAManager\Entidades\obj\Release\Entidades.pdb
+E:\Src\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+D:\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+D:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+D:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+G:\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+G:\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\obj\Release\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\obj\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache

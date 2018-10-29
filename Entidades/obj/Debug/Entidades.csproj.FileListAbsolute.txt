@@ -1,0 +1,65 @@
+E:\Src\CTAManager\Entidades\bin\Debug\Entidades.dll
+E:\Src\CTAManager\Entidades\bin\Debug\Entidades.pdb
+E:\Src\CTAManager\Entidades\bin\Debug\Interfaces.dll
+E:\Src\CTAManager\Entidades\bin\Debug\Interfaces.pdb
+E:\Src\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\Src\CTAManager\Entidades\obj\Debug\Entidades.dll
+E:\Src\CTAManager\Entidades\obj\Debug\Entidades.pdb
+G:\Src\CTAManager\Entidades\bin\Debug\Entidades.dll
+G:\Src\CTAManager\Entidades\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\Entidades\bin\Debug\Interfaces.dll
+G:\Src\CTAManager\Entidades\bin\Debug\Interfaces.pdb
+G:\Src\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\Entidades\obj\Debug\Entidades.dll
+G:\Src\CTAManager\Entidades\obj\Debug\Entidades.pdb
+D:\Src\CTAManager\Entidades\bin\Debug\Entidades.dll
+D:\Src\CTAManager\Entidades\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\Entidades\bin\Debug\Interfaces.dll
+D:\Src\CTAManager\Entidades\bin\Debug\Interfaces.pdb
+D:\Src\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\Entidades\obj\Debug\Entidades.dll
+D:\Src\CTAManager\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+D:\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+D:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+D:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+G:\Src\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+G:\Src\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Entidades\obj\Debug\Entidades.pdb

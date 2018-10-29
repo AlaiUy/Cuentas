@@ -1,0 +1,14 @@
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\Gestoras.dll.config
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\Gestoras.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\Entidades.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\EntityFramework.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\EntityFramework.SqlServer.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\Interfaces.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\SQL.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\Tools.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\EntityFramework.xml
+D:\Src\CTAManager\CTAManager\Gestoras\bin\PruebasDebug\EntityFramework.SqlServer.xml
+D:\Src\CTAManager\CTAManager\Gestoras\obj\PruebasDebug\Gestoras.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Gestoras\obj\PruebasDebug\Gestoras.dll

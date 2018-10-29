@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://localhost/infocred/modules/webservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://localhost/infocred/modules/webservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://localhost/infocred/modules/webservice">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="ArrayOfString">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="xsd:string[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="consultaFichaPFN1Request">
+    <wsdl:part name="usuario" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="tipo_id" type="xsd:string" />
+    <wsdl:part name="nro_id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaPFN1Response">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaPJRequest">
+    <wsdl:part name="usuario" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="tipo_id" type="xsd:string" />
+    <wsdl:part name="nro_id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaPJResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="listadoConsultasResumidoRequest">
+    <wsdl:part name="usuario" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="fecha_desde" type="xsd:string" />
+    <wsdl:part name="fecha_hasta" type="xsd:string" />
+    <wsdl:part name="cod_cci" type="xsd:string" />
+    <wsdl:part name="nro_empresa_desde" type="xsd:string" />
+    <wsdl:part name="nro_empresa_hasta" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="listadoConsultasResumidoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="InfoCredServicesPortType">
+    <wsdl:operation name="consultaFichaPFN1">
+      <wsdl:input message="tns:consultaFichaPFN1Request" />
+      <wsdl:output message="tns:consultaFichaPFN1Response" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaFichaPJ">
+      <wsdl:input message="tns:consultaFichaPJRequest" />
+      <wsdl:output message="tns:consultaFichaPJResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="listadoConsultasResumido">
+      <wsdl:input message="tns:listadoConsultasResumidoRequest" />
+      <wsdl:output message="tns:listadoConsultasResumidoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="InfoCredServicesBinding" type="tns:InfoCredServicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="consultaFichaPFN1">
+      <soap:operation soapAction="https://www.infocred.com.uy/infocred/modules/webservice/index.php/consultaFichaPFN1" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaFichaPJ">
+      <soap:operation soapAction="https://www.infocred.com.uy/infocred/modules/webservice/index.php/consultaFichaPJ" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listadoConsultasResumido">
+      <soap:operation soapAction="https://www.infocred.com.uy/infocred/modules/webservice/index.php/listadoConsultasResumido" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/infocred/modules/webservice" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="InfoCredServices">
+    <wsdl:port name="InfoCredServicesPort" binding="tns:InfoCredServicesBinding">
+      <soap:address location="https://www.infocred.com.uy:443/infocred/modules/webservice/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

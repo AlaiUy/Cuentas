@@ -1,0 +1,4 @@
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\bin\Lab\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\bin\Lab\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\obj\Lab\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Entidades\obj\Lab\Entidades.pdb

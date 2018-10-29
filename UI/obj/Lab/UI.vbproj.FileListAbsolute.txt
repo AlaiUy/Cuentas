@@ -1,0 +1,9 @@
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.vbprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.frmClienteNuevo.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.frmEC.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.frmEnvioEmail.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.frmMenuClientes.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.Main.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.frmLoader.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.Resources.resources
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\obj\Lab\UI.vbproj.GenerateResource.Cache

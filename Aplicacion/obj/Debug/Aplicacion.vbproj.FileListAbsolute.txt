@@ -1,0 +1,904 @@
+E:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe.config
+E:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe
+E:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Tools.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\SQL.dll
+E:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.xml
+E:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+E:\Src\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SplashScreen.resources
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.exe
+E:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe.config
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.exe
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.pdb
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SplashScreen.resources
+G:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+G:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe
+G:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Tools.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\SQL.dll
+G:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.xml
+G:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+G:\Src\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe.config
+D:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe
+D:\Src\CTAManager\Aplicacion\bin\Debug\Aplicacion.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Tools.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\SQL.dll
+D:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Cobros.xml
+D:\Src\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+D:\Src\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SplashScreen.resources
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.exe
+D:\Src\CTAManager\Aplicacion\obj\Debug\Aplicacion.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe.config
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe.manifest
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Aplicacion.application
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SplashScreen.resources
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.TrustInfo.xml
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.exe.manifest
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.application
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.exe
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+D:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Web.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Web.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Web.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\C1.C1Pdf.4.Design.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\C1.C1Pdf.4.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Web.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\C1.C1Pdf.4.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interop.FOXITREADERLib.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\AxInterop.FOXITREADERLib.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Interop.FOXITREADERLib.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\AxInterop.FOXITREADERLib.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.ResolveComReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interop.FOXITREADERLib.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\AxInterop.FOXITREADERLib.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Interop.FOXITREADERLib.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\AxInterop.FOXITREADERLib.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.ResolveComReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Interop.FOXITREADERLib.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\AxInterop.FOXITREADERLib.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.ResolveComReference.cache
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\Interop.FOXITREADERLib.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\bin\Debug\AxInterop.FOXITREADERLib.dll
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.SSMain.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+G:\Src\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.config
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe.manifest
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.application
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.exe
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\itextsharp.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\FlashControlV71.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\stdole.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\MySql.Data.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Tools.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Gestoras.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Reportes.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Cuentas Corrientes.xml
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\WebServices.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\XMLManager.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\Controles.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\FabricaMapper.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Debug\SQL.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmListarEstadosCuenta.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Resources.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmLoader.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.TrustInfo.xml
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe.manifest
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.application
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.exe
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Debug\Cuentas Corrientes.pdb

@@ -1,0 +1,6 @@
+D:\Src\CTAManager\CTAManager\WebServices\bin\PruebasDebug\WebServices.dll.config
+D:\Src\CTAManager\CTAManager\WebServices\bin\PruebasDebug\WebServices.dll
+D:\Src\CTAManager\CTAManager\WebServices\obj\PruebasDebug\WebServices.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\WebServices\obj\PruebasDebug\Aguiñagalde.WebServices.Properties.Resources.resources
+D:\Src\CTAManager\CTAManager\WebServices\obj\PruebasDebug\WebServices.csproj.GenerateResource.Cache
+D:\Src\CTAManager\CTAManager\WebServices\obj\PruebasDebug\WebServices.dll

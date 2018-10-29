@@ -1,0 +1,263 @@
+E:\Src\CTAManager\SQL\bin\Debug\SQL.dll
+E:\Src\CTAManager\SQL\bin\Debug\SQL.pdb
+E:\Src\CTAManager\SQL\bin\Debug\Entidades.dll
+E:\Src\CTAManager\SQL\bin\Debug\EntityFramework.dll
+E:\Src\CTAManager\SQL\bin\Debug\Interfaces.dll
+E:\Src\CTAManager\SQL\bin\Debug\Tools.dll
+E:\Src\CTAManager\SQL\bin\Debug\itextsharp.dll
+E:\Src\CTAManager\SQL\bin\Debug\Entidades.pdb
+E:\Src\CTAManager\SQL\bin\Debug\Tools.pdb
+E:\Src\CTAManager\SQL\bin\Debug\Interfaces.pdb
+E:\Src\CTAManager\SQL\bin\Debug\EntityFramework.xml
+E:\Src\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+E:\Src\CTAManager\SQL\obj\Debug\SQL.dll
+E:\Src\CTAManager\SQL\obj\Debug\SQL.pdb
+G:\Src\CTAManager\SQL\bin\Debug\SQL.dll
+G:\Src\CTAManager\SQL\bin\Debug\SQL.pdb
+G:\Src\CTAManager\SQL\bin\Debug\Entidades.dll
+G:\Src\CTAManager\SQL\bin\Debug\EntityFramework.dll
+G:\Src\CTAManager\SQL\bin\Debug\Interfaces.dll
+G:\Src\CTAManager\SQL\bin\Debug\Tools.dll
+G:\Src\CTAManager\SQL\bin\Debug\itextsharp.dll
+G:\Src\CTAManager\SQL\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\SQL\bin\Debug\Tools.pdb
+G:\Src\CTAManager\SQL\bin\Debug\Interfaces.pdb
+G:\Src\CTAManager\SQL\bin\Debug\EntityFramework.xml
+G:\Src\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\SQL\obj\Debug\SQL.dll
+G:\Src\CTAManager\SQL\obj\Debug\SQL.pdb
+D:\Src\CTAManager\SQL\bin\Debug\SQL.dll
+D:\Src\CTAManager\SQL\bin\Debug\SQL.pdb
+D:\Src\CTAManager\SQL\bin\Debug\Entidades.dll
+D:\Src\CTAManager\SQL\bin\Debug\EntityFramework.dll
+D:\Src\CTAManager\SQL\bin\Debug\Interfaces.dll
+D:\Src\CTAManager\SQL\bin\Debug\Tools.dll
+D:\Src\CTAManager\SQL\bin\Debug\itextsharp.dll
+D:\Src\CTAManager\SQL\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\SQL\bin\Debug\Tools.pdb
+D:\Src\CTAManager\SQL\bin\Debug\Interfaces.pdb
+D:\Src\CTAManager\SQL\bin\Debug\EntityFramework.xml
+D:\Src\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\SQL\obj\Debug\SQL.dll
+D:\Src\CTAManager\SQL\obj\Debug\SQL.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+C:\Users\alain\Desktop\Refactory\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+D:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+D:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\MySql.Data.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\MySql.Data.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+G:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+G:\Src\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\SQL.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\SQL.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Tools.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\itextsharp.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\stdole.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Tools.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Debug\EntityFramework.xml
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Debug\SQL.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Debug\SQL.pdb

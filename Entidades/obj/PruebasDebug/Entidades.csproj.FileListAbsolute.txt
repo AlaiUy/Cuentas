@@ -1,0 +1,3 @@
+D:\Src\CTAManager\CTAManager\Entidades\bin\PruebasDebug\Entidades.dll
+D:\Src\CTAManager\CTAManager\Entidades\obj\PruebasDebug\Entidades.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Entidades\obj\PruebasDebug\Entidades.dll

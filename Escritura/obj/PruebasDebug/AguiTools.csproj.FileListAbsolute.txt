@@ -1,0 +1,6 @@
+D:\Src\CTAManager\CTAManager\Escritura\bin\PruebasDebug\Tools.dll
+D:\Src\CTAManager\CTAManager\Escritura\bin\PruebasDebug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\Escritura\bin\PruebasDebug\itextsharp.pdfa.dll
+D:\Src\CTAManager\CTAManager\Escritura\bin\PruebasDebug\itextsharp.xtra.dll
+D:\Src\CTAManager\CTAManager\Escritura\obj\PruebasDebug\AguiTools.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Escritura\obj\PruebasDebug\Tools.dll

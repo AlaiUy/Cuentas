@@ -1,0 +1,140 @@
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Tools.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\itextsharp.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Tools.pdb
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+D:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Tools.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\itextsharp.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.Shared.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\stdole.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Tools.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.xml
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.xml
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+G:\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+G:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+G:\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\FabricaMapper.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\MySql.Data.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\SQL.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Release\FabricaMapper.pdb

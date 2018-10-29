@@ -1,0 +1,69 @@
+E:\Src\CTAManager\Interfaces\bin\Release\Interfaces.dll
+E:\Src\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+E:\Src\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+E:\Src\CTAManager\Interfaces\obj\Release\Interfaces.dll
+E:\Src\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+D:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+D:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+D:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+H:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+Z:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+F:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+E:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+D:\Aguiñagalde\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+D:\Aguiñagalde\Respaldo SRC\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+G:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+G:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+G:\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+G:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+G:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+G:\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\bin\Release\Interfaces.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\bin\Release\Entidades.pdb
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
+C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb

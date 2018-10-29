@@ -1,0 +1,7 @@
+#16/09/2016
+- Filtro por RUT en la busqueda de clientes
+(Esto permite Todas las cuentas ( mas de 1) que tengan el mismo RUT).
+
+
+
+REVISAR ESTADO DE CUENTA CON ENTREGA. EJEMPLO 8243

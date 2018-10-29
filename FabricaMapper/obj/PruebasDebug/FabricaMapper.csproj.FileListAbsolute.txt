@@ -1,0 +1,8 @@
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\FabricaMapper.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\Interfaces.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\SQL.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\Tools.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\Entidades.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\bin\PruebasDebug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\FabricaMapper\obj\PruebasDebug\FabricaMapper.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\FabricaMapper\obj\PruebasDebug\FabricaMapper.dll

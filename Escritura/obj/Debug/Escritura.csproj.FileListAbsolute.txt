@@ -1,0 +1,5 @@
+E:\Src\CTAManager\Escritura\bin\Debug\Escritura.dll
+E:\Src\CTAManager\Escritura\bin\Debug\Escritura.pdb
+E:\Src\CTAManager\Escritura\obj\Debug\Escritura.csprojResolveAssemblyReference.cache
+E:\Src\CTAManager\Escritura\obj\Debug\Escritura.dll
+E:\Src\CTAManager\Escritura\obj\Debug\Escritura.pdb

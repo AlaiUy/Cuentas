@@ -1,0 +1,9 @@
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\SQL.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\Entidades.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\EntityFramework.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\Interfaces.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\Tools.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\itextsharp.dll
+D:\Src\CTAManager\CTAManager\SQL\bin\PruebasDebug\EntityFramework.xml
+D:\Src\CTAManager\CTAManager\SQL\obj\PruebasDebug\SQL.csprojResolveAssemblyReference.cache
+D:\Src\CTAManager\CTAManager\SQL\obj\PruebasDebug\SQL.dll
