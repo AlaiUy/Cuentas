@@ -396,9 +396,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Controles">
-      <HintPath>..\Controles\bin\Debug\Controles.dll</HintPath>
-    </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -565,6 +562,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Controles\Controles.csproj">
+      <Project>{35349a14-0fa0-4b7c-9085-05285edcade2}</Project>
+      <Name>Controles</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{69d97866-361e-4476-847a-e900b56e4108}</Project>
       <Name>Entidades</Name>

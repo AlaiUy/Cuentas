@@ -52,6 +52,7 @@ Partial Class frmEstadoCuenta
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.FechaDesde = New System.Windows.Forms.MaskedTextBox()
         Me.txtCuenta = New Aguinagalde.Controles.TextBoxNumerico()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.txtDireccion = New System.Windows.Forms.TextBox()
@@ -61,12 +62,9 @@ Partial Class frmEstadoCuenta
         Me.btnGenerar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DateHasta = New System.Windows.Forms.DateTimePicker()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.DateDesde = New System.Windows.Forms.DateTimePicker()
         Me.TipPendiente = New System.Windows.Forms.ToolTip(Me.components)
-        Me.mskbox = New System.Windows.Forms.MaskedTextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.FechaHasta = New System.Windows.Forms.MaskedTextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel7.SuspendLayout()
@@ -413,8 +411,8 @@ Partial Class frmEstadoCuenta
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel10.Controls.Add(Me.Button1)
-        Me.Panel10.Controls.Add(Me.mskbox)
+        Me.Panel10.Controls.Add(Me.FechaHasta)
+        Me.Panel10.Controls.Add(Me.FechaDesde)
         Me.Panel10.Controls.Add(Me.txtCuenta)
         Me.Panel10.Controls.Add(Me.btnBuscar)
         Me.Panel10.Controls.Add(Me.txtDireccion)
@@ -424,13 +422,19 @@ Partial Class frmEstadoCuenta
         Me.Panel10.Controls.Add(Me.btnGenerar)
         Me.Panel10.Controls.Add(Me.Label1)
         Me.Panel10.Controls.Add(Me.Label8)
-        Me.Panel10.Controls.Add(Me.DateHasta)
         Me.Panel10.Controls.Add(Me.Label7)
-        Me.Panel10.Controls.Add(Me.DateDesde)
         Me.Panel10.Location = New System.Drawing.Point(6, 12)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(917, 97)
         Me.Panel10.TabIndex = 5
+        '
+        'FechaDesde
+        '
+        Me.FechaDesde.Location = New System.Drawing.Point(143, 45)
+        Me.FechaDesde.Mask = "00/00/0000"
+        Me.FechaDesde.Name = "FechaDesde"
+        Me.FechaDesde.Size = New System.Drawing.Size(77, 20)
+        Me.FechaDesde.TabIndex = 29
         '
         'txtCuenta
         '
@@ -522,17 +526,6 @@ Partial Class frmEstadoCuenta
         Me.Label8.TabIndex = 18
         Me.Label8.Text = "Hasta:"
         '
-        'DateHasta
-        '
-        Me.DateHasta.CalendarFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateHasta.CustomFormat = "dd/MM/yy"
-        Me.DateHasta.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateHasta.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateHasta.Location = New System.Drawing.Point(143, 71)
-        Me.DateHasta.Name = "DateHasta"
-        Me.DateHasta.Size = New System.Drawing.Size(161, 22)
-        Me.DateHasta.TabIndex = 17
-        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -543,38 +536,13 @@ Partial Class frmEstadoCuenta
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "Desde:"
         '
-        'DateDesde
+        'FechaHasta
         '
-        Me.DateDesde.CalendarFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateDesde.CausesValidation = False
-        Me.DateDesde.Cursor = System.Windows.Forms.Cursors.Default
-        Me.DateDesde.CustomFormat = "dd/MM/yy"
-        Me.DateDesde.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateDesde.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateDesde.Location = New System.Drawing.Point(143, 43)
-        Me.DateDesde.MaxDate = New Date(2030, 12, 31, 0, 0, 0, 0)
-        Me.DateDesde.MinDate = New Date(2005, 1, 3, 0, 0, 0, 0)
-        Me.DateDesde.Name = "DateDesde"
-        Me.DateDesde.Size = New System.Drawing.Size(161, 22)
-        Me.DateDesde.TabIndex = 15
-        Me.DateDesde.Value = New Date(2017, 6, 9, 0, 0, 0, 0)
-        '
-        'mskbox
-        '
-        Me.mskbox.Location = New System.Drawing.Point(451, 71)
-        Me.mskbox.Mask = "00/00/00"
-        Me.mskbox.Name = "mskbox"
-        Me.mskbox.Size = New System.Drawing.Size(100, 20)
-        Me.mskbox.TabIndex = 29
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(574, 71)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 30
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.FechaHasta.Location = New System.Drawing.Point(143, 73)
+        Me.FechaHasta.Mask = "00/00/0000"
+        Me.FechaHasta.Name = "FechaHasta"
+        Me.FechaHasta.Size = New System.Drawing.Size(77, 20)
+        Me.FechaHasta.TabIndex = 31
         '
         'frmEstadoCuenta
         '
@@ -645,8 +613,6 @@ Partial Class frmEstadoCuenta
     Friend WithEvents LinkLbPendientes As Windows.Forms.LinkLabel
     Friend WithEvents btnBuscar As Windows.Forms.Button
     Friend WithEvents txtCuenta As Aguinagalde.Controles.TextBoxNumerico
-    Friend WithEvents DateHasta As Windows.Forms.DateTimePicker
-    Friend WithEvents DateDesde As Windows.Forms.DateTimePicker
-    Friend WithEvents Button1 As Windows.Forms.Button
-    Friend WithEvents mskbox As Windows.Forms.MaskedTextBox
+    Friend WithEvents FechaDesde As Windows.Forms.MaskedTextBox
+    Friend WithEvents FechaHasta As Windows.Forms.MaskedTextBox
 End Class

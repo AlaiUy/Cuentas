@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agenda\Agenda.cs" />
+    <Compile Include="Agenda\Agendalin.cs" />
     <Compile Include="Arqueos\Arqueo.cs" />
     <Compile Include="Arqueos\ArqueoCP.cs" />
     <Compile Include="Cajas\Caja.cs" />

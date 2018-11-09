@@ -8,6 +8,10 @@ using System.Data.Common;
 using MySql.Data.MySqlClient;
 using System.Text;
 using System.Linq;
+using Aguiñagalde.XMLManager;
+using System.Threading;
+using System.Xml;
+using System.IO;
 
 namespace Aguiñagalde.SQL
 {
@@ -166,6 +170,8 @@ namespace Aguiñagalde.SQL
                 }
             }
         }
+ 
+
         public List<object> getFormasPago()
         {
             List<object> FormasPago = new List<object>();
@@ -297,7 +303,6 @@ namespace Aguiñagalde.SQL
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -493,18 +498,7 @@ namespace Aguiñagalde.SQL
             }
             return Movimientos;
         }
-        public void GuardarCFE(object gCFE)
-        {
-            CFE C = (CFE)gCFE;
-            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
-            {
-                Con.Open();
-                using (IDbTransaction Tran = Con.BeginTransaction())
-                {
-                    GuardarCFE(C, Con, Tran);
-                }
-            }
-        }
+       
          private int NumeroRecibo(string xSerie, IDbConnection xCon, IDbTransaction xTran,int xTipoDoc)
         {
             int Numero = -1;
@@ -645,9 +639,10 @@ namespace Aguiñagalde.SQL
         }
 
 
-        public int GenerarRemitos(object xRe, object xUsuario)
+        public int GenerarRemitos(object xRe, object xUsuario,object xClaves,object xCajaGeneral,bool xImprimir)
         {
             int Numero = -1;
+            Empresa Claves = (Empresa)xClaves;
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
@@ -664,11 +659,11 @@ namespace Aguiñagalde.SQL
                         GuardarTesoreria(R, Con, Numero, Tran);
                         if (R.Comentario.Length > 0)
                             GuardarComentario(R, Numero, ((Usuario)xUsuario).CodUsuario, Con, Tran);
+                        ImprimirRemito(R, Numero, Claves, (CajaGeneral)xCajaGeneral, xImprimir,Con,Tran);
                         Tran.Commit();
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -676,6 +671,51 @@ namespace Aguiñagalde.SQL
             }
             return Numero;
         }
+
+        private void ImprimirRemito(Remito xRemito,int xNumeroRemito,Empresa xClaves,CajaGeneral xCaja,bool xImprimir,IDbConnection xCon,IDbTransaction xTran)
+        {
+            
+            XMLInfo.getInstance().GenerarXMLRemito(xRemito, xNumeroRemito, xClaves, xCaja, xImprimir);
+            string xFile = "RET" + xRemito.Serie + xNumeroRemito;
+            if (XMLInfo.getInstance().LeerXMLRetorno(xFile, xCaja))
+            {
+                CFE gCFE = LeerCFERetorno(xFile, xRemito,xCaja);
+                if (gCFE != null)
+                    GuardarCFE(gCFE, xCon, xTran);
+            }
+        }
+
+        private CFE LeerCFERetorno(string xRuta, Remito xR,CajaGeneral xCaja)
+        {
+            CFE C = null;
+            string Salida = xCaja.SalidaCFE.Trim();
+            XmlReader document = new XmlTextReader(Salida + xRuta + ".xml");
+
+            while (document.Read())
+            {
+                XmlNodeType type = document.NodeType;
+                if (type == XmlNodeType.CDATA)
+                {
+                    XmlDocument a = new XmlDocument();
+                    a.LoadXml(document.ReadContentAsString());
+                    int tipo = Convert.ToInt32(a.GetElementsByTagName("CFETipo").Item(0).InnerXml);
+                    string serie = a.GetElementsByTagName("CFESerie").Item(0).InnerXml;
+                    int numero = Convert.ToInt32(a.GetElementsByTagName("CFENro").Item(0).InnerXml);
+                    string link = a.GetElementsByTagName("CFERepImpressa").Item(0).InnerXml;
+                    C = new CFE(tipo, serie, numero, link, xR.Serie, xR.Numero, xR.Serie, xR.Numero);
+                }
+            }
+            document.Close();
+            try
+            {
+                File.Move(Salida + xRuta + ".xml", xCaja.BackCFE.Trim() + xRuta + ".xml");
+            }
+            catch (Exception)
+            { }
+            return C;
+        }
+
+
         private void GuardarComentario(Remito xRemito, int xNumero, int xUsuario, IDbConnection xCon, IDbTransaction xTran)
         {
 
@@ -1017,7 +1057,6 @@ namespace Aguiñagalde.SQL
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -1163,7 +1202,36 @@ namespace Aguiñagalde.SQL
             return getNumeroZ(xCaja.Id);
         }
 
+        public object getAgenda(DateTime xfecha)
+        {
+            Agenda A = new Agenda();
+            A.Fecha = xfecha;
+            
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("SELECT CV.CODCLIENTE,C.NOMBRECLIENTE,CV.FECVISITA,CV.DIRCOBRO,CV.FECAGENDADO,CV.COMENTARIO FROM COBVISITAS CV INNER JOIN CLIENTES C ON C.CODCLIENTE = CV.CODCLIENTE WHERE FECVISITA = @FECHA", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@FECHA", xfecha.ToShortDateString()));
+                    using (IDataReader Reader = ExecuteReader(Com))
+                    {
+                        while (Reader.Read())
+                        {
+                            Agendalin AL = new Agendalin();
+                            AL.Codcliente = (int)(Reader["CODCLIENTE"]);
+                            AL.Comentario = (string)(Reader["COMENTARIO"] is DBNull ? string.Empty : Reader["COMENTARIO"]);
+                            AL.Dircobro = (string)(Reader["DIRCOBRO"]);
+                            AL.Nombre = (string)(Reader["NOMBRECLIENTE"]);
+                            AL.Dolares =  CuentasMapper.getPendiente(AL.Codcliente, 2);
+                            AL.Pesos =  CuentasMapper.getPendiente(AL.Codcliente, 1);
+                            A.Agregarlinea(AL);
+                        }
+                    }
 
+                }
+            }
+            return A;
+        }
     }
 }
 

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="14.0">
  <Targets>
-  <Target Name="C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\bin\Release\Cuentas Corrientes.exe">
+  <Target Name="C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Release\Cuentas Corrientes.exe">
    <Modules>
     <Module Name="cuentas corrientes.exe">
      <Messages>
-      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2018-09-14 11:51:12Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2018-11-03 12:55:05Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Agregue un atributo AssemblyVersion a 'Cuentas Corrientes.exe'.</Issue>
       </Message>
      </Messages>
@@ -17,8 +17,8 @@
          <Members>
           <Member Name="#TextBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-09-14 11:51:12Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\General" File="frmTeclado.vb" Line="27">El objeto 'Me' admite Dispose más de una vez en el método 'frmTeclado.TextBox1_KeyDown(Object, KeyEventArgs)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 27</Issue>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-11-03 12:55:05Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\alai\Source\Repos\Cuentas\Aplicacion\General" File="frmTeclado.vb" Line="27">El objeto 'Me' admite Dispose más de una vez en el método 'frmTeclado.TextBox1_KeyDown(Object, KeyEventArgs)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 27</Issue>
             </Message>
            </Messages>
           </Member>
@@ -30,8 +30,8 @@
            <Accessors>
             <Accessor Name="#get_GetInstance()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2018-09-14 11:51:12Z" FixCategory="Breaking">
-               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion" File="GControles.vb" Line="12">'GControles.GetInstance.Get()' crea una excepción de tipo 'IncompleteInitialization', un tipo de excepción que no se debe producir en una propiedad. Si puede producirse la instancia de esta excepción, use un tipo de excepción diferente, convierta esta propiedad en un método o cambie la lógica de esta propiedad para que no produzca una excepción.</Issue>
+              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2018-11-03 12:55:05Z" FixCategory="Breaking">
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\alai\Source\Repos\Cuentas\Aplicacion" File="GControles.vb" Line="12">'GControles.GetInstance.Get()' crea una excepción de tipo 'IncompleteInitialization', un tipo de excepción que no se debe producir en una propiedad. Si puede producirse la instancia de esta excepción, use un tipo de excepción diferente, convierta esta propiedad en un método o cambie la lógica de esta propiedad para que no produzca una excepción.</Issue>
               </Message>
              </Messages>
             </Accessor>

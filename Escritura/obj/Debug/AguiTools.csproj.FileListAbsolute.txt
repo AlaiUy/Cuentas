@@ -130,3 +130,8 @@ G:\Src\CTAManager\CTAManager\Escritura\bin\Debug\Tools.pdb
 G:\Src\CTAManager\CTAManager\Escritura\obj\Debug\AguiTools.csprojResolveAssemblyReference.cache
 G:\Src\CTAManager\CTAManager\Escritura\obj\Debug\Tools.dll
 G:\Src\CTAManager\CTAManager\Escritura\obj\Debug\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Debug\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Debug\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Debug\AguiTools.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Debug\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Debug\Tools.pdb

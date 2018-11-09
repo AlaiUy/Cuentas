@@ -45,7 +45,6 @@ namespace Aguiñagalde.SQL
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -151,7 +150,6 @@ namespace Aguiñagalde.SQL
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -273,7 +271,6 @@ namespace Aguiñagalde.SQL
                     }
                     catch (Exception E)
                     {
-                        Tran.Rollback();
                         throw E;
                     }
                 }
@@ -462,7 +459,7 @@ namespace Aguiñagalde.SQL
                         Com.Parameters.Add(new SqlParameter("@CODCLIENTE", xCodCliente));
                         Fecha = Convert.ToDateTime(ExecuteScalar(Com));
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
 
                     }
@@ -487,7 +484,7 @@ namespace Aguiñagalde.SQL
                         Com.Parameters.Add(new SqlParameter("@CODCLIENTE", xCodCliente));
                         Fecha = Convert.ToDateTime(ExecuteScalar(Com));
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
 
                     }
@@ -534,32 +531,32 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlTransaction Tran = Con.BeginTransaction())
+
+                try
                 {
-                    try
+                    foreach (Cambio C in xListaCambio)
                     {
-                        foreach (Cambio C in xListaCambio)
+                        List<IDataParameter> P = new List<IDataParameter>();
+
+                        using (DbCommand Command = new SqlCommand("INSERT INTO BITACORA(IDCAMBIO,CODCLIENTE,FECHA,EXPLICACION,COMENTARIO,USUARIO,NOMBREUSUARIO)VALUES(@IDCAMBIO,@CLIENTE,@FECHA,@EXP,@COMENTARIO,@USUARIO,@NOMBRE)", Con))
                         {
-                            List<IDataParameter> P = new List<IDataParameter>();
-                            P.Add(new SqlParameter("@IDCAMBIO", C.Codigo));
-                            P.Add(new SqlParameter("@CLIENTE", C.Codcliente));
-                            P.Add(new SqlParameter("@FECHA", C.Fecha));
-                            P.Add(new SqlParameter("@EXP", C.Explicacion));
-                            P.Add(new SqlParameter("@COMENTARIO", string.Empty));
-                            P.Add(new SqlParameter("@USUARIO", C.Usuario));
-                            P.Add(new SqlParameter("@NOMBRE", xNUsuario));
-                            using (DbCommand Command = new SqlCommand("INSERT INTO BITACORA(IDCAMBIO,CODCLIENTE,FECHA,EXPLICACION,COMENTARIO,USUARIO,NOMBREUSUARIO)VALUES(@IDCAMBIO,@CLIENTE,@FECHA,@EXP,@COMENTARIO,@USUARIO,@NOMBRE)", Con))
-                                ExecuteNonQuery(Command, P);
+                            Command.Parameters.Add(new SqlParameter("@IDCAMBIO", C.Codigo));
+                            Command.Parameters.Add(new SqlParameter("@CLIENTE", C.Codcliente));
+                            Command.Parameters.Add(new SqlParameter("@FECHA", C.Fecha));
+                            Command.Parameters.Add(new SqlParameter("@EXP", C.Explicacion));
+                            Command.Parameters.Add(new SqlParameter("@COMENTARIO", string.Empty));
+                            Command.Parameters.Add(new SqlParameter("@USUARIO", C.Usuario));
+                            Command.Parameters.Add(new SqlParameter("@NOMBRE", xNUsuario));
+                            ExecuteNonQuery(Command);
                         }
-                        Tran.Commit();
-                    }
-                    catch (Exception E)
-                    {
-                        Tran.Rollback();
-                        throw E;
                     }
                 }
-            }
+                catch (Exception E)
+                {
+
+                    throw E;
+                }
+           }
         }
 
         public List<object> getInactivos()
@@ -907,7 +904,6 @@ namespace Aguiñagalde.SQL
                         }
                         catch (Exception e)
                         {
-                            Tran.Rollback();
                             throw new Exception(e.Message);
                         }
 
@@ -1257,7 +1253,7 @@ namespace Aguiñagalde.SQL
                 Temporal.FecUltimoPago = getFecUltimoPago(ID);
                 Temporal.FecUltimaCompra = getFecUltimaCompra(ID);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
               
             }
@@ -1507,7 +1503,7 @@ namespace Aguiñagalde.SQL
             return L;
         }
 
-        public decimal getSaldo(int xidCliente, int xCodMoneda)
+        public  decimal getSaldo(int xidCliente, int xCodMoneda)
         {
             decimal Importe = -1;
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
@@ -1524,6 +1520,25 @@ namespace Aguiñagalde.SQL
             
 
         }
+
+        public static decimal getPendiente(int xidCliente, int xCodMoneda)
+        {
+            decimal Importe = -1;
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("SELECT isnull(sum(isnull(t.importe,0)),0) as IMPORTE FROM TESORERIA T WHERE T.ORIGEN = 'C' AND T.N = 'B'  AND (T.TIPODOCUMENTO = 'L' OR T.TIPODOCUMENTO = 'F') AND T.CODIGOINTERNO = @CLIENTE AND T.ESTADO = 'P' AND T.CODMONEDA = @MONEDA", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@CLIENTE", xidCliente));
+                    Com.Parameters.Add(new SqlParameter("@MONEDA", xCodMoneda));
+                    Importe = Convert.ToDecimal(Com.ExecuteScalar());
+                }
+            }
+            return Importe;
+
+        }
+
+
 
         public List<object> ClientesParaEC()
         {

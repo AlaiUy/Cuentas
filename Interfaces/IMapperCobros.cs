@@ -13,23 +13,19 @@ namespace Aguiñagalde.Interfaces
 
         object getCajaByID(string xNombreMaquina,object xUser);
         List<object> getListaMonedas();
-        int GenerarRemitos(object xRe, object xUsuario);
+        int GenerarRemitos(object xRe, object xUsuario, object xClaves, object xCajaGeneral, bool xImprimir);
         object getClavesEmpresa();
         object getUsuario(string xUsuario, string xPassword);
         
         void CambiarClaveUsuario(int xcodUsuario, string xpassword);
         object getAllRecibos(int xZ, string xCaja);
-        //List<object> getMovimientosByRecibo(string xSerie, int xID);
+
+        object getAgenda(DateTime xfecha);
         
         object getMonedaByCliente(int xCodCliente);
-        
-
         List<object> getFormasPago();
         List<object> getTarifasVenta();
-
-       
         List<object> getMovimientosByRecibo(string xSerie, int xID, object xCliente);
-        void GuardarCFE(object gCFE);
         void UpdateParameters(List<Config> xLista, string xNombreEquipo);
         //void AgregarAgengaLin(object xAL);
         void AgregarAgengaLin(string xCodCLiente, DateTime xFechaVisita, int xCodUsuario, string xDirCobro, string xComentario);

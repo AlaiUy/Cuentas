@@ -176,7 +176,7 @@ namespace Aguiñagalde.SQL
                     return FEC;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception)
             {
 
                 return DateTime.MinValue;
@@ -341,7 +341,7 @@ namespace Aguiñagalde.SQL
                 CerrarConexion(_Connection);
                 return EC;
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }

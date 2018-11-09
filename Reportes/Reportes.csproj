@@ -80,6 +80,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetPendientes.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dsAgenda.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmImpresion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +95,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>repMiniECuenta.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpAgenda.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpAgenda.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="rpCreditodelaCasa.cs">
@@ -200,6 +211,17 @@
     <None Include="DataSetRecibos.xss">
       <DependentUpon>DataSetRecibos.xsd</DependentUpon>
     </None>
+    <None Include="dsAgenda.xsc">
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgenda.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgenda.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsAgenda.xss">
+      <DependentUpon>dsAgenda.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmImpresion.resx">
@@ -208,6 +230,10 @@
     <EmbeddedResource Include="repMiniECuenta.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>repMiniECuenta.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpAgenda.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpAgenda.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="rpCreditodelaCasa.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

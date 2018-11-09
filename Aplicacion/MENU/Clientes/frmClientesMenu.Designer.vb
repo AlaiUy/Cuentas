@@ -156,7 +156,9 @@ Partial Class frmClientesMenu
     End Sub
 
     Friend WithEvents Panel_Main As Windows.Forms.Panel
+#Disable Warning BC40004 ' El miembro está en conflicto con el miembro del tipo base y se debe declarar como 'Shadows'
     Friend WithEvents Container As Windows.Forms.FlowLayoutPanel
+#Enable Warning BC40004 ' El miembro está en conflicto con el miembro del tipo base y se debe declarar como 'Shadows'
     Friend WithEvents Button1 As Windows.Forms.Button
     Friend WithEvents Button2 As Windows.Forms.Button
     Friend WithEvents Button3 As Windows.Forms.Button

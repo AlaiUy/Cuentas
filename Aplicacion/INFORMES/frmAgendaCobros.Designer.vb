@@ -25,14 +25,7 @@ Partial Class frmAgendaCobros
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.txtDireccionVisita = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.dtvisita = New System.Windows.Forms.DateTimePicker()
-        Me.txtComentario = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.btnDaily = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtDireccion = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -40,9 +33,15 @@ Partial Class frmAgendaCobros
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtCliente = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtDireccionVisita = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.dtvisita = New System.Windows.Forms.DateTimePicker()
+        Me.txtComentario = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -53,22 +52,21 @@ Partial Class frmAgendaCobros
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.Controls.Add(Me.btnAgregar)
         Me.Panel1.Controls.Add(Me.Panel3)
-        Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(4, 2)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(825, 473)
-        Me.Panel1.TabIndex = 0
+        Me.Panel1.TabIndex = 7
         '
         'btnAgregar
         '
-        Me.btnAgregar.Location = New System.Drawing.Point(685, 423)
+        Me.btnAgregar.Location = New System.Drawing.Point(696, 439)
         Me.btnAgregar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(124, 28)
-        Me.btnAgregar.TabIndex = 13
-        Me.btnAgregar.Text = "Button1"
+        Me.btnAgregar.TabIndex = 8
+        Me.btnAgregar.Text = "Agendar"
         Me.btnAgregar.UseVisualStyleBackColor = True
         '
         'Panel3
@@ -76,6 +74,14 @@ Partial Class frmAgendaCobros
         Me.Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.btnDaily)
+        Me.Panel3.Controls.Add(Me.Label7)
+        Me.Panel3.Controls.Add(Me.txtDireccion)
+        Me.Panel3.Controls.Add(Me.Label5)
+        Me.Panel3.Controls.Add(Me.txtNombre)
+        Me.Panel3.Controls.Add(Me.Label4)
+        Me.Panel3.Controls.Add(Me.txtCliente)
+        Me.Panel3.Controls.Add(Me.Label1)
         Me.Panel3.Controls.Add(Me.Label8)
         Me.Panel3.Controls.Add(Me.txtDireccionVisita)
         Me.Panel3.Controls.Add(Me.Label3)
@@ -83,67 +89,149 @@ Partial Class frmAgendaCobros
         Me.Panel3.Controls.Add(Me.txtComentario)
         Me.Panel3.Controls.Add(Me.Label6)
         Me.Panel3.Controls.Add(Me.Label2)
-        Me.Panel3.Location = New System.Drawing.Point(5, 206)
+        Me.Panel3.Location = New System.Drawing.Point(5, 4)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(815, 209)
-        Me.Panel3.TabIndex = 12
+        Me.Panel3.Size = New System.Drawing.Size(815, 427)
+        Me.Panel3.TabIndex = 0
+        '
+        'btnDaily
+        '
+        Me.btnDaily.Location = New System.Drawing.Point(714, 4)
+        Me.btnDaily.Name = "btnDaily"
+        Me.btnDaily.Size = New System.Drawing.Size(89, 42)
+        Me.btnDaily.TabIndex = 9
+        Me.btnDaily.Text = "Imprimir Agenda de Hoy"
+        Me.btnDaily.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Red
+        Me.Label7.Location = New System.Drawing.Point(13, 14)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(130, 19)
+        Me.Label7.TabIndex = 20
+        Me.Label7.Text = "Datos clientes:"
+        '
+        'txtDireccion
+        '
+        Me.txtDireccion.Enabled = False
+        Me.txtDireccion.Location = New System.Drawing.Point(121, 161)
+        Me.txtDireccion.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(444, 21)
+        Me.txtDireccion.TabIndex = 3
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(14, 162)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(72, 16)
+        Me.Label5.TabIndex = 19
+        Me.Label5.Text = "Direccion:"
+        '
+        'txtNombre
+        '
+        Me.txtNombre.Enabled = False
+        Me.txtNombre.Location = New System.Drawing.Point(121, 112)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(444, 21)
+        Me.txtNombre.TabIndex = 2
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(14, 112)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(62, 16)
+        Me.Label4.TabIndex = 17
+        Me.Label4.Text = "Nombre:"
+        '
+        'txtCliente
+        '
+        Me.txtCliente.Location = New System.Drawing.Point(121, 65)
+        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtCliente.Name = "txtCliente"
+        Me.txtCliente.Size = New System.Drawing.Size(244, 21)
+        Me.txtCliente.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(14, 65)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(57, 16)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Cliente:"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Red
-        Me.Label8.Location = New System.Drawing.Point(436, 14)
+        Me.Label8.Location = New System.Drawing.Point(13, 240)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(189, 24)
+        Me.Label8.Size = New System.Drawing.Size(156, 19)
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Datos de la visita:"
         '
         'txtDireccionVisita
         '
-        Me.txtDireccionVisita.Location = New System.Drawing.Point(207, 108)
+        Me.txtDireccionVisita.Location = New System.Drawing.Point(201, 323)
         Me.txtDireccionVisita.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDireccionVisita.Name = "txtDireccionVisita"
-        Me.txtDireccionVisita.Size = New System.Drawing.Size(376, 24)
-        Me.txtDireccionVisita.TabIndex = 12
+        Me.txtDireccionVisita.Size = New System.Drawing.Size(376, 21)
+        Me.txtDireccionVisita.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(20, 153)
+        Me.Label3.Location = New System.Drawing.Point(14, 368)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(115, 21)
+        Me.Label3.Size = New System.Drawing.Size(87, 16)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Comentario:"
         '
         'dtvisita
         '
-        Me.dtvisita.Location = New System.Drawing.Point(207, 60)
+        Me.dtvisita.CustomFormat = "dd/MM/yyyy"
+        Me.dtvisita.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtvisita.Location = New System.Drawing.Point(201, 275)
         Me.dtvisita.Margin = New System.Windows.Forms.Padding(4)
         Me.dtvisita.Name = "dtvisita"
-        Me.dtvisita.Size = New System.Drawing.Size(376, 24)
-        Me.dtvisita.TabIndex = 3
+        Me.dtvisita.Size = New System.Drawing.Size(376, 21)
+        Me.dtvisita.TabIndex = 4
         '
         'txtComentario
         '
-        Me.txtComentario.Location = New System.Drawing.Point(207, 151)
+        Me.txtComentario.Location = New System.Drawing.Point(201, 366)
         Me.txtComentario.Margin = New System.Windows.Forms.Padding(4)
         Me.txtComentario.Name = "txtComentario"
-        Me.txtComentario.Size = New System.Drawing.Size(596, 24)
+        Me.txtComentario.Size = New System.Drawing.Size(596, 21)
         Me.txtComentario.TabIndex = 6
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(20, 110)
+        Me.Label6.Location = New System.Drawing.Point(14, 325)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(173, 21)
+        Me.Label6.Size = New System.Drawing.Size(131, 16)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Direccion de visita:"
         '
@@ -151,99 +239,12 @@ Partial Class frmAgendaCobros
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(20, 65)
+        Me.Label2.Location = New System.Drawing.Point(14, 280)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(143, 21)
+        Me.Label2.Size = New System.Drawing.Size(109, 16)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Fecha de visita:"
-        '
-        'Panel2
-        '
-        Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Controls.Add(Me.txtDireccion)
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Controls.Add(Me.txtNombre)
-        Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.txtCliente)
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Location = New System.Drawing.Point(5, 5)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(815, 196)
-        Me.Panel2.TabIndex = 0
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Red
-        Me.Label7.Location = New System.Drawing.Point(449, 7)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(158, 24)
-        Me.Label7.TabIndex = 11
-        Me.Label7.Text = "Datos clientes:"
-        '
-        'txtDireccion
-        '
-        Me.txtDireccion.Location = New System.Drawing.Point(127, 160)
-        Me.txtDireccion.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtDireccion.Name = "txtDireccion"
-        Me.txtDireccion.Size = New System.Drawing.Size(444, 24)
-        Me.txtDireccion.TabIndex = 10
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 161)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(96, 21)
-        Me.Label5.TabIndex = 9
-        Me.Label5.Text = "Direccion:"
-        '
-        'txtNombre
-        '
-        Me.txtNombre.Location = New System.Drawing.Point(127, 111)
-        Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(444, 24)
-        Me.txtNombre.TabIndex = 8
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(20, 111)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(84, 21)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Nombre:"
-        '
-        'txtCliente
-        '
-        Me.txtCliente.Location = New System.Drawing.Point(127, 64)
-        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtCliente.Name = "txtCliente"
-        Me.txtCliente.Size = New System.Drawing.Size(244, 24)
-        Me.txtCliente.TabIndex = 2
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(20, 64)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 21)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Cliente:"
         '
         'frmAgendaCobros
         '
@@ -260,8 +261,6 @@ Partial Class frmAgendaCobros
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -275,7 +274,8 @@ Partial Class frmAgendaCobros
     Friend WithEvents txtComentario As Windows.Forms.TextBox
     Friend WithEvents Label6 As Windows.Forms.Label
     Friend WithEvents Label2 As Windows.Forms.Label
-    Friend WithEvents Panel2 As Windows.Forms.Panel
+    Friend WithEvents btnAgregar As Windows.Forms.Button
+    Friend WithEvents btnDaily As Windows.Forms.Button
     Friend WithEvents Label7 As Windows.Forms.Label
     Friend WithEvents txtDireccion As Windows.Forms.TextBox
     Friend WithEvents Label5 As Windows.Forms.Label
@@ -283,5 +283,4 @@ Partial Class frmAgendaCobros
     Friend WithEvents Label4 As Windows.Forms.Label
     Friend WithEvents txtCliente As Windows.Forms.TextBox
     Friend WithEvents Label1 As Windows.Forms.Label
-    Friend WithEvents btnAgregar As Windows.Forms.Button
 End Class

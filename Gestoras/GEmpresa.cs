@@ -35,7 +35,7 @@ namespace Aguiñagalde.Gestoras
                 }
                 
 
-            }catch(Exception e)
+            }catch(Exception)
             {
 
             }

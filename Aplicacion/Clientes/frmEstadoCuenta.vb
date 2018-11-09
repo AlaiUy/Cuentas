@@ -186,19 +186,23 @@ Public Class frmEstadoCuenta
             Return
         End If
 
+        Dim FD As DateTime = getFecha(FechaDesde.Text)
+        Dim FH As DateTime = getFecha(FechaHasta.Text)
 
-        If DateDesde.Value > DateHasta.Value.AddMinutes(1) Then
+
+
+        If FD > FH.AddMinutes(1) Then
             MsgBox("Las fechas ingresadas no son validas", vbOKOnly, "Error - Fecha Inicio mayor a final")
             Return
         End If
 
-        If _FechaInicio = DateDesde.Value And _fechaFinal = DateHasta.Value Then
+        If _FechaInicio = FD And _fechaFinal = FH Then
             Return
         End If
 
 
-        _FechaInicio = DateDesde.Value
-        _fechaFinal = DateHasta.Value
+        _FechaInicio = FD
+        _fechaFinal = FH
 
         Try
             Me.btnGenerar.Enabled = False
@@ -255,9 +259,7 @@ Public Class frmEstadoCuenta
             Finally
                 Me.LinkReporte.Enabled = True
             End Try
-
         End If
-
     End Sub
 
     Private Sub OrdernarGridMoneda()
@@ -385,9 +387,10 @@ Public Class frmEstadoCuenta
         If (e.RowIndex = -1) Then
             Return
         End If
-        Dim xNumero As Integer = -1
-        Dim xSerie As String = ""
+
         If e.ColumnIndex = DGMovimientos.Columns("SERIE").Index Then
+            Dim xNumero As Integer = -1
+            Dim xSerie As String = ""
             xNumero = DGMovimientos.Item("Numero", e.RowIndex).Value
             xSerie = DGMovimientos.Item("Serie", e.RowIndex).Value
             Dim frmDetalle As New verDetalleBoleta(GCliente.Instance().DetalleFactura(xSerie, xNumero))
@@ -504,12 +507,12 @@ Public Class frmEstadoCuenta
 
     End Sub
 
-    Private Sub DateDesde_ValueChanged(sender As Object, e As EventArgs) Handles DateDesde.ValueChanged
+    Private Sub DateDesde_ValueChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        MsgBox(getFecha(mskbox.Text))
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+
     End Sub
     Private Function getFecha(MskText As String) As DateTime
         Dim Day As Integer = -1
@@ -517,13 +520,13 @@ Public Class frmEstadoCuenta
         Dim Year As Integer = -1
 
         MskText = MskText.Replace(" ", "0")
-        If MskText.Length = 7 Then
+        If MskText.Length = 9 Then
             MskText = MskText + "0"
         End If
 
         Day = MskText.Substring(0, 2)
         Month = MskText.Substring(3, 2)
-        Year = MskText.Substring(6, 2)
+        Year = MskText.Substring(6, 4)
         If (Day < 1 Or Day > 31) Then
             Day = 1
         End If
@@ -531,8 +534,8 @@ Public Class frmEstadoCuenta
             Month = 1
         End If
 
-        If (Year < 4) Then
-            Year = 4
+        If (Year < 2004) Then
+            Year = 2004
         End If
 
 
@@ -540,4 +543,9 @@ Public Class frmEstadoCuenta
 
         Return New DateTime(Year, Month, Day)
     End Function
+
+    Private Sub FechaDesde_Click(sender As Object, e As EventArgs) Handles FechaDesde.Click
+        TryCast(sender, MaskedTextBox).Text = ""
+        TryCast(sender, MaskedTextBox).SelectionStart = 0
+    End Sub
 End Class

@@ -81,6 +81,10 @@
       <Project>{b9181bf6-36ec-4900-9692-528d3472f11b}</Project>
       <Name>Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XMLManager\XMLManager.csproj">
+      <Project>{85472A34-8567-48E2-B483-B87FB36BA86C}</Project>
+      <Name>XMLManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

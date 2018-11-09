@@ -9,7 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace Aguiñagalde.Reportes
-{
+{ 
     public class Impresion
     {
         public void Imprimir(object xObj, bool xMostar, object xArgs)
@@ -34,6 +34,23 @@ namespace Aguiñagalde.Reportes
                 ImprimirArqueo(xObj, xMostar);
                 return;
             }
+            if (xObj is Agenda)
+            {
+                ImprimirAgenda(xObj);
+                return;
+            }
+        }
+
+        public void ImprimirAgenda(object xAgenda)
+        {
+            Agenda A = (Agenda)xAgenda;
+            ReportDocument rptDoc;
+            rptDoc = new rpAgenda();
+            rptDoc.SetDataSource(A.Impresion());
+                frmImpresion frmReport = new Reportes.frmImpresion();
+                CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
+                RP.ReportSource = rptDoc;
+                frmReport.Show();
         }
 
         public void ImprimirSaldos(object xObj, bool xMostar, object xArgs)
@@ -101,7 +118,7 @@ namespace Aguiñagalde.Reportes
             ReportDocument rptDoc;
             rptDoc = new repMiniECuenta();
             rptDoc.PrintOptions.PrinterName.ToString();
-            TextObject Campo;
+            //TextObject Campo;
             for (int index = 0; index <= Resultado - 1; index += 2)
             {
                 E = Lista[index];
@@ -255,6 +272,12 @@ namespace Aguiñagalde.Reportes
             //Campo.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", (EC.Pendiente(1) + EC.getMora(1)));
 
             DataTable d = EC.ImpresionViejo();
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
+            Campo.Text = string.Format(EC.Cliente.Nombre);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblDireccion"];
+            Campo.Text = string.Format(EC.Cliente.Direccion);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblTelefono"];
+            Campo.Text = string.Format(EC.Cliente.Telefono + "-"  + EC.Cliente.Telefono);
             rptDoc.SetDataSource(d);
             if (xMostrar)
             {

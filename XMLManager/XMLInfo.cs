@@ -490,7 +490,7 @@ namespace Aguiñagalde.XMLManager
 
         public bool LeerXMLRetorno(string xNombre,CajaGeneral xCaja)
         {
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(25);
             bool Lectura = false;
             FileStream xFile;
             FileInfo FI;
@@ -510,7 +510,7 @@ namespace Aguiñagalde.XMLManager
                         xFile.Close();
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Lectura = false;
                    

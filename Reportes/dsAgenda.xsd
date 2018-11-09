@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAgenda" targetNamespace="http://tempuri.org/dsAgenda.xsd" xmlns:mstns="http://tempuri.org/dsAgenda.xsd" xmlns="http://tempuri.org/dsAgenda.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAgenda" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsAgenda" msprop:Generator_UserDSName="dsAgenda">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Agenda" msprop:Generator_TableClassName="AgendaDataTable" msprop:Generator_TableVarName="tableAgenda" msprop:Generator_RowChangedName="AgendaRowChanged" msprop:Generator_TablePropName="Agenda" msprop:Generator_RowDeletingName="AgendaRowDeleting" msprop:Generator_RowChangingName="AgendaRowChanging" msprop:Generator_RowEvHandlerName="AgendaRowChangeEventHandler" msprop:Generator_RowDeletedName="AgendaRowDeleted" msprop:Generator_RowClassName="AgendaRow" msprop:Generator_UserTableName="Agenda" msprop:Generator_RowEvArgName="AgendaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLIENTE" msprop:Generator_ColumnVarNameInTable="columnCLIENTE" msprop:Generator_ColumnPropNameInRow="CLIENTE" msprop:Generator_ColumnPropNameInTable="CLIENTEColumn" msprop:Generator_UserColumnName="CLIENTE" type="xs:string" minOccurs="0" />
+              <xs:element name="DIRECCION" msprop:Generator_ColumnVarNameInTable="columnDIRECCION" msprop:Generator_ColumnPropNameInRow="DIRECCION" msprop:Generator_ColumnPropNameInTable="DIRECCIONColumn" msprop:Generator_UserColumnName="DIRECCION" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE" type="xs:string" minOccurs="0" />
+              <xs:element name="PESOS" msprop:Generator_ColumnVarNameInTable="columnPESOS" msprop:Generator_ColumnPropNameInRow="PESOS" msprop:Generator_ColumnPropNameInTable="PESOSColumn" msprop:Generator_UserColumnName="PESOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DOLARES" msprop:Generator_ColumnVarNameInTable="columnDOLARES" msprop:Generator_ColumnPropNameInRow="DOLARES" msprop:Generator_ColumnPropNameInTable="DOLARESColumn" msprop:Generator_UserColumnName="DOLARES" type="xs:string" minOccurs="0" />
+              <xs:element name="COMENTARIO" msprop:Generator_ColumnVarNameInTable="columnCOMENTARIO" msprop:Generator_ColumnPropNameInRow="COMENTARIO" msprop:Generator_ColumnPropNameInTable="COMENTARIOColumn" msprop:Generator_UserColumnName="COMENTARIO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

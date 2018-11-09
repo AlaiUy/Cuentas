@@ -20,7 +20,7 @@ namespace Aguiñagalde.Entidades
         private List<Movimiento> _Movimientos;
         private List<MovimientoGeneral> _AllMovs;
         private DataTable _InformarPesos, _InformarDolares;
-
+        
         private decimal _Cotizacion;
 
 
@@ -182,7 +182,7 @@ namespace Aguiñagalde.Entidades
                     Table.Rows.Add(RMM);
                 }
             }
-            catch(Exception e)
+            catch(Exception)
             {
 
             }
@@ -366,26 +366,48 @@ namespace Aguiñagalde.Entidades
 
             }
 
+            
+
             decimal zMoraP = getMora(1);
             decimal zMoraD = getMora(2);
-           
 
+            if (zMoraP + zMoraD > 0)
+            {
+                DataRow RLinea = Table.NewRow();
+                RLinea["FECHA"] = "_______________________________";
+                RLinea["Serie"] = "_______________________________";
+                RLinea["Numero"] = "______________________________";
+                RLinea["Movimiento"] = "_______________________________";
+                RLinea["SF"] = "_______________________________";
+                RLinea["IMPORTE"] = "_______________________________";
+                RLinea["Total Dolares"] = "_______________________________";
+                RLinea["Total Pesos"] = "_______________________________";
+                Table.Rows.Add(RLinea);
+            }
+            
             if (zMoraP > 0)
             {
+                zTotalP += zMoraP;
                 DataRow RMM = Table.NewRow();
                 RMM["FECHA"] = DateTime.Now.ToString("dd/MM/yyyy");
                 RMM["Movimiento"] = "INTERESES";
                 RMM["SF"] = "$";
-                RMM["IMPORTE"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zMoraP);
+                RMM["IMPORTE"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}",zMoraP );
+                RMM["Total Dolares"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zTotalD);
+                RMM["Total Pesos"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zTotalP);
                 Table.Rows.Add(RMM);
             }
             if (zMoraD > 0)
             {
+                zTotalD += zMoraD;
                 DataRow RMM = Table.NewRow();
                 RMM["FECHA"] = DateTime.Now.ToString("dd/MM/yyyy");
                 RMM["Movimiento"] = "INTERESES";
                 RMM["SF"] = "U$S";
                 RMM["IMPORTE"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zMoraD);
+                RMM["Total Pesos"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zTotalP);
+                RMM["Total Dolares"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", zTotalD);
+                
                 Table.Rows.Add(RMM);
             }
 
@@ -396,6 +418,8 @@ namespace Aguiñagalde.Entidades
         {
             foreach (MovimientoGeneral M in _AllMovs)
             {
+                double Dias = (M.Fecha - DateTime.Now).TotalDays;
+                
                 if (M.Moneda.Codmoneda == 1)
                 {
                     _PendientePesos += M.Importe;
@@ -434,6 +458,12 @@ namespace Aguiñagalde.Entidades
         public List<MovimientoGeneral> Pendientes()
         {
             return _AllMovs;
+        }
+
+        private class Saldos
+        {
+
+
         }
     }
 }

@@ -32,7 +32,7 @@ namespace Aguiñagalde.Gestoras
 
 
         private List<IObserver> _Observers = new List<IObserver>();
-        private string _Comentario;
+        private string _Comentario = "";
         private List<Moneda> _ListaMonedas;
         private  CajaGeneral _Caja;
         private CajaCtaDia _CajaDia;
@@ -235,6 +235,11 @@ namespace Aguiñagalde.Gestoras
             A.Movimientos = xLista;
             ImprimirArqueo(A);
             _CajaDia = (CajaCtaDia)DBCobros.getCajaDia(Environment.MachineName,_CajaDia.Usuario);
+        }
+
+        public Agenda getAgenda(DateTime Fecha)
+        {
+            return (Agenda)DBCobros.getAgenda(Fecha);
         }
 
         public DataTable getParametros()
@@ -640,7 +645,6 @@ namespace Aguiñagalde.Gestoras
 
         private void PrintAndSaveRemitos(List<object> xList, bool xImprimir, int xNumRecibo)
         {
-
             foreach (object o in xList)
             {
                 try
@@ -650,62 +654,18 @@ namespace Aguiñagalde.Gestoras
                     Re.SerieRecibo = _Caja.Recibos;
                     Re.Caja = _Caja.Id;
                     Re.Z = Caja.Z;
-                    
-                    //DBCobros.GenerarRemitos(Re, Caja, gCFE, _Caja.Usuario, xEstado);
-                    int NumeroRemito = DBCobros.GenerarRemitos(Re, _Caja.Usuario);
-                    Re.Numero = NumeroRemito;
-                    XMLInfo.getInstance().GenerarXMLRemito(Re, NumeroRemito, Claves, _Caja, xImprimir);
-                    //GenerarXMLRemito(Re, Claves, _Caja, xImprimir);
-                    string xFile = "RET" + Re.Serie + NumeroRemito;
-                    if (XMLInfo.getInstance().LeerXMLRetorno(xFile, _Caja))
-                    {
-                        CFE gCFE = LeerCFERetorno(xFile, Re);
-                        if (gCFE != null)
-                            DBCobros.GuardarCFE(gCFE);
-                    }
+                    int NumeroRemito = DBCobros.GenerarRemitos(Re, _Caja.Usuario, Claves,_Caja,xImprimir);
                 }
                 catch (Exception e)
                 {
                     throw new Exception(e.Message + " -- " + "Print And Save");
                 }
-
-
             }
         }
 
        
 
-        private CFE LeerCFERetorno(string xRuta, Remito xR)
-        {
-            CFE C = null;
-            Thread.Sleep(5000);
-            string Salida = _Caja.SalidaCFE.Trim();
-            XmlReader document = new XmlTextReader(Salida + xRuta + ".xml");
-
-            while (document.Read())
-            {
-                XmlNodeType type = document.NodeType;
-                if (type == XmlNodeType.CDATA)
-                {
-                    XmlDocument a = new XmlDocument();
-                    a.LoadXml(document.ReadContentAsString());
-                    int tipo = Convert.ToInt32(a.GetElementsByTagName("CFETipo").Item(0).InnerXml);
-                    string serie = a.GetElementsByTagName("CFESerie").Item(0).InnerXml;
-                    int numero = Convert.ToInt32(a.GetElementsByTagName("CFENro").Item(0).InnerXml);
-                    string link = a.GetElementsByTagName("CFERepImpressa").Item(0).InnerXml;
-                    C = new CFE(tipo, serie, numero, link, xR.Serie, xR.Numero, xR.Serie, xR.Numero);
-                }
-            }
-            document.Close();
-            try
-            {
-                File.Move(Salida + xRuta + ".xml", _Caja.BackCFE.Trim() + xRuta + ".xml");
-            }
-            catch(Exception)
-            { }
-            return C;
-        }
-
+    
 
         public void UpdateParameters(List<Config> xListConfigs)
         {
@@ -903,43 +863,6 @@ namespace Aguiñagalde.Gestoras
             DBCobros.CambiarClaveUsuario(xUsuario.CodUsuario, xUsuario.Password);
 
         }
-
-
-        /****** recibos **////
-
-        #region Recibos
-
-
-        //public Recibo ObtenerReciboByID(string xSerie, int xID)
-        //{
-        //    if (xID < 0)
-        //    {
-        //        throw new Exception("Numero de recibo incorrecto");
-        //    }
-
-        //    int CodCliente = DBCobros.getIdClienteByRecibo(xSerie, xID);
-        //    ClienteActivo C = (ClienteActivo)GCliente.Instance().getByID(CodCliente.ToString(), false);
-        //    int Moneda = DBCobros.getMonedaByRecibo(xSerie, xID);
-        //    Moneda M = GCobros.getInstance().getMonedaByID(Moneda);
-        //    List<MovimientoGeneral> L = new List<MovimientoGeneral>();
-        //    foreach (object O in DBCobros.getMovimientosByRecibo(xSerie, xID, C))
-        //        L.Add((MovimientoGeneral)O);
-        //    Recibo R;
-        //    R = new Recibo(DateTime.Today, C, xSerie, xID, L, xID);
-        //    return R;
-        //}
-
-        public DataTable VerRecibos()
-        {
-            int zCaja = _Caja.Z;
-            string sSerie = _Caja.Id;
-            return (DataTable)DBCobros.getAllRecibos(zCaja, sSerie);
-        }
-
-
-        #endregion
-
-
 
     }
 }

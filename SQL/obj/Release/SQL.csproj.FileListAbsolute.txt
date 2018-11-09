@@ -285,3 +285,19 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Release\Entit
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.csprojResolveAssemblyReference.cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.pdb
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\SQL.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\SQL.pdb
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\EntityFramework.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\itextsharp.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\Interfaces.pdb
+C:\Users\alai\Source\Repos\Cuentas\SQL\bin\Release\EntityFramework.xml
+C:\Users\alai\Source\Repos\Cuentas\SQL\obj\Release\SQL.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\SQL\obj\Release\SQL.dll
+C:\Users\alai\Source\Repos\Cuentas\SQL\obj\Release\SQL.pdb

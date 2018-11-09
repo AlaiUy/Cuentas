@@ -43,6 +43,16 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.Shared" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Controles.dll" size="4608">
       <assemblyIdentity name="Controles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -50,19 +60,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pcs5w/6TMagFP7dC1De3NVNutMc=</dsig:DigestValue>
+        <dsig:DigestValue>YMrfiUpzfR+hksJCZXCp3J5F5eo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cuentas Corrientes.exe" size="1475072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cuentas Corrientes.exe" size="1479680">
       <assemblyIdentity name="Cuentas Corrientes" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LElw2Jl+KOKC7iDNp7n6TbVFQl4=</dsig:DigestValue>
+        <dsig:DigestValue>eBHLieT09MORbuSxyO0MrLacM7E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,19 +84,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pX4zNQWyEms7OYqaEHLpbV8Svpo=</dsig:DigestValue>
+        <dsig:DigestValue>BhB5N85bclLxDVnVUkFAP9fXI3M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Entidades.dll" size="57856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Entidades.dll" size="61440">
       <assemblyIdentity name="Entidades" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2XLSESx5KZOPU8NsaGou3UGyfno=</dsig:DigestValue>
+        <dsig:DigestValue>6Oeo0HzmXP5tDJrHqos8etA9VMc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,7 +108,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kDQtrtuUYOw5boJwPnnaHe43oHM=</dsig:DigestValue>
+        <dsig:DigestValue>I7xHXybTANlNMz8T2TZsVvgwMpQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,14 +125,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gestoras.dll" size="36352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gestoras.dll" size="35840">
       <assemblyIdentity name="Gestoras" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>IjuaCrsSpuLfdB7cws9vLxt/LVA=</dsig:DigestValue>
+        <dsig:DigestValue>iO/kSzRJ06GGSe9KkrLpauCyg6g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,7 +144,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sP63qsM/QSa805rNDAMx6Id0bPA=</dsig:DigestValue>
+        <dsig:DigestValue>EG3m4r+2cT9rNmUdUYZi7znDHxA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -151,14 +161,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="241664">
-      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="237568">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pnSkadw73OI6GdVEe891orbtNYM=</dsig:DigestValue>
+        <dsig:DigestValue>AcUfcrNZOzE+Ad/dzCpifd4NeFs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -175,14 +185,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reportes.dll" size="9186816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reportes.dll" size="11303424">
       <assemblyIdentity name="Reportes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yVtPMk4ZaBrA1kBQbEIR1EHhKrc=</dsig:DigestValue>
+        <dsig:DigestValue>zIU0Xn/aCSsOMsougE/LsvocC7E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -199,14 +209,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQL.dll" size="130048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQL.dll" size="120832">
       <assemblyIdentity name="SQL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>m18ZA53ADcPo5CuKZZ7yrE6ZsZ0=</dsig:DigestValue>
+        <dsig:DigestValue>LltaenJEHbOiv91gKCYHhDc6p+M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -218,7 +228,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+X6fMgbJpMH8HTX/J4dTuB7mlgM=</dsig:DigestValue>
+        <dsig:DigestValue>esLUtJbU0MsWVhsmcToVzwmX0jI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -230,7 +240,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d2vYc4yyYl+DE3wXxsEsJqiqO1k=</dsig:DigestValue>
+        <dsig:DigestValue>MRJjIIynRRK3K2+6c8Pm3fSk3gQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -242,7 +252,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ECq4Oecl7XlXhVPQfIKpKkHXjow=</dsig:DigestValue>
+        <dsig:DigestValue>LrpztUW8nYpdZ0I8qhZwUd7buK4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -254,17 +264,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6+2HFe5fNcsN3kNvFMbS3/HCI9o=</dsig:DigestValue>
+        <dsig:DigestValue>I1qn4oseiy//PL8Fy6VV0FC+iEU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Cuentas Corrientes.exe.config" size="1441">
+  <file name="Cuentas Corrientes.exe.config" size="1453">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Jp+0WgjzlUpNXhy9HE9yn5FSCi4=</dsig:DigestValue>
+      <dsig:DigestValue>uN/bvfPrN/u6zsl7mXv6+ZhxHYM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ICO.ico" size="161595">

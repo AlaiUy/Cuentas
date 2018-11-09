@@ -119,3 +119,66 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\UI\obj\Release\Cuenta
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\UI\obj\Release\Cuentas Corrientes.xml
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\UI\obj\Release\Cuentas Corrientes.pdb
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\UI\bin\Release\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Cuentas Corrientes.exe.config
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Cuentas Corrientes.exe
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Cuentas Corrientes.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Cuentas Corrientes.xml
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.Web.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Gestoras.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Reportes.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Updater.exe
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\itextsharp.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\FabricaMapper.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\XMLManager.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\DotNetZip.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\FlashControlV71.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\SQL.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\stdole.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\MySql.Data.dll
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Gestoras.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Interfaces.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Reportes.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Updater.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\Controles.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\FabricaMapper.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\XMLManager.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\DotNetZip.xml
+C:\Users\alai\Source\Repos\Cuentas\UI\bin\Release\SQL.pdb
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.vbprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmClienteNuevo.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmModificaCliente.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmEC.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmEnvioEmail.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmMenuClientes.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.Main.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.frmLoader.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\UI.vbproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\Cuentas Corrientes.exe
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\Cuentas Corrientes.xml
+C:\Users\alai\Source\Repos\Cuentas\UI\obj\Release\Cuentas Corrientes.pdb

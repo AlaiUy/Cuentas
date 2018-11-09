@@ -19,7 +19,7 @@ namespace Aguiñagalde.Tools
                     double i = double.Parse(valor); // throws FormatException
                     return true;
                 }
-                catch(Exception e)
+                catch(Exception)
                 {
                     return false;
                 }

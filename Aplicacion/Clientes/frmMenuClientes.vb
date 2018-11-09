@@ -89,10 +89,10 @@ Public Class frmMenuClientes
         EnvioMasivo.ShowDialog()
     End Sub
 
-    Private Function btnEstados_click() As Object
+    Private Sub btnEstados_click()
         Dim frmAgendaEC As New frmListarEstadosCuenta()
         frmAgendaEC.ShowDialog()
-    End Function
+    End Sub
 
     Private Sub btnAgendarCobro_click(sender As Object, e As EventArgs)
         Dim frmAgrendarCobros As New frmAgendaCobros

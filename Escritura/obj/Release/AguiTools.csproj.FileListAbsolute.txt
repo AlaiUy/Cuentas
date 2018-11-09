@@ -155,3 +155,11 @@ C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Escritura\bin\Release\Cryst
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Escritura\bin\Release\stdole.dll
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Escritura\obj\Release\Tools.dll
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Escritura\obj\Release\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Release\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Release\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Release\itextsharp.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Release\itextsharp.pdfa.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\bin\Release\itextsharp.xtra.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Release\AguiTools.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Release\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Escritura\obj\Release\Tools.pdb
