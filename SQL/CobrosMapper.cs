@@ -542,7 +542,6 @@ namespace Aguiñagalde.SQL
                 }
             }
             return Convert.ToDecimal(Cotizacion);
-
         }
         private List<Serie> getSeries(string _Caja, List<int> xTipoDoc)
         {

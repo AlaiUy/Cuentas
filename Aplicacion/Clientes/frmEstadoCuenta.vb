@@ -25,6 +25,8 @@ Public Class frmEstadoCuenta
 
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
+        FechaDesde.Text = DateTime.Parse(Today.AddMonths(-2).ToShortDateString()).ToString("dd/MM/yyyy")
+        FechaHasta.Text = DateTime.Parse(Today.ToShortDateString()).ToString("dd/MM/yyyy")
     End Sub
 
     Public Sub New(ByVal xCliente As ClienteActivo)

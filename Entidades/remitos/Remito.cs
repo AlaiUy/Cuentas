@@ -9,7 +9,7 @@ namespace Aguiñagalde.Entidades
     public abstract  class Remito
     {
         private int _numero;
-        List<MovimientoGeneral> _Movimiento;
+        List<Movimiento> _Movimiento;
         private ClienteActivo _Cliente;
         private List<LineaRemito> _Lineas;
         private Moneda _Moneda;
@@ -72,7 +72,7 @@ namespace Aguiñagalde.Entidades
 
 
 
-        public List<MovimientoGeneral> Movimiento
+        public List<Movimiento> Movimiento
         {
             get { return _Movimiento; }
             set { _Movimiento = value; }
@@ -289,5 +289,20 @@ namespace Aguiñagalde.Entidades
         public abstract string SerieCaja();
 
         public abstract string Sudocumento();
+
+        public void AgregarMovimiento(object xMov)
+        {
+            if (_Movimiento == null)
+                _Movimiento = new List<Entidades.Movimiento>();
+            _Movimiento.Add((MovimientoGeneral)xMov);
+        }
+
+        public void AgregarMovimientos(List<object> xMovimientos)
+        {
+            foreach (object Linea in xMovimientos)
+            {
+                AgregarMovimiento((MovimientoGeneral)Linea);
+            }
+        }
     }
 }

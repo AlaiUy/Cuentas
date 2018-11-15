@@ -161,8 +161,8 @@ Public Class frmBonificacionInco
     End Sub
 
 
-    Private Function ObtenerSeleccionados() As List(Of MovimientoGeneral)
-        Dim Adjudicar As List(Of MovimientoGeneral) = New List(Of MovimientoGeneral)
+    Private Function ObtenerSeleccionados() As List(Of Object)
+        Dim Adjudicar As List(Of Object) = New List(Of Object)
         For Each Row As DataGridViewRow In DGMovimientos.Rows
             If Row.Cells("SELECCIONADA").Value = 1 Then
                 Dim M As MovimientoGeneral = getMovimientoFromPendientes(Row.Cells("Serie").Value, Row.Cells("Numero").Value, Row.Cells("Posicion").Value)

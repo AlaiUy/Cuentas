@@ -373,7 +373,7 @@ namespace Aguiñagalde.Gestoras
 
         #region Bonificaciones
 
-        public bool Bonificar(List<MovimientoGeneral> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir)
+        public bool Bonificar(List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir)
         {
             
 
@@ -418,7 +418,7 @@ namespace Aguiñagalde.Gestoras
             }
         }
 
-        public bool BonificarXML(List<MovimientoGeneral> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir, string xSerie, int xNumero)
+        public bool BonificarXML(List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir, string xSerie, int xNumero)
         {
             
 
@@ -460,7 +460,7 @@ namespace Aguiñagalde.Gestoras
            return DBCobros.getImportePendiente(xSerie, xNumero);
         }
 
-        public bool BonificarInco(List<MovimientoGeneral> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir)
+        public bool BonificarInco(List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir)
         {
             if (xComentario.Length < 1)
                 throw new Exception("Hay que escribir un comentario");
@@ -715,7 +715,7 @@ namespace Aguiñagalde.Gestoras
 
         }
 
-        private List<object> Bonificaciones(List<MovimientoGeneral> xMovs, ClienteActivo xCliente, Moneda xMoneda, string xComentario, TipoBonificacion xTipo)
+        private List<object> Bonificaciones(List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, string xComentario, TipoBonificacion xTipo)
         {
             if (xMovs.Count < 1)
                 return null;
@@ -735,7 +735,7 @@ namespace Aguiñagalde.Gestoras
                 if (xMovs.Count > 0)
                 {
                     decimal zGlobal = 0;
-                    List<MovimientoGeneral> ListaGlobal = new List<MovimientoGeneral>();
+                    List<object> ListaGlobal = new List<object>();
                     foreach (MovimientoGeneral M in xMovs)
                     {
                         zGlobal += M.Importe;
@@ -753,8 +753,8 @@ namespace Aguiñagalde.Gestoras
             foreach (SubCuenta SC in xCliente.SubCuentas)
             {
                 decimal zGlobal = 0, zCFE = 0;
-                List<MovimientoGeneral> ListaCFEs = new List<MovimientoGeneral>();
-                List<MovimientoGeneral> ListaGlobal = new List<MovimientoGeneral>();
+                List<object> ListaCFEs = new List<object>();
+                List<object> ListaGlobal = new List<object>();
                 foreach (MovimientoGeneral M in xMovs)
                 {
                     if (M.Subcta == SC.Codigo)
@@ -784,7 +784,7 @@ namespace Aguiñagalde.Gestoras
             return Lts;
         }
 
-        private Remito CrearBonificacion(decimal xImporte, Moneda xMoneda, ClienteActivo xCliente, SubCuenta xSubCuenta, List<MovimientoGeneral> xMovs, decimal xFactorMoneda, string xComentario, TipoBonificacion xTipo)
+        private Remito CrearBonificacion(decimal xImporte, Moneda xMoneda, ClienteActivo xCliente, SubCuenta xSubCuenta, List<object> xMovs, decimal xFactorMoneda, string xComentario, TipoBonificacion xTipo)
         {
             string Serie = "";
             int Z = GCobros.getInstance().Caja.Z;
@@ -842,7 +842,7 @@ namespace Aguiñagalde.Gestoras
                     break;
             }
 
-            R.Movimiento = xMovs;
+            R.AgregarMovimientos(xMovs);
             if (xSubCuenta != null)
                 R.IS = xSubCuenta;
             else

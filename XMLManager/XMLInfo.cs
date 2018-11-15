@@ -425,7 +425,7 @@ namespace Aguiñagalde.XMLManager
             {
                 while (Index < 39 && Index < R.Movimiento.Count)
                 {
-                    MovimientoGeneral M = R.Movimiento[Index];
+                    MovimientoGeneral M = (MovimientoGeneral)R.Movimiento[Index];
                     Writer.WriteStartElement("ReferenciaItem");
                     Writer.WriteStartElement("RefNroLinRef");
                     Writer.WriteValue(Index+1);
