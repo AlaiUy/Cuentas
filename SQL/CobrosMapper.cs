@@ -12,6 +12,7 @@ using Aguiñagalde.XMLManager;
 using System.Threading;
 using System.Xml;
 using System.IO;
+using System.Transactions;
 
 namespace Aguiñagalde.SQL
 {
@@ -278,6 +279,7 @@ namespace Aguiñagalde.SQL
                 Con.Open();
                 using (SqlCommand Com = new SqlCommand(SB.ToString(), (SqlConnection)Con))
                 {
+                    
                     P.Add(new SqlParameter("@EQUIPO", xNombreMaquina));
                     using (IDataReader Reader = ExecuteReader(Com, P))
                     {
@@ -290,15 +292,17 @@ namespace Aguiñagalde.SQL
         }
         public void UpdateParameters(List<Config> xLista, string xNombreEquipo)
         {
-            using (SqlConnection Con = new SqlConnection(GeneralConnectionString))
-            {
-                Con.Open();
-                using (SqlTransaction Tran = Con.BeginTransaction())
+            
+                using (SqlConnection Con = new SqlConnection(GeneralConnectionString))
                 {
+
+                    Con.Open();
+                using(IDbTransaction Tran = Con.BeginTransaction())
+                { 
                     try
                     {
-                        DeleteParameters(xNombreEquipo, Tran, Con);
-                        AddParameters(xLista, xNombreEquipo, Tran, Con);
+                        DeleteParameters(xNombreEquipo,Tran, Con);
+                        AddParameters(xLista, xNombreEquipo,Tran, Con);
                         Tran.Commit();
                     }
                     catch (Exception E)
@@ -308,7 +312,7 @@ namespace Aguiñagalde.SQL
                 }
             }
         }
-        private void AddParameters(List<Config> xLista, string xNombreEquipo, IDbTransaction xTran, IDbConnection xCon)
+        private void AddParameters(List<Config> xLista, string xNombreEquipo,IDbTransaction xTran, IDbConnection xCon)
         {
             List<string> Querys = new List<string>();
             List<IDataParameter> P = new List<IDataParameter>();
@@ -334,7 +338,7 @@ namespace Aguiñagalde.SQL
                 }
             }
         }
-        private void DeleteParameters(string xNombreEquipo, IDbTransaction xTran, IDbConnection xCon)
+        private void DeleteParameters(string xNombreEquipo,IDbTransaction xTran, IDbConnection xCon)
         {
             using (SqlCommand Com = new SqlCommand("DELETE FROM PARTERMINAL where IDTERMINAL = @EQUIPO", (SqlConnection)xCon))
             {
@@ -498,8 +502,7 @@ namespace Aguiñagalde.SQL
             }
             return Movimientos;
         }
-       
-         private int NumeroRecibo(string xSerie, IDbConnection xCon, IDbTransaction xTran,int xTipoDoc)
+        private int NumeroRecibo(string xSerie, IDbConnection xCon, IDbTransaction xTran,int xTipoDoc)
         {
             int Numero = -1;
 
@@ -622,8 +625,6 @@ namespace Aguiñagalde.SQL
             }
             return Z;
         }
-
-
         public void Add(object o)
         {
             throw new Exception("No implementado");
@@ -636,8 +637,6 @@ namespace Aguiñagalde.SQL
         {
             throw new Exception("No implementado");
         }
-
-
         public int GenerarRemitos(object xRe, object xUsuario,object xClaves,object xCajaGeneral,bool xImprimir)
         {
             int Numero = -1;
@@ -670,7 +669,6 @@ namespace Aguiñagalde.SQL
             }
             return Numero;
         }
-
         private void ImprimirRemito(Remito xRemito,int xNumeroRemito,Empresa xClaves,CajaGeneral xCaja,bool xImprimir,IDbConnection xCon,IDbTransaction xTran)
         {
             
@@ -683,7 +681,6 @@ namespace Aguiñagalde.SQL
                     GuardarCFE(gCFE, xCon, xTran);
             }
         }
-
         private CFE LeerCFERetorno(string xRuta, Remito xR,CajaGeneral xCaja)
         {
             CFE C = null;
@@ -713,8 +710,6 @@ namespace Aguiñagalde.SQL
             { }
             return C;
         }
-
-
         private void GuardarComentario(Remito xRemito, int xNumero, int xUsuario, IDbConnection xCon, IDbTransaction xTran)
         {
 

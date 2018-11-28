@@ -409,6 +409,7 @@ C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\SQL.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\Tools.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\XMLManager.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\itextsharp.dll
+C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\CrystalDecisions.Shared.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\CrystalDecisions.Windows.Forms.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Release\CrystalDecisions.ReportSource.dll

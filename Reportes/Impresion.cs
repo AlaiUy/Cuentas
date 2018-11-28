@@ -7,15 +7,17 @@ using Aguiñagalde.Entidades;
 using System.Globalization;
 using System.Collections;
 using System.Collections.Generic;
+using Aguiñagalde.Tools;
 
 namespace Aguiñagalde.Reportes
-{ 
+{
     public class Impresion
     {
         public void Imprimir(object xObj, bool xMostar, object xArgs)
         {
             if (xObj == null)
                 return;
+
             if (xObj is Recibo)
             {
                 if (xArgs != null && xArgs is Hashtable)
@@ -25,9 +27,21 @@ namespace Aguiñagalde.Reportes
 
             if (xObj is EstadoCuenta)
             {
+                if (xArgs != null)
+                {
+                    if ((string)xArgs == "PDF")
+                    {
+                        GenerarPDF(xObj, xMostar);
+                        return;
+                    }
+                        
+                }
+                
                 ImprimirEstadoCuenta(xObj, xMostar);
                 return;
             }
+
+          
 
             if (xObj is Arqueo)
             {
@@ -47,10 +61,10 @@ namespace Aguiñagalde.Reportes
             ReportDocument rptDoc;
             rptDoc = new rpAgenda();
             rptDoc.SetDataSource(A.Impresion());
-                frmImpresion frmReport = new Reportes.frmImpresion();
-                CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
-                RP.ReportSource = rptDoc;
-                frmReport.Show();
+            frmImpresion frmReport = new Reportes.frmImpresion();
+            CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
+            RP.ReportSource = rptDoc;
+            frmReport.Show();
         }
 
         public void ImprimirSaldos(object xObj, bool xMostar, object xArgs)
@@ -198,86 +212,18 @@ namespace Aguiñagalde.Reportes
             rptDoc.PrintOptions.PrinterName.ToString();
             TextObject Campo;
 
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repLCredito"];
-            //if (EC.Cliente.Lineacredito < 1)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(EC.Cliente.Lineacredito.ToString(), "##,##.00");
+            
 
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repCta"];
-            //Campo.Text = EC.Cliente.IdCliente.ToString();
-
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repVencidoPesos"];
-            //if (EC.VencidoPesos < 1)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(EC.VencidoPesos.ToString(), "##,##.00");
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repVencidoDolares"];
-            //if (EC.VencidoDolares < 1)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(EC.VencidoDolares.ToString(), "##,##.00");
-
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["nomcliente"];
-            //Campo.Text = EC.Cliente.Nombre.ToString();
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["direccion"];
-            //Campo.Text = EC.Cliente.Direccion.ToString();
-
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repDisponible"];
-            //decimal Disponible = 0;
-            //Disponible = (EC.Cliente.Lineacredito - (EC.Pendiente(1) + (EC.Pendiente(2) * EC.Cotizacion)));
-            //if (Disponible < 0)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(Disponible.ToString(), "##,##.00");
-
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repDescuentoPesos"];
-            //if (EC.DescuentoPesos < 1)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(EC.DescuentoPesos.ToString(), "##,##.00");
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repSaldoPesos"];
-            //Campo.Text = string.Format((EC.Pendiente(1) + EC.getMora(1)).ToString(), "##,##.00");
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repSaldoDolares"];
-            //Campo.Text = string.Format((EC.Pendiente(2) + EC.getMora(2)).ToString(), "##,##.00");
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["repDescuentoPesos"];
-            //if (EC.DescuentoDolares < 1)
-            //    Campo.Text = string.Format("0");
-            //else
-            //    Campo.Text = string.Format(EC.DescuentoDolares.ToString(), "##,##.00");
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtTotalD"];
-            //Campo.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", (EC.Pendiente(2) + EC.getMora(2)));
-
-
-            //Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtTotalP"];
-            //Campo.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", (EC.Pendiente(1) + EC.getMora(1)));
 
             DataTable d = EC.ImpresionViejo();
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
             Campo.Text = string.Format(EC.Cliente.Nombre);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtCuenta"];
+            Campo.Text = string.Format(EC.Cliente.IdCliente.ToString());
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblDireccion"];
             Campo.Text = string.Format(EC.Cliente.Direccion);
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblTelefono"];
-            Campo.Text = string.Format(EC.Cliente.Telefono + "-"  + EC.Cliente.Telefono);
+            Campo.Text = string.Format(EC.Cliente.Telefono + "-" + EC.Cliente.Telefono);
             rptDoc.SetDataSource(d);
             if (xMostrar)
             {
@@ -291,8 +237,38 @@ namespace Aguiñagalde.Reportes
                 rptDoc.PrintToPrinter(0, false, 0, 0);
             }
             SetRegion();
-
+            rptDoc.Dispose();
         }
+        private void GenerarPDF(object xEC, bool xMostrar)
+        {
+            EstadoCuenta EC = (EstadoCuenta)xEC;
+            System.Globalization.CultureInfo r = new System.Globalization.CultureInfo("es-UY");
+            r.NumberFormat.CurrencyDecimalSeparator = ".";
+            r.NumberFormat.NumberDecimalSeparator = ",";
+            System.Threading.Thread.CurrentThread.CurrentCulture = r;
+
+            ReportDocument rptDoc;
+            rptDoc = new rptEstadoCuentaViejo();
+            rptDoc.PrintOptions.PrinterName.ToString();
+            TextObject Campo;
+
+           
+
+            PDF fPDF = new PDF();
+            DataTable d = EC.ImpresionViejo();
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
+            Campo.Text = string.Format(EC.Cliente.Nombre);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblDireccion"];
+            Campo.Text = string.Format(EC.Cliente.Direccion);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblTelefono"];
+            Campo.Text = string.Format(EC.Cliente.Telefono + "-" + EC.Cliente.Telefono);
+            rptDoc.SetDataSource(d);
+            string Nombre = "C:/EstadosCuentaPDF/" + "EC" + EC.Cliente.IdCliente+".pdf";
+            fPDF.ExportToPdfReport(rptDoc, "EC" + EC.Cliente.IdCliente, false);
+            rptDoc.Dispose();
+            SetRegion();
+        }
+
 
         private void SetRegion()
         {

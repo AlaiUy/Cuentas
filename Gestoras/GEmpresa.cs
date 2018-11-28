@@ -13,6 +13,8 @@ using System.Reflection;
 using System.Xml;
 using System.IO;
 using System.Xml.Linq;
+using System.Net;
+using Aguiñagalde.Reportes;
 
 namespace Aguiñagalde.Gestoras
 {
@@ -26,16 +28,17 @@ namespace Aguiñagalde.Gestoras
             XDocument Doc;
             try
             {
-                
-                
+
+
                 Doc = XDocument.Load("//SERVIDOR/Actualizaciones/CTAManager/frases.xml");
                 foreach (XElement Node in Doc.Descendants("title"))
                 {
                     _Frases.Add(Node.Value);
                 }
-                
 
-            }catch(Exception)
+
+            }
+            catch (Exception)
             {
 
             }
@@ -51,7 +54,7 @@ namespace Aguiñagalde.Gestoras
             Random Ran = new Random();
             return _Frases[Ran.Next(1, _Frases.Count - 1)];
         }
-        
+
 
 
 
@@ -84,10 +87,10 @@ namespace Aguiñagalde.Gestoras
 
             //Correo electronico desde la que enviamos el mensaje
             mmsg.From = new System.Net.Mail.MailAddress(User.Email);
-            if(xAdjunto != null)
+            if (xAdjunto != null)
                 mmsg.Attachments.Add(xAdjunto);
 
-                
+
 
 
             /*-------------------------CLIENTE DE CORREO----------------------*/
@@ -120,6 +123,71 @@ namespace Aguiñagalde.Gestoras
             }
         }
 
+        public void EnvioECMensual(List<int> Clientes)
+        {
+            decimal cotizacion = GCobros.getInstance().Caja.Cotizacion;
+            string idCliente = "";
+            string xArchivo = "";
+
+            try
+            {
+                foreach (int xCodcliente in Clientes)
+                {
+                    idCliente = xCodcliente.ToString();
+                    EstadoCuenta Temporal = GCliente.Instance().GenerarEstadoCuenta(DateTime.Today.AddMonths(-1), GCliente.Instance().getByID(xCodcliente.ToString(), true), 1);
+                    if (Temporal.Pendiente(1) + (Temporal.Pendiente(2) * cotizacion) > 0)
+                    {
+                        Impresion Im = new Impresion();
+                        Im.Imprimir(Temporal, false, "PDF");
+                        xArchivo = "C:/EstadosCuentaPDF/EC" + Temporal.Cliente.IdCliente + ".pdf";
+                        Attachment xAdjunto = new Attachment(xArchivo);
+                        xAdjunto.Name = "Estado de cuenta.pdf";
+                        using (MailMessage MailSetup = new MailMessage())
+                        {
+                            MailSetup.Subject = "Estado de cuenta via E-mail";
+                            ClienteActivo C = (ClienteActivo)Temporal.Cliente;
+
+                            MailSetup.From = new MailAddress("rossana@aguinagalde.com.uy");
+                            MailSetup.IsBodyHtml = true;
+                            string Body = "Adjuntamos automaticamente el estado de cuenta del corriente mes. <br/>";
+                            Body = Body + "Sin mas, saludos.<br/><br/>";
+                            Body = Body + "Ferreteria y Barraca Aguiñagalde S.A";
+                            MailSetup.Body = Body;
+                            MailSetup.Attachments.Add(xAdjunto);
+                            using (SmtpClient SMTP = new SmtpClient("smtp.gmail.com"))
+                            {
+                                SMTP.Port = 587;
+                                SMTP.EnableSsl = true;
+                                SMTP.Credentials = new NetworkCredential("aguinagalderossana@gmail.com", "t0sud4cl4v3");
+                                try
+                                {
+                                    MailSetup.To.Add(C.CamposLibres.Email);
+                                    SMTP.Send(MailSetup);
+                                }
+                                catch (Exception e)
+                                {
+                                    if (File.Exists(xArchivo))
+                                    {
+                                        File.Copy(xArchivo, "C:/EstadosCuentaPDF/EC" + idCliente + ".tmp");
+                                    }
+                                    else
+                                    {
+                                        File.Create("C:/EstadosCuentaPDF/EC" + idCliente + ".txt");
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+            }
+            catch (Exception e)
+            {
+                File.Create("C:/EstadosCuentaPDF/" + idCliente + ".txt");
+            }
+        }
+
 
 
         public void EnviarCorreo(IList<string> xPara, string xAsunto, string xMensaje, Attachment xAdjunto)
@@ -127,20 +195,20 @@ namespace Aguiñagalde.Gestoras
 
             foreach (string E in xPara)
             {
-                
+
                 System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
 
-                
+
                 mmsg.To.Add(E);
 
                 mmsg.Subject = xAsunto;
                 mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
-                
+
                 mmsg.Body = xMensaje;
                 mmsg.BodyEncoding = System.Text.Encoding.UTF8;
                 mmsg.IsBodyHtml = false; //Si no queremos que se envíe como HTML
 
-               
+
                 mmsg.From = new System.Net.Mail.MailAddress("rossana@aguinagalde.com.uy");
                 if (xAdjunto != null)
                     mmsg.Attachments.Add(xAdjunto);
@@ -153,10 +221,10 @@ namespace Aguiñagalde.Gestoras
 
                 //cliente.Port = 587;
                 //cliente.EnableSsl = true;
-                
+
                 cliente.Host = "mail.aguinagalde.com.uy"; //Para Gmail "smtp.gmail.com";
                 try
-                {    
+                {
                     cliente.Send(mmsg);
                 }
                 catch (System.Net.Mail.SmtpException ex)
@@ -165,7 +233,7 @@ namespace Aguiñagalde.Gestoras
                 }
             }
 
-           
+
         }
 
 
@@ -215,7 +283,7 @@ namespace Aguiñagalde.Gestoras
 
         public bool Clave(string xPassWord)
         {
-            if(xPassWord == "dc9cb5e08acd25a4a6cdb9e1ddaa4b2c" /* jose */ )
+            if (xPassWord == "dc9cb5e08acd25a4a6cdb9e1ddaa4b2c" /* jose */ )
 
             {
                 return true;

@@ -23,12 +23,14 @@ Partial Class frmEmailMasivo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnEnviar = New System.Windows.Forms.Button()
+        Me.lblCantidad = New System.Windows.Forms.Label()
         Me.btnFiltro = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.dgClientes = New System.Windows.Forms.DataGridView()
         Me.btngetClientes = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblCantidad = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.dgClientes, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -40,6 +42,8 @@ Partial Class frmEmailMasivo
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.btnEnviar)
         Me.Panel1.Controls.Add(Me.lblCantidad)
         Me.Panel1.Controls.Add(Me.btnFiltro)
         Me.Panel1.Controls.Add(Me.Panel2)
@@ -50,9 +54,27 @@ Partial Class frmEmailMasivo
         Me.Panel1.Size = New System.Drawing.Size(1037, 446)
         Me.Panel1.TabIndex = 0
         '
+        'btnEnviar
+        '
+        Me.btnEnviar.Location = New System.Drawing.Point(14, 414)
+        Me.btnEnviar.Name = "btnEnviar"
+        Me.btnEnviar.Size = New System.Drawing.Size(75, 23)
+        Me.btnEnviar.TabIndex = 5
+        Me.btnEnviar.Text = "Enviar"
+        Me.btnEnviar.UseVisualStyleBackColor = True
+        '
+        'lblCantidad
+        '
+        Me.lblCantidad.AutoSize = True
+        Me.lblCantidad.Location = New System.Drawing.Point(486, 14)
+        Me.lblCantidad.Name = "lblCantidad"
+        Me.lblCantidad.Size = New System.Drawing.Size(39, 13)
+        Me.lblCantidad.TabIndex = 1
+        Me.lblCantidad.Text = "Label2"
+        '
         'btnFiltro
         '
-        Me.btnFiltro.Location = New System.Drawing.Point(244, 9)
+        Me.btnFiltro.Location = New System.Drawing.Point(224, 8)
         Me.btnFiltro.Name = "btnFiltro"
         Me.btnFiltro.Size = New System.Drawing.Size(75, 23)
         Me.btnFiltro.TabIndex = 4
@@ -79,6 +101,7 @@ Partial Class frmEmailMasivo
         Me.dgClientes.Location = New System.Drawing.Point(0, 0)
         Me.dgClientes.Name = "dgClientes"
         Me.dgClientes.RowHeadersVisible = False
+        Me.dgClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgClientes.Size = New System.Drawing.Size(1030, 365)
         Me.dgClientes.TabIndex = 0
         '
@@ -101,14 +124,14 @@ Partial Class frmEmailMasivo
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Obtener Clientes"
         '
-        'lblCantidad
+        'Button1
         '
-        Me.lblCantidad.AutoSize = True
-        Me.lblCantidad.Location = New System.Drawing.Point(486, 14)
-        Me.lblCantidad.Name = "lblCantidad"
-        Me.lblCantidad.Size = New System.Drawing.Size(39, 13)
-        Me.lblCantidad.TabIndex = 1
-        Me.lblCantidad.Text = "Label2"
+        Me.Button1.Location = New System.Drawing.Point(321, 8)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Borrar"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'frmEmailMasivo
         '
@@ -136,4 +159,6 @@ Partial Class frmEmailMasivo
     Friend WithEvents Panel2 As Windows.Forms.Panel
     Friend WithEvents dgClientes As Windows.Forms.DataGridView
     Friend WithEvents lblCantidad As Windows.Forms.Label
+    Friend WithEvents btnEnviar As Windows.Forms.Button
+    Friend WithEvents Button1 As Windows.Forms.Button
 End Class

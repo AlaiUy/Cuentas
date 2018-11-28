@@ -388,15 +388,18 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Reportes\obj\Release\
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Reportes\obj\Release\Reportes.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Reportes\obj\Release\Reportes.pdb
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Reportes\bin\Release\Microsoft.MSXML.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Reportes.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Reportes.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Reportes.pdb
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.CrystalReports.Design.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.ReportSource.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.Web.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.Windows.Forms.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Entidades.dll
-C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.Web.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\itextsharp.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -413,8 +416,8 @@ C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\CrystalDecisions.ReportA
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\stdole.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\ShockwaveFlashObjects.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Release\Tools.pdb
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Reportes.csprojResolveAssemblyReference.cache
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Aguiñagalde.Reportes.frmImpresion.resources
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Reportes.csproj.GenerateResource.Cache
-C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Reportes.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Release\Reportes.pdb

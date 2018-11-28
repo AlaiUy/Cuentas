@@ -946,7 +946,6 @@ C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\Tools.pdb
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\Gestoras.pdb
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\Interfaces.pdb
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\Reportes.pdb
-C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\Cuentas Corrientes.xml
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\WebServices.pdb
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\XMLManager.pdb
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Debug\FabricaMapper.pdb

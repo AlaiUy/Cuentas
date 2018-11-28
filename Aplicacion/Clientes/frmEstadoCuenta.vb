@@ -354,7 +354,6 @@ Public Class frmEstadoCuenta
                 If femail.DialogResult = DialogResult.Cancel Then
                     Adjunto.Dispose()
                 End If
-
             Catch ex As Exception
                 MsgBox(ex.Message, vbOKOnly, "Error!")
             Finally
