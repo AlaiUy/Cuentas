@@ -112,12 +112,3 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\XMLManager\obj\Debug\
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\XMLManager\obj\Debug\XMLManager.csproj.GenerateResource.Cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\XMLManager\obj\Debug\XMLManager.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\XMLManager\obj\Debug\XMLManager.pdb
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\Debug\XMLManager.dll
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\Debug\XMLManager.pdb
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\Debug\Entidades.dll
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\Debug\Entidades.pdb
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.csprojResolveAssemblyReference.cache
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\Aguiñagalde.XMLManager.Properties.Resources.resources
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.csproj.GenerateResource.Cache
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.dll
-C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.pdb

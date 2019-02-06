@@ -105,12 +105,12 @@ Public Class frmCreditoDiaMain
             Dim numero As Integer = GridMain.Item(GridMain.Columns("NUMERO").Index, e.RowIndex).Value
             Me.TopMost = False
             If e.ColumnIndex = GridMain.Columns("SERIE").DisplayIndex Then
-                Dim fDetalle As New verDetalleBoleta(GCliente.Instance().DetalleFactura(serie, numero))
+                Dim fDetalle As New verDetalleBoleta(numero, serie)
                 fDetalle.TopMost = True
                 fDetalle.ShowDialog()
                 Return
             Else
-                Dim FPDetalle As New verDetalleBoleta(GCobros.getInstance().DetallePosicion(serie, numero))
+                Dim FPDetalle As New verDetalleBoleta(numero, serie)
                 FPDetalle.TopMost = True
                 FPDetalle.ShowDialog()
                 Return

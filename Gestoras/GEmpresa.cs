@@ -135,54 +135,58 @@ namespace Aguiñagalde.Gestoras
                 {
                     idCliente = xCodcliente.ToString();
                     EstadoCuenta Temporal = GCliente.Instance().GenerarEstadoCuenta(DateTime.Today.AddMonths(-1), GCliente.Instance().getByID(xCodcliente.ToString(), true), 1);
-                    if (Temporal.Pendiente(1) + (Temporal.Pendiente(2) * cotizacion) > 0)
+                    if (Temporal.Pendiente(1) + (Temporal.Pendiente(2) * cotizacion) > 10)
                     {
-                        Impresion Im = new Impresion();
-                        Im.Imprimir(Temporal, false, "PDF");
-                        xArchivo = "C:/EstadosCuentaPDF/EC" + Temporal.Cliente.IdCliente + ".pdf";
-                        Attachment xAdjunto = new Attachment(xArchivo);
-                        xAdjunto.Name = "Estado de cuenta.pdf";
-                        using (MailMessage MailSetup = new MailMessage())
+                        if (Temporal.Cliente.Cobrador != "99" || Temporal.Cliente.Cobrador != "69")
                         {
-                            MailSetup.Subject = "Estado de cuenta via E-mail";
-                            ClienteActivo C = (ClienteActivo)Temporal.Cliente;
-
-                            MailSetup.From = new MailAddress("rossana@aguinagalde.com.uy");
-                            MailSetup.IsBodyHtml = true;
-                            string Body = "Adjuntamos automaticamente el estado de cuenta del corriente mes. <br/>";
-                            Body = Body + "Sin mas, saludos.<br/><br/>";
-                            Body = Body + "Ferreteria y Barraca Aguiñagalde S.A";
-                            MailSetup.Body = Body;
-                            MailSetup.Attachments.Add(xAdjunto);
-                            using (SmtpClient SMTP = new SmtpClient("smtp.gmail.com"))
+                            Impresion Im = new Impresion();
+                            Im.Imprimir(Temporal, false, "PDF");
+                            xArchivo = "C:/EstadosCuentaPDF/EC" + Temporal.Cliente.IdCliente + ".pdf";
+                            Attachment xAdjunto = new Attachment(xArchivo);
+                            xAdjunto.Name = "Estado de cuenta.pdf";
+                            using (MailMessage MailSetup = new MailMessage())
                             {
-                                SMTP.Port = 587;
-                                SMTP.EnableSsl = true;
-                                SMTP.Credentials = new NetworkCredential("aguinagalderossana@gmail.com", "t0sud4cl4v3");
-                                try
-                                {
-                                    MailSetup.To.Add(C.CamposLibres.Email);
-                                    SMTP.Send(MailSetup);
-                                }
-                                catch (Exception e)
-                                {
-                                    if (File.Exists(xArchivo))
-                                    {
-                                        File.Copy(xArchivo, "C:/EstadosCuentaPDF/EC" + idCliente + ".tmp");
-                                    }
-                                    else
-                                    {
-                                        File.Create("C:/EstadosCuentaPDF/EC" + idCliente + ".txt");
-                                    }
-                                }
-                            }
+                                MailSetup.Subject = "Estado de cuenta via E-mail";
+                                ClienteActivo C = (ClienteActivo)Temporal.Cliente;
 
+                                MailSetup.From = new MailAddress("rossana@aguinagalde.com.uy");
+                                MailSetup.IsBodyHtml = true;
+                                string Body = "Adjuntamos automaticamente el estado de cuenta del corriente mes. <br/>";
+                                Body = Body + "Sin mas, saludos.<br/><br/>";
+                                Body = Body + "Ferreteria y Barraca Aguiñagalde S.A";
+                                MailSetup.Body = Body;
+                                MailSetup.Attachments.Add(xAdjunto);
+                                using (SmtpClient SMTP = new SmtpClient("smtp.gmail.com"))
+                                {
+                                    SMTP.Port = 587;
+                                    SMTP.EnableSsl = true;
+                                    SMTP.Credentials = new NetworkCredential("aguinagalderossana@gmail.com", "t0sud4cl4v3");
+                                    try
+                                    {
+                                        MailSetup.To.Add(C.CamposLibres.Email);
+                                        SMTP.Send(MailSetup);
+                                    }
+                                    catch (Exception)
+                                    {
+                                        if (File.Exists(xArchivo))
+                                        {
+                                            File.Copy(xArchivo, "C:/EstadosCuentaPDF/EC" + idCliente + ".tmp");
+                                        }
+                                        else
+                                        {
+                                            File.Create("C:/EstadosCuentaPDF/EC" + idCliente + ".txt");
+                                        }
+                                    }
+                                }
+
+                            }
                         }
                     }
+
                 }
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 File.Create("C:/EstadosCuentaPDF/" + idCliente + ".txt");
             }

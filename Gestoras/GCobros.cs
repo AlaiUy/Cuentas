@@ -142,11 +142,12 @@ namespace Aguiñagalde.Gestoras
                 _CajaDia = (CajaCtaDia)DBCobros.getCajaDia(Environment.MachineName, U);
 
             notifyObservers("Cargando Claves");
-            CargarClaves();
+            
+           
 
             notifyObservers("Cargando Caja");
             _Caja = (CajaGeneral)DBCobros.getCajaByID(Environment.MachineName,U);
-
+            CargarClaves();
             notifyObservers("Cargando Monedas");
 
             _ListaMonedas = new List<Moneda>();
@@ -175,7 +176,9 @@ namespace Aguiñagalde.Gestoras
 
         private void CargarClaves()
         {
-            Claves = (Empresa)DBCobros.getClavesEmpresa();
+            if (_Caja == null)
+                throw new Exception("No se puede cargar las clave de empresa");
+            Claves = (Empresa)DBCobros.getClavesEmpresa(_Caja.Sucursal);
         }
 
         public void Register(IObserver xObserver)

@@ -128,17 +128,3 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\bin\Deb
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Debug\FabricaMapper.csprojResolveAssemblyReference.cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Debug\FabricaMapper.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\FabricaMapper\obj\Debug\FabricaMapper.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\FabricaMapper.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\FabricaMapper.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\Interfaces.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\SQL.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\Entidades.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\XMLManager.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\MySql.Data.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\Interfaces.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\SQL.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\Entidades.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\Debug\XMLManager.pdb
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\Debug\FabricaMapper.csprojResolveAssemblyReference.cache
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\Debug\FabricaMapper.dll
-C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\Debug\FabricaMapper.pdb

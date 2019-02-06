@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -55,21 +56,27 @@ namespace Aguiñagalde.Entidades
             DataColumn ColEstado = T.Columns.Add("DIRECCION", Type.GetType("System.String"));
             DataColumn ColMov = T.Columns.Add("NOMBRE", Type.GetType("System.String"));
             DataColumn ColSer = T.Columns.Add("FUV", Type.GetType("System.String"));
-            DataColumn ColNum = T.Columns.Add("PESOS", Type.GetType("System.Int32"));
+            DataColumn ColNum = T.Columns.Add("PESOS", Type.GetType("System.String"));
             DataColumn ColDebe = T.Columns.Add("DOLARES", Type.GetType("System.String"));
             DataColumn ColHaber = T.Columns.Add("COMENTARIO", Type.GetType("System.String"));
 
             if (_Lineas.Count > 0)
             {
                 DataRow R;
-                R = T.NewRow();
-                foreach(Agendalin L in _Lineas)
+                foreach (Agendalin L in _Lineas)
                 {
+                    R = T.NewRow();
                     R["CLIENTE"] = L.Codcliente;
                     R["DIRECCION"] = L.Dircobro;
                     R["NOMBRE"] = L.Nombre;
-                    R["PESOS"] = L.Pesos;
-                    R["DOLARES"] = L.Dolares;
+                    if(L.Pesos < 10)
+                        R["PESOS"] = String.Format(CultureInfo.InvariantCulture, "{0:0.00}", L.Pesos, 2);
+                    else
+                        R["PESOS"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", L.Pesos, 2);
+                    if(L.Dolares < 10)
+                        R["DOLARES"] = String.Format(CultureInfo.InvariantCulture, "{0:0.00}", L.Dolares, 2);
+                    else
+                        R["DOLARES"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", L.Dolares, 2);
                     R["COMENTARIO"] = L.Comentario;
                     T.Rows.Add(R);
                 }

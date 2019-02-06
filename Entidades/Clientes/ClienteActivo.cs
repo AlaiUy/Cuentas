@@ -197,16 +197,13 @@ namespace Aguiñagalde.Entidades
             set { _Apertura = value; }
         }
 
-
-  
-
-
-
-       
-
         public CamposLibres CamposLibres
         {
-            get { return _CamposLibres; }
+            get {
+                if (_CamposLibres == null)
+                    return new CamposLibres(base.IdCliente);
+                return _CamposLibres;
+            }
         }
 
         

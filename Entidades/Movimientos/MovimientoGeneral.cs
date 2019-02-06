@@ -12,8 +12,6 @@ namespace Aguiñagalde.Entidades
         private string _estado;
         private string _origen;
         private byte _Posicion;
-        private int _codFormaPago;
-        
         private int _subcta;
         private int _codcliente;
         private int _TipoPago;

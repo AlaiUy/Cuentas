@@ -9,7 +9,7 @@ Public Class GControles
 
     Public Shared ReadOnly Property GetInstance As GControles
         Get
-            Static Instance As GControles = New GControles
+            Static Instance As GControles = New GControles()
             Return Instance
         End Get
     End Property

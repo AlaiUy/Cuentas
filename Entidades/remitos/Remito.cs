@@ -299,6 +299,8 @@ namespace Aguiñagalde.Entidades
 
         public void AgregarMovimientos(List<object> xMovimientos)
         {
+            if (xMovimientos == null)
+                return;
             foreach (object Linea in xMovimientos)
             {
                 AgregarMovimiento((MovimientoGeneral)Linea);

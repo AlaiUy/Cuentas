@@ -45,6 +45,7 @@ Partial Class Main
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.lbCotizacion = New System.Windows.Forms.Label()
         Me.MainContainer.SuspendLayout()
         Me.PanelCentral.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -244,6 +245,7 @@ Partial Class Main
         'MainHeader
         '
         Me.MainHeader.BackColor = System.Drawing.Color.White
+        Me.MainHeader.Controls.Add(Me.lbCotizacion)
         Me.MainHeader.Controls.Add(Me.Panel6)
         Me.MainHeader.Controls.Add(Me.lblTitulo)
         Me.MainHeader.Controls.Add(Me.Panel1)
@@ -310,26 +312,26 @@ Partial Class Main
         'lblTitulo
         '
         Me.lblTitulo.AutoSize = True
-        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitulo.Font = New System.Drawing.Font("Monotype Corsiva", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitulo.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblTitulo.Location = New System.Drawing.Point(130, 5)
+        Me.lblTitulo.Location = New System.Drawing.Point(121, 5)
         Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(224, 26)
+        Me.lblTitulo.Size = New System.Drawing.Size(221, 36)
         Me.lblTitulo.TabIndex = 0
-        Me.lblTitulo.Text = "Cuentas Corrientes:"
+        Me.lblTitulo.Text = "Cuentas Corrientes"
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Location = New System.Drawing.Point(3, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(112, 74)
+        Me.Panel1.Size = New System.Drawing.Size(112, 87)
         Me.Panel1.TabIndex = 1
         '
         'Label3
         '
         Me.Label3.Image = CType(resources.GetObject("Label3.Image"), System.Drawing.Image)
-        Me.Label3.Location = New System.Drawing.Point(1, 4)
+        Me.Label3.Location = New System.Drawing.Point(6, 8)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(100, 69)
         Me.Label3.TabIndex = 0
@@ -346,6 +348,15 @@ Partial Class Main
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(993, 622)
         Me.Panel2.TabIndex = 1
+        '
+        'lbCotizacion
+        '
+        Me.lbCotizacion.AutoSize = True
+        Me.lbCotizacion.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbCotizacion.Location = New System.Drawing.Point(132, 68)
+        Me.lbCotizacion.Name = "lbCotizacion"
+        Me.lbCotizacion.Size = New System.Drawing.Size(0, 13)
+        Me.lbCotizacion.TabIndex = 3
         '
         'Main
         '
@@ -398,4 +409,5 @@ Partial Class Main
     Friend WithEvents lblFrases As Windows.Forms.Label
     Friend WithEvents btnCtaDia As Windows.Forms.Button
     Friend WithEvents btnIncos As Windows.Forms.Button
+    Friend WithEvents lbCotizacion As Windows.Forms.Label
 End Class

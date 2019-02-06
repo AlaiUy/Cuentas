@@ -23,9 +23,9 @@ Partial Class frmEstadoCuenta
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
@@ -52,6 +52,7 @@ Partial Class frmEstadoCuenta
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.FechaHasta = New System.Windows.Forms.MaskedTextBox()
         Me.FechaDesde = New System.Windows.Forms.MaskedTextBox()
         Me.txtCuenta = New Aguinagalde.Controles.TextBoxNumerico()
         Me.btnBuscar = New System.Windows.Forms.Button()
@@ -64,7 +65,6 @@ Partial Class frmEstadoCuenta
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TipPendiente = New System.Windows.Forms.ToolTip(Me.components)
-        Me.FechaHasta = New System.Windows.Forms.MaskedTextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel7.SuspendLayout()
@@ -346,23 +346,23 @@ Partial Class frmEstadoCuenta
         Me.DGMovimientos.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DGMovimientos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.DGMovimientos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGMovimientos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGMovimientos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.DGMovimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGMovimientos.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGMovimientos.DefaultCellStyle = DataGridViewCellStyle2
         Me.DGMovimientos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DGMovimientos.EnableHeadersVisualStyles = False
         Me.DGMovimientos.Location = New System.Drawing.Point(6, 60)
@@ -370,8 +370,8 @@ Partial Class frmEstadoCuenta
         Me.DGMovimientos.ReadOnly = True
         Me.DGMovimientos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.DGMovimientos.RowHeadersVisible = False
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DGMovimientos.RowsDefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DGMovimientos.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DGMovimientos.RowTemplate.Height = 24
         Me.DGMovimientos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DGMovimientos.Size = New System.Drawing.Size(912, 316)
@@ -427,6 +427,14 @@ Partial Class frmEstadoCuenta
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(917, 97)
         Me.Panel10.TabIndex = 5
+        '
+        'FechaHasta
+        '
+        Me.FechaHasta.Location = New System.Drawing.Point(143, 73)
+        Me.FechaHasta.Mask = "00/00/0000"
+        Me.FechaHasta.Name = "FechaHasta"
+        Me.FechaHasta.Size = New System.Drawing.Size(77, 20)
+        Me.FechaHasta.TabIndex = 31
         '
         'FechaDesde
         '
@@ -535,14 +543,6 @@ Partial Class frmEstadoCuenta
         Me.Label7.Size = New System.Drawing.Size(51, 17)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "Desde:"
-        '
-        'FechaHasta
-        '
-        Me.FechaHasta.Location = New System.Drawing.Point(143, 73)
-        Me.FechaHasta.Mask = "00/00/0000"
-        Me.FechaHasta.Name = "FechaHasta"
-        Me.FechaHasta.Size = New System.Drawing.Size(77, 20)
-        Me.FechaHasta.TabIndex = 31
         '
         'frmEstadoCuenta
         '

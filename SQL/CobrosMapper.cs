@@ -671,7 +671,7 @@ namespace Aguiñagalde.SQL
         }
         private void ImprimirRemito(Remito xRemito,int xNumeroRemito,Empresa xClaves,CajaGeneral xCaja,bool xImprimir,IDbConnection xCon,IDbTransaction xTran)
         {
-            
+            xRemito.Numero = xNumeroRemito;
             XMLInfo.getInstance().GenerarXMLRemito(xRemito, xNumeroRemito, xClaves, xCaja, xImprimir);
             string xFile = "RET" + xRemito.Serie + xNumeroRemito;
             if (XMLInfo.getInstance().LeerXMLRetorno(xFile, xCaja))
@@ -916,7 +916,7 @@ namespace Aguiñagalde.SQL
             }
 
         }
-        public object getClavesEmpresa()
+        public object getClavesEmpresa(int xSucursal)
         {
             Empresa E = null;
 
@@ -925,7 +925,7 @@ namespace Aguiñagalde.SQL
                 Con.Open();
                 using (SqlCommand Com = new SqlCommand("SELECT * FROM CLAVESEMPRESA WHERE (SUCURSAL = @SUCURSAL)", (SqlConnection)Con))
                 {
-                    Com.Parameters.Add(new SqlParameter("@SUCURSAL", 1));
+                    Com.Parameters.Add(new SqlParameter("@SUCURSAL", xSucursal));
                     using (IDataReader Reader = ExecuteReader(Com))
                     {
                         if (Reader.Read())
@@ -1031,7 +1031,7 @@ namespace Aguiñagalde.SQL
         public void SaldarCP(List<object> xLista, object xCaja)
         {
             Caja C = (Caja)xCaja;
-            using (SqlConnection Con = new SqlConnection(GeneralConnectionString))
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
                 using (SqlTransaction Tran = Con.BeginTransaction())
@@ -1128,7 +1128,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT NUMERO,FECHA,CODVENDEDOR FROM ARQUEOS WHERE NUMERO = @ARQUEO and CAJA = @CAJA", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT POSICION AS COMPOSICION,FECHADOCUMENTO as FECHA,SERIE,NUMERO,CODMONEDA,CAST(SUM(IMPORTE) AS DECIMAL(16, 2)) AS IMPORTE,FACTORMONEDA AS COTIZACION FROM TESORERIA WHERE ORIGEN = 'C' AND (TIPODOCUMENTO = 'L' OR TIPODOCUMENTO = 'F') and IMPORTE > 0 AND ZSALDADO = @ARQUEO and CAJASALDADO = @CAJA GROUP BY POSICION, FECHADOCUMENTO, SERIE, NUMERO, CODMONEDA, FACTORMONEDA", (SqlConnection)Con))
                 {
                     Com.Parameters.Add(new SqlParameter("@ARQUEO", numero));
                     Com.Parameters.Add(new SqlParameter("@CAJA", xCaja));

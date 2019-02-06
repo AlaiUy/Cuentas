@@ -54,7 +54,7 @@ Public Class frmEmailMasivo
             GEmpresa.getInstance().EnvioECMensual(Lista)
             MsgBox("El correo fue enviado correctamente", vbOKOnly, "Exito!")
         Catch ex As Exception
-            MsgBox(ex.Message)
+
         End Try
     End Sub
 

@@ -5,12 +5,16 @@ Imports Aguiñagalde.Gestoras
 
 Public Class verDetalleBoleta
     Private _DT As DataTable
+    Private _Numero As Integer
+    Private _Serie As String
 
-    Public Sub New(ByVal xDT As DataTable)
+
+    Public Sub New(ByVal xNumero As Integer, ByVal xSerie As String)
         ' Esta llamada es exigida por el diseñador.
         InitializeComponent()
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
-        _DT = xDT
+        _Numero = xNumero
+        _Serie = xSerie
     End Sub
 
 
@@ -21,6 +25,7 @@ Public Class verDetalleBoleta
     End Sub
 
     Private Sub verDetalleBoleta_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        _DT = GCliente.Instance().DetalleFactura(_Serie, _Numero)
         PupularDatos()
     End Sub
 
@@ -54,5 +59,14 @@ Public Class verDetalleBoleta
         '        Return
         '    End If
         'End If
+    End Sub
+
+    Private Sub btnPrint_Click(sender As Object, e As EventArgs)
+        Try
+            Dim Imprimir As New frmImprimirFacturas(_Serie, _Numero)
+            Imprimir.ShowDialog()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 End Class

@@ -4,7 +4,25 @@ Imports Aguiñagalde.Entidades
 Imports Aguiñagalde.Gestoras
 
 Public Class frmImprimirFacturas
+    Private _Serie As String = ""
+    Private _Numero As Integer = -1
 
+    Public Sub New()
+
+        ' Esta llamada es exigida por el diseñador.
+        InitializeComponent()
+
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+
+    End Sub
+
+    Public Sub New(ByVal xSerie As String, ByVal xNumero As Integer)
+        ' Esta llamada es exigida por el diseñador.
+        InitializeComponent()
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
+        _Serie = xSerie
+        _Numero = xNumero
+    End Sub
     Private Sub frmImprimirFacturas_KeyDown(sender As Object, e As Windows.Forms.KeyEventArgs) Handles Me.KeyDown
         If e.KeyCode = Windows.Forms.Keys.Escape Then
             Me.Close()
@@ -60,5 +78,11 @@ Public Class frmImprimirFacturas
         End If
     End Sub
 
-
+    Private Sub frmImprimirFacturas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If _Numero > 0 Then
+            txtNumero.Text = _Numero
+            txtSerie.Text = _Serie
+            btnBuscar.PerformClick()
+        End If
+    End Sub
 End Class

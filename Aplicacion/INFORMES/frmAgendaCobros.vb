@@ -10,8 +10,10 @@ Public Class frmAgendaCobros
         Try
             GCobros.getInstance.addAgendaLin(txtCliente.Text, dtvisita.Value.ToShortDateString, GCobros.getInstance.Caja.Usuario.CodUsuario, txtDireccionVisita.Text, txtComentario.Text)
             MsgBox("Agenda agregada exitosamente")
+            BorrarCampos()
         Catch ex As Exception
             MsgBox(ex.Message)
+            BorrarCampos()
         End Try
     End Sub
 
@@ -25,6 +27,7 @@ Public Class frmAgendaCobros
         txtNombre.Text = ""
         txtNombre.BackColor = Drawing.Color.White
         txtCliente.Focus()
+        dtvisita.Value = Now.ToShortDateString()
     End Sub
 
     Private Sub CargarDatos()

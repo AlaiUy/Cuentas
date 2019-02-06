@@ -28,7 +28,7 @@ Public Class Main
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'lblFrases.Text = GEmpresa.getInstance.ObtenerFrase()
         CheckForIllegalCrossThreadCalls = False
-
+        lbCotizacion.Text = "COTIZACION ACTUAL: " & GCobros.getInstance().Caja.Cotizacion
         If GCobros.getInstance().Caja.Usuario.Permiso(3) Then
             btnCtaDia.Visible = True
             btnCtaDia.Enabled = True

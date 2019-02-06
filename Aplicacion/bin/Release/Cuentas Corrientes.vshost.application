@@ -14,14 +14,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Cuentas Corrientes.exe.manifest" size="16285">
+    <dependentAssembly dependencyType="install" codebase="Cuentas Corrientes.exe.manifest" size="14884">
       <assemblyIdentity name="Cuentas Corrientes.exe" version="1.0.0.209" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Yh1i1D2O/8U6CTQT6/S5UPlj7yM=</dsig:DigestValue>
+        <dsig:DigestValue>Ee0HHjSXnt3yLEEylFs6sXx4SRE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -394,7 +394,7 @@ Public Class frmEstadoCuenta
             Dim xSerie As String = ""
             xNumero = DGMovimientos.Item("Numero", e.RowIndex).Value
             xSerie = DGMovimientos.Item("Serie", e.RowIndex).Value
-            Dim frmDetalle As New verDetalleBoleta(GCliente.Instance().DetalleFactura(xSerie, xNumero))
+            Dim frmDetalle As New verDetalleBoleta(xNumero, xSerie)
             frmDetalle.ShowDialog()
         End If
 
@@ -548,5 +548,15 @@ Public Class frmEstadoCuenta
     Private Sub FechaDesde_Click(sender As Object, e As EventArgs) Handles FechaDesde.Click
         TryCast(sender, MaskedTextBox).Text = ""
         TryCast(sender, MaskedTextBox).SelectionStart = 0
+    End Sub
+
+    Private Sub FechaHasta_MaskInputRejected(sender As Object, e As MaskInputRejectedEventArgs) Handles FechaHasta.MaskInputRejected
+
+    End Sub
+
+    Private Sub FechaHasta_KeyDown(sender As Object, e As KeyEventArgs) Handles FechaHasta.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            btnBuscar.PerformClick()
+        End If
     End Sub
 End Class
