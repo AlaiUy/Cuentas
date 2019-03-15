@@ -258,6 +258,8 @@ namespace Aguiñagalde.Reportes
             DataTable d = EC.ImpresionViejo();
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
             Campo.Text = string.Format(EC.Cliente.Nombre);
+            Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtCuenta"];
+            Campo.Text = string.Format(EC.Cliente.IdCliente.ToString());
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblDireccion"];
             Campo.Text = string.Format(EC.Cliente.Direccion);
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblTelefono"];

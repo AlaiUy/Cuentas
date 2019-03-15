@@ -932,3 +932,4 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Releas
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Release\Cuentas Corrientes.exe
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\obj\Release\Cuentas Corrientes.pdb
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\obj\Release\Aguiñagalde.Aplicacion.frmEmailMasivo.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Release\Cuentas Corrientes.exe.config

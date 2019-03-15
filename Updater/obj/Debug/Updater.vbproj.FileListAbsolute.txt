@@ -1,0 +1,12 @@
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\Debug\Updater.exe
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\Debug\Updater.pdb
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\Debug\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\Debug\DotNetZip.dll
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\Debug\DotNetZip.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.vbprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.frmUpMain.resources
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.vbproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.exe
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\Debug\Updater.pdb

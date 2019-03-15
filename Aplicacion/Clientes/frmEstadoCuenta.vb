@@ -367,19 +367,26 @@ Public Class frmEstadoCuenta
             MsgBox("No hay nada que mostrar, genere estado primero.", vbOKOnly, "Error")
             Return
         Else
-            Me.LinkToPDF.Enabled = False
-            Application.DoEvents()
-            Dim PDF As New PDF()
-            Dim rptDoc As ReportDocument
-            rptDoc = New repEstadoCuenta
-            CargarCamposReporte(rptDoc, _Cliente, _EstadoCuenta)
-            rptDoc.SetDataSource(_EstadoCuenta.Impresion())
+            'Me.LinkToPDF.Enabled = False
+            'Application.DoEvents()
+            'Dim PDF As New PDF()
+            'Dim rptDoc As ReportDocument
+            'rptDoc = New repEstadoCuenta
+            'CargarCamposReporte(rptDoc, _Cliente, _EstadoCuenta)
+            'rptDoc.SetDataSource(_EstadoCuenta.Impresion())
+            'Try
+            '    PDF.ExportToPdfReport(rptDoc, "EC" & _Cliente.IdCliente, True)
+            'Catch ex As Exception
+            '    MsgBox(ex.Message)
+            'Finally
+            '    Me.LinkToPDF.Enabled = True
+            'End Try
             Try
-                PDF.ExportToPdfReport(rptDoc, "EC" & _Cliente.IdCliente, True)
+                Dim Im = New Impresion()
+                Im.Imprimir(_EstadoCuenta, False, "PDF")
+
             Catch ex As Exception
                 MsgBox(ex.Message)
-            Finally
-                Me.LinkToPDF.Enabled = True
             End Try
         End If
     End Sub

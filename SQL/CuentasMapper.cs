@@ -402,7 +402,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(CONVERT(VARCHAR(8),C.CODCLIENTE),'') CODIGO, ISNULL(C.ALIAS,'') AS CEDULA,ISNULL(C.CIF,'') as RUT,ISNULL(C.NOMBRECLIENTE,'') NOMBRE,ISNULL(C.DIRECCION1,'') AS DIRECCION,ISNULL(CONVERT(VARCHAR(8),C.TELEFONO1),'') AS TELEFONO,ISNULL(CONVERT(VARCHAR(9),C.TELEFONO2),'') AS CELULAR,ISNULL(L.MAIL,' ') AS EMAIL,ISNULL(C.NUMTARJETA,' ') AS RUTA FROM  CLIENTES C INNER JOIN CLIENTESCAMPOSLIBRES L ON C.CODCLIENTE = L.CODCLIENTE WHERE (C.TIPO > 0) and C.DESCATALOGADO = 'F'", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(CONVERT(VARCHAR(8),C.CODCLIENTE),'') CODIGO, ISNULL(C.TIPO,7) AS TIPO, ISNULL(C.ZONA,99) AS ZONA, ISNULL(C.ALIAS,'') AS CEDULA,ISNULL(C.CIF,'') as RUT,ISNULL(C.NOMBRECLIENTE,'') NOMBRE,ISNULL(C.DIRECCION1,'') AS DIRECCION,ISNULL(CONVERT(VARCHAR(8),C.TELEFONO1),'') AS TELEFONO,ISNULL(CONVERT(VARCHAR(9),C.TELEFONO2),'') AS CELULAR,ISNULL(L.MAIL,' ') AS EMAIL,ISNULL(C.NUMTARJETA,' ') AS RUTA FROM  CLIENTES C INNER JOIN CLIENTESCAMPOSLIBRES L ON C.CODCLIENTE = L.CODCLIENTE WHERE (C.TIPO > 0) and C.DESCATALOGADO = 'F'", (SqlConnection)Con))
                 {
                     DT.Load(ExecuteReader(Com));
                 }
@@ -969,7 +969,7 @@ namespace Aguiñagalde.SQL
             {
                 Con.Open();
 
-                using (DbCommand Command = new SqlCommand("INSERT INTO ORDENESCOMPRASCLI(NUMORDEN,CODCLIENTE,CODSUBCTA,FECHA,FACTURADO,DESCRIPCION) VALUES (@NUMORDEN,@CODCLIENTE,@CODSUBCTA,@FECHA,@FACTURADO,@DESCRIPCION", Con))
+                using (DbCommand Command = new SqlCommand("INSERT INTO ORDENESCOMPRASCLI(NUMORDEN,CODCLIENTE,CODSUBCTA,FECHA,FACTURADO,DESCRIPCION) VALUES (@NUMORDEN,@CODCLIENTE,@CODSUBCTA,@FECHA,@FACTURADO,@DESCRIPCION)", Con))
                 {
                     Command.Parameters.Add(new SqlParameter("@CODCLIENTE", ((OrdenCompra)xOrden).Cliente));
                     Command.Parameters.Add(new SqlParameter("@CODSUBCTA", ((OrdenCompra)xOrden).SubCuenta)); // DOCUMENTO DE LA PERSONA AUTORIZADA
@@ -1081,6 +1081,7 @@ namespace Aguiñagalde.SQL
                 int idcliente = Convert.ToInt32((Reader["TITULAR"] is DBNull ? 0 : Reader["TITULAR"]));
                 int codigo = Convert.ToInt32((Reader["CODIGO"] is DBNull ? 0 : Reader["CODIGO"]));
                 Temporal = new SubCuenta(idcliente, codigo);
+                Temporal.Autorizados = GetListaAutorizados(idcliente, codigo);
                 Temporal.Telefono = (string)(Reader["TELEFONO"] is DBNull ? 0 : Reader["TELEFONO"]);
                 Temporal.Nombre = (string)(Reader["NOMBRE"] is DBNull ? string.Empty : Reader["NOMBRE"]);
                 Temporal.Tipo = (string)(Reader["TIPO"] is DBNull ? string.Empty : Reader["TIPO"]);

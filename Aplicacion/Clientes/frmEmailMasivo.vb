@@ -24,7 +24,7 @@ Public Class frmEmailMasivo
         Try
 
             tClientes = (From Cliente In tClientes.AsEnumerable()
-                         Where Cliente("EMAIL").Contains("@")
+                         Where Cliente("EMAIL").Contains("@") And (Cliente("TIPO") <> 7 And Cliente("TIPO") <> 20) And (Cliente("ZONA") <> "99" And Cliente("ZONA") <> "69")
                          Select Cliente).CopyToDataTable()
             dgClientes.DataSource = tClientes
             lblCantidad.Text = "cuentas: " & dgClientes.Rows.Count

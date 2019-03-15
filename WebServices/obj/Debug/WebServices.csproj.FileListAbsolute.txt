@@ -84,3 +84,11 @@ G:\Src\CTAManager\CTAManager\WebServices\obj\Debug\Aguiñagalde.WebServices.Prop
 G:\Src\CTAManager\CTAManager\WebServices\obj\Debug\WebServices.csproj.GenerateResource.Cache
 G:\Src\CTAManager\CTAManager\WebServices\obj\Debug\WebServices.dll
 G:\Src\CTAManager\CTAManager\WebServices\obj\Debug\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Debug\WebServices.dll.config
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Debug\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Debug\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Debug\WebServices.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Debug\Aguiñagalde.WebServices.Properties.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Debug\WebServices.csproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Debug\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Debug\WebServices.pdb
