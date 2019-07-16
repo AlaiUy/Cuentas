@@ -1,0 +1,7 @@
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\bin\x86\Debug\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\bin\x86\Debug\Interfaces.pdb
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\bin\x86\Debug\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\bin\x86\Debug\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\obj\x86\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\obj\x86\Debug\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\Interfaces\obj\x86\Debug\Interfaces.pdb

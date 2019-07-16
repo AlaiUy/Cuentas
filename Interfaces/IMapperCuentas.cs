@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data;
 
 namespace Aguiñagalde.Interfaces
 {
@@ -34,10 +35,12 @@ namespace Aguiñagalde.Interfaces
         List<object> getMovimientosPendiente(int xCodCliente,bool wCFE);
         void ModificarLimites(object xCliente, decimal xTope, decimal xLimite, string xComentario, int xUsuario, string xLugar);
         void GrabarLlamada(int xIdCLiente, int campania, string xUsuario,string xComentario);
+        DataTable getClientesIncobrables();
         string DatosLlamada(int xCodCliente, int xCampania);
         bool PuedoLlamar(int xCliente, int xCampania);
         List<object> getAll();
         decimal getSaldo(int xidCliente,int xCodMoneda);
         List<object> ClientesParaEC();
+        void setEnvioEmail(int idCliente);
     }
 }

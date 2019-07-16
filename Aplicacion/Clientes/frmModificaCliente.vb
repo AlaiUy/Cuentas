@@ -13,6 +13,8 @@ Public Class frmModificaCliente
 
 
     Private Sub CargarCampos()
+        lblCheDes.Text = String.Format("Cuenta con {0} % ", _Cliente.CamposLibres.Descuento)
+        lblCheDes.Visible = True
         PopularTabs()
         ChkDic.Checked = _Cliente.DIC
         txtCedula.Text = _Cliente.Cedula
@@ -54,6 +56,7 @@ Public Class frmModificaCliente
         txtobs.Text = _Cliente.Observaciones
         txtobs1.Text = _Cliente.CamposLibres.OtrasObservaciones
         txtRuta.Text = _Cliente.Ruta
+        txtDescuento.Text = _Cliente.CamposLibres.Descuento
         Dim Index As Integer = 0
 
         Dim FP As FPago = Nothing
@@ -161,11 +164,23 @@ Public Class frmModificaCliente
             frPass.ShowDialog()
             If frPass.DialogResult = DialogResult.OK Then
                 _Clave = frPass.Clave()
-
+                PopularForm()
             End If
             If frPass.DialogResult = DialogResult.Cancel Then
                 frPass.Close()
             End If
+        End If
+    End Sub
+
+    Private Sub PopularForm()
+        If GEmpresa.getInstance().Clave(_Clave) Then
+            lblDescuento.Visible = True
+            txtDescuento.Visible = True
+            lblPorcentaje.Visible = True
+        Else
+            lblDescuento.Visible = False
+            txtDescuento.Visible = False
+            lblPorcentaje.Visible = False
         End If
     End Sub
 
@@ -228,6 +243,7 @@ Public Class frmModificaCliente
             _Cliente.SoloTitular = chkSolotit.Checked
             _Cliente.Cerrada = chkCerrada.Checked
             _Cliente.CamposLibres.Bienes = txtbienes.Text
+            _Cliente.CamposLibres.Descuento = Convert.ToDecimal(txtDescuento.Text)
             Try
                 GCliente.Instance().Actualizar(_Cliente, _Clave)
                 MsgBox("Cliente actualizado con exito")
@@ -360,5 +376,9 @@ Public Class frmModificaCliente
 
     Private Sub txtEmail_TextChanged(sender As Object, e As EventArgs) Handles txtEmail.TextChanged
 
+    End Sub
+
+    Private Sub txtDescuento_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtDescuento.KeyPress
+        e.Handled = ValidarImportes(e.KeyChar, txtDescuento.Text, txtDescuento.SelectionLength, txtDescuento.SelectionStart)
     End Sub
 End Class

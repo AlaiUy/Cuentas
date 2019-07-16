@@ -31,12 +31,13 @@ Partial Class Main
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.btnClientes = New System.Windows.Forms.Button()
         Me.btnDocs = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnInformes = New System.Windows.Forms.Button()
         Me.btnCtaDia = New System.Windows.Forms.Button()
         Me.btnIncos = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MainHeader = New System.Windows.Forms.Panel()
+        Me.lbCotizacion = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.btnChangeLog = New System.Windows.Forms.Button()
         Me.Panel7 = New System.Windows.Forms.Panel()
@@ -45,7 +46,6 @@ Partial Class Main
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.lbCotizacion = New System.Windows.Forms.Label()
         Me.MainContainer.SuspendLayout()
         Me.PanelCentral.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -122,7 +122,7 @@ Partial Class Main
         '
         Me.FlowLayoutPanel2.Controls.Add(Me.btnClientes)
         Me.FlowLayoutPanel2.Controls.Add(Me.btnDocs)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Button1)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnInformes)
         Me.FlowLayoutPanel2.Controls.Add(Me.btnCtaDia)
         Me.FlowLayoutPanel2.Controls.Add(Me.btnIncos)
         Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
@@ -167,23 +167,23 @@ Partial Class Main
         Me.btnDocs.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnDocs.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnInformes
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(201, 5)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(0, 5, 0, 5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(118, 70)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Informes"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button1.UseVisualStyleBackColor = False
-        Me.Button1.Visible = False
+        Me.btnInformes.BackColor = System.Drawing.Color.Transparent
+        Me.btnInformes.FlatAppearance.BorderSize = 0
+        Me.btnInformes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInformes.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInformes.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.btnInformes.Image = Global.Aguiñagalde.Aplicacion.My.Resources.Resources.list
+        Me.btnInformes.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnInformes.Location = New System.Drawing.Point(201, 5)
+        Me.btnInformes.Margin = New System.Windows.Forms.Padding(0, 5, 0, 5)
+        Me.btnInformes.Name = "btnInformes"
+        Me.btnInformes.Size = New System.Drawing.Size(118, 70)
+        Me.btnInformes.TabIndex = 6
+        Me.btnInformes.Text = "Informes"
+        Me.btnInformes.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnInformes.UseVisualStyleBackColor = False
         '
         'btnCtaDia
         '
@@ -254,6 +254,15 @@ Partial Class Main
         Me.MainHeader.Name = "MainHeader"
         Me.MainHeader.Size = New System.Drawing.Size(993, 90)
         Me.MainHeader.TabIndex = 0
+        '
+        'lbCotizacion
+        '
+        Me.lbCotizacion.AutoSize = True
+        Me.lbCotizacion.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbCotizacion.Location = New System.Drawing.Point(132, 68)
+        Me.lbCotizacion.Name = "lbCotizacion"
+        Me.lbCotizacion.Size = New System.Drawing.Size(0, 13)
+        Me.lbCotizacion.TabIndex = 3
         '
         'Panel6
         '
@@ -349,15 +358,6 @@ Partial Class Main
         Me.Panel2.Size = New System.Drawing.Size(993, 622)
         Me.Panel2.TabIndex = 1
         '
-        'lbCotizacion
-        '
-        Me.lbCotizacion.AutoSize = True
-        Me.lbCotizacion.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbCotizacion.Location = New System.Drawing.Point(132, 68)
-        Me.lbCotizacion.Name = "lbCotizacion"
-        Me.lbCotizacion.Size = New System.Drawing.Size(0, 13)
-        Me.lbCotizacion.TabIndex = 3
-        '
         'Main
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -404,7 +404,7 @@ Partial Class Main
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
     Friend WithEvents Panel7 As System.Windows.Forms.Panel
     Friend WithEvents btnChangeLog As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnInformes As System.Windows.Forms.Button
     Friend WithEvents btnCpanel As Windows.Forms.Button
     Friend WithEvents lblFrases As Windows.Forms.Label
     Friend WithEvents btnCtaDia As Windows.Forms.Button

@@ -1,0 +1,4 @@
+C:\Users\alai\Source\Repos\Cuentas\Controles\bin\x86\Release\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\Controles\bin\x86\Release\Controles.pdb
+C:\Users\alai\Source\Repos\Cuentas\Controles\obj\x86\Release\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\Controles\obj\x86\Release\Controles.pdb

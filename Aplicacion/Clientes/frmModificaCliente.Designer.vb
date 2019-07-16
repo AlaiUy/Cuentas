@@ -90,6 +90,9 @@ Partial Class frmModificaCliente
         Me.Label37 = New System.Windows.Forms.Label()
         Me.TabCampos = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.lblPorcentaje = New System.Windows.Forms.Label()
+        Me.txtDescuento = New System.Windows.Forms.TextBox()
+        Me.lblDescuento = New System.Windows.Forms.Label()
         Me.txtobs1 = New System.Windows.Forms.TextBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.txtobs = New System.Windows.Forms.TextBox()
@@ -143,6 +146,7 @@ Partial Class frmModificaCliente
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.btnSCNueva = New System.Windows.Forms.Button()
         Me.btnModificarSC = New System.Windows.Forms.Button()
+        Me.lblCheDes = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Contenedor.SuspendLayout()
         Me.Center.SuspendLayout()
@@ -905,6 +909,9 @@ Partial Class frmModificaCliente
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.lblPorcentaje)
+        Me.GroupBox3.Controls.Add(Me.txtDescuento)
+        Me.GroupBox3.Controls.Add(Me.lblDescuento)
         Me.GroupBox3.Controls.Add(Me.txtobs1)
         Me.GroupBox3.Controls.Add(Me.Label29)
         Me.GroupBox3.Controls.Add(Me.txtobs)
@@ -935,6 +942,43 @@ Partial Class frmModificaCliente
         Me.GroupBox3.Size = New System.Drawing.Size(752, 366)
         Me.GroupBox3.TabIndex = 1
         Me.GroupBox3.TabStop = False
+        '
+        'lblPorcentaje
+        '
+        Me.lblPorcentaje.AutoSize = True
+        Me.lblPorcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblPorcentaje.Font = New System.Drawing.Font("Tahoma", 10.2!)
+        Me.lblPorcentaje.Location = New System.Drawing.Point(308, 339)
+        Me.lblPorcentaje.Margin = New System.Windows.Forms.Padding(0)
+        Me.lblPorcentaje.Name = "lblPorcentaje"
+        Me.lblPorcentaje.Size = New System.Drawing.Size(112, 17)
+        Me.lblPorcentaje.TabIndex = 41
+        Me.lblPorcentaje.Text = "En porcentaje %"
+        Me.lblPorcentaje.Visible = False
+        '
+        'txtDescuento
+        '
+        Me.txtDescuento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDescuento.Font = New System.Drawing.Font("Tahoma", 10.2!)
+        Me.txtDescuento.Location = New System.Drawing.Point(117, 336)
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(188, 24)
+        Me.txtDescuento.TabIndex = 40
+        Me.txtDescuento.Text = "0"
+        Me.txtDescuento.Visible = False
+        '
+        'lblDescuento
+        '
+        Me.lblDescuento.AutoSize = True
+        Me.lblDescuento.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblDescuento.Font = New System.Drawing.Font("Tahoma", 10.2!)
+        Me.lblDescuento.Location = New System.Drawing.Point(4, 339)
+        Me.lblDescuento.Margin = New System.Windows.Forms.Padding(0)
+        Me.lblDescuento.Name = "lblDescuento"
+        Me.lblDescuento.Size = New System.Drawing.Size(79, 17)
+        Me.lblDescuento.TabIndex = 39
+        Me.lblDescuento.Text = "Descuento:"
+        Me.lblDescuento.Visible = False
         '
         'txtobs1
         '
@@ -1325,6 +1369,7 @@ Partial Class frmModificaCliente
         '
         Me.HeaderRight.BackColor = System.Drawing.Color.White
         Me.HeaderRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.HeaderRight.Controls.Add(Me.lblCheDes)
         Me.HeaderRight.Controls.Add(Me.chkCerrada)
         Me.HeaderRight.Controls.Add(Me.ChkDic)
         Me.HeaderRight.Controls.Add(Me.chk_activo)
@@ -1389,7 +1434,7 @@ Partial Class frmModificaCliente
         '
         Me.txtCuenta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCuenta.Location = New System.Drawing.Point(191, 7)
+        Me.txtCuenta.Location = New System.Drawing.Point(156, 7)
         Me.txtCuenta.Name = "txtCuenta"
         Me.txtCuenta.Size = New System.Drawing.Size(292, 26)
         Me.txtCuenta.TabIndex = 16
@@ -1408,18 +1453,18 @@ Partial Class frmModificaCliente
         '
         Me.txtnombrecomercial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtnombrecomercial.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.txtnombrecomercial.Location = New System.Drawing.Point(191, 77)
+        Me.txtnombrecomercial.Location = New System.Drawing.Point(156, 77)
         Me.txtnombrecomercial.Name = "txtnombrecomercial"
-        Me.txtnombrecomercial.Size = New System.Drawing.Size(571, 26)
+        Me.txtnombrecomercial.Size = New System.Drawing.Size(478, 26)
         Me.txtnombrecomercial.TabIndex = 19
         '
         'txtnombre
         '
         Me.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.txtnombre.Location = New System.Drawing.Point(191, 43)
+        Me.txtnombre.Location = New System.Drawing.Point(156, 43)
         Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.Size = New System.Drawing.Size(571, 26)
+        Me.txtnombre.Size = New System.Drawing.Size(478, 26)
         Me.txtnombre.TabIndex = 18
         '
         'Label10
@@ -1503,6 +1548,16 @@ Partial Class frmModificaCliente
         Me.btnModificarSC.TabIndex = 1
         Me.ToolTip1.SetToolTip(Me.btnModificarSC, "Modificar la SubCuenta Seleccionada")
         Me.btnModificarSC.UseVisualStyleBackColor = True
+        '
+        'lblCheDes
+        '
+        Me.lblCheDes.AutoSize = True
+        Me.lblCheDes.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCheDes.Location = New System.Drawing.Point(641, 47)
+        Me.lblCheDes.Name = "lblCheDes"
+        Me.lblCheDes.Size = New System.Drawing.Size(0, 19)
+        Me.lblCheDes.TabIndex = 31
+        Me.lblCheDes.Visible = False
         '
         'frmModificaCliente
         '
@@ -1668,4 +1723,8 @@ Partial Class frmModificaCliente
     Friend WithEvents chk_fidelizado As Windows.Forms.CheckBox
     Friend WithEvents chk_orden As Windows.Forms.CheckBox
     Friend WithEvents chk_dia As Windows.Forms.CheckBox
+    Friend WithEvents txtDescuento As Windows.Forms.TextBox
+    Friend WithEvents lblDescuento As Windows.Forms.Label
+    Friend WithEvents lblPorcentaje As Windows.Forms.Label
+    Friend WithEvents lblCheDes As Windows.Forms.Label
 End Class

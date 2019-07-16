@@ -44,7 +44,7 @@ Public Class frmEstadoCuenta
         txtTotalParcial.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(1) + _EstadoCuenta.getMora(1))
         txtTotalDolares.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(2) + _EstadoCuenta.getMora(2))
         txtTotalPesos.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(1) + _EstadoCuenta.getMora(1))
-
+        txtgralpesos.Text = FormatearImporte(((_EstadoCuenta.Pendiente(2) + _EstadoCuenta.getMora(2)) * _EstadoCuenta.Cotizacion) + (_EstadoCuenta.Pendiente(1) + _EstadoCuenta.getMora(1)))
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
     End Sub
@@ -167,6 +167,7 @@ Public Class frmEstadoCuenta
         If Not IsNothing(_Cliente) Then
             txtNombre.Text = _Cliente.Nombre
             txtDireccion.Text = _Cliente.Direccion
+            txtTelefonos.Text = _Cliente.Telefono & " - " & _Cliente.Celular
             If (_Cliente.SubCuentas.Count > 0) Then
                 'cbSub.Items.Clear()
                 'For Each S As SubCuenta In _Cliente.SubCuentas
@@ -198,10 +199,6 @@ Public Class frmEstadoCuenta
             Return
         End If
 
-        If _FechaInicio = FD And _fechaFinal = FH Then
-            Return
-        End If
-
 
         _FechaInicio = FD
         _fechaFinal = FH
@@ -209,22 +206,28 @@ Public Class frmEstadoCuenta
         Try
             Me.btnGenerar.Enabled = False
             Application.DoEvents()
-            If IsNothing(_Cliente) Then
-                _Cliente = GCliente.Instance.getByID(Convert.ToInt32(txtCuenta.Text), False)
-            End If
+            _Cliente = GCliente.Instance.getByID(Convert.ToInt32(txtCuenta.Text), False)
 
             CargarDatos()
-            Me.btnGenerar.Enabled = True
             _EstadoCuenta = GCliente.Instance.GenerarEstadoCuenta(_FechaInicio, _Cliente, 0)
             DGMovimientos.DataSource = _EstadoCuenta.getInforme(1)
             OrdernarGridMoneda()
             lbltotalparcial.Text = "Total ($)"
             txtTotalParcial.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(1) + _EstadoCuenta.getMora(1))
-            txtTotalDolares.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(2))
-            txtTotalPesos.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(1))
+            txtTotalDolares.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(2) + _EstadoCuenta.getMora(2))
+            txtTotalPesos.Text = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _EstadoCuenta.Pendiente(1) + _EstadoCuenta.getMora(1))
+            Dim PD As Decimal = _EstadoCuenta.Pendiente(2)
+            Dim PDM As Decimal = _EstadoCuenta.getMora(2)
+            Dim Cot As Decimal = GCobros.getInstance().Caja.Cotizacion
+            Dim PP As Decimal = _EstadoCuenta.Pendiente(1)
+            Dim PPM As Decimal = _EstadoCuenta.getMora(1)
+            Dim Tot As Decimal = (PP + PPM) + ((PD + PDM) * Cot)
+
+            txtgralpesos.Text = FormatearImporte(Tot)
         Catch ex As Exception
             MsgBox(ex.Message, vbOKOnly, "Error!")
-
+        Finally
+            Me.btnGenerar.Enabled = True
         End Try
 
 
@@ -330,6 +333,9 @@ Public Class frmEstadoCuenta
 
 
     Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+
+
+
         If IsNothing(_EstadoCuenta) Then
             MsgBox("No hay nada que mostrar, genere estado primero.", vbOKOnly, "Error")
             Return
@@ -337,17 +343,15 @@ Public Class frmEstadoCuenta
             Try
                 Me.LinkLabel3.Enabled = False
                 Application.DoEvents()
-                Dim PDF As New PDF()
-                Dim FileNombre As String = "EC" & _Cliente.IdCliente
+
+                    Dim FileNombre As String = "EC" & _Cliente.IdCliente
                 Dim rptDoc As ReportDocument
                 Dim Path As String = "C:/EstadosCuentaPDF/"
                 Dim Ex As String = ".pdf"
-                rptDoc = New repEstadoCuenta
-                CargarCamposReporte(rptDoc, _Cliente, _EstadoCuenta)
-                rptDoc.SetDataSource(_EstadoCuenta.Impresion())
-                PDF.ExportToPdfReport(rptDoc, FileNombre, False)
+                    Dim Im = New Impresion()
+                    Im.Imprimir(_EstadoCuenta, False, "PDF")
 
-                Dim Adjunto = New Attachment(Path & FileNombre & Ex)
+                    Dim Adjunto = New Attachment(Path & FileNombre & Ex)
                 Adjunto.Name = "EstadoCuenta.pdf"
                 Dim femail = New frmEmail(_Cliente, Adjunto)
                 femail.ShowDialog()
@@ -416,13 +420,16 @@ Public Class frmEstadoCuenta
 
         If e.ColumnIndex = DGMovimientos.Columns("TOTAL").DisplayIndex Then
             If e.RowIndex <> -1 Then
-                If DGMovimientos.Rows(e.RowIndex).Cells("Estado").Value = "P" Then
-                    Try
-                        DGMovimientos.Rows(e.RowIndex).Cells("Estado").Tag = "45"
-                    Catch ex As Exception
+                If Not IsDBNull(DGMovimientos.Rows(e.RowIndex).Cells("Estado").Value) Then
+                    If DGMovimientos.Rows(e.RowIndex).Cells("Estado").Value = "P" Then
+                        Try
+                            DGMovimientos.Rows(e.RowIndex).Cells("Estado").Tag = "45"
+                        Catch ex As Exception
 
-                    End Try
+                        End Try
+                    End If
                 End If
+
             End If
         End If
     End Sub
@@ -565,5 +572,20 @@ Public Class frmEstadoCuenta
         If e.KeyCode = Keys.Enter Then
             btnBuscar.PerformClick()
         End If
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub txtDocumentoLink_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles txtDocumentoLink.LinkClicked
+        If Not IsNothing(_Cliente) Then
+            Dim frm As frmModificaCliente = New frmModificaCliente(_Cliente)
+            frm.Show()
+        End If
+    End Sub
+
+    Private Sub txtTotalDolares_TextChanged(sender As Object, e As EventArgs) Handles txtTotalDolares.TextChanged
+
     End Sub
 End Class

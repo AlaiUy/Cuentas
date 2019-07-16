@@ -201,7 +201,7 @@ namespace Aguiñagalde.Entidades
         {
             get {
                 if (_CamposLibres == null)
-                    return new CamposLibres(base.IdCliente);
+                    return new CamposLibres(-1);
                 return _CamposLibres;
             }
         }
@@ -303,6 +303,16 @@ namespace Aguiñagalde.Entidades
                 return this.Cedula.ToString();
 
             return IdCliente.ToString();
+        }
+
+        public SubCuenta getSubCuentaCatalogada()
+        {
+            foreach (SubCuenta S in _SubCuentas)
+            {
+                if (S.Descatalogado == false)
+                    return S;
+            }
+            return null;
         }
 
         public int TipoDocumento(int xSubCuenta)

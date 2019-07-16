@@ -63,7 +63,7 @@ Public Class frmOrdenesCompra
         Try
             GCliente.Instance().AgregarOrden(Orden)
         Catch ex As Exception
-            MsgBox(ex)
+            MsgBox(ex.Message)
         End Try
     End Sub
 

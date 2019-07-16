@@ -52,6 +52,9 @@ Partial Class frmEstadoCuenta
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.txtDocumentoLink = New System.Windows.Forms.LinkLabel()
+        Me.txtTelefonos = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.FechaHasta = New System.Windows.Forms.MaskedTextBox()
         Me.FechaDesde = New System.Windows.Forms.MaskedTextBox()
         Me.txtCuenta = New Aguinagalde.Controles.TextBoxNumerico()
@@ -61,10 +64,11 @@ Partial Class frmEstadoCuenta
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnGenerar = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TipPendiente = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtgralpesos = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel7.SuspendLayout()
@@ -248,6 +252,8 @@ Partial Class frmEstadoCuenta
         'Panel12
         '
         Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel12.Controls.Add(Me.txtgralpesos)
+        Me.Panel12.Controls.Add(Me.Label1)
         Me.Panel12.Controls.Add(Me.txtTotalDolares)
         Me.Panel12.Controls.Add(Me.Label9)
         Me.Panel12.Controls.Add(Me.txtTotalPesos)
@@ -411,6 +417,9 @@ Partial Class frmEstadoCuenta
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel10.Controls.Add(Me.txtDocumentoLink)
+        Me.Panel10.Controls.Add(Me.txtTelefonos)
+        Me.Panel10.Controls.Add(Me.Label4)
         Me.Panel10.Controls.Add(Me.FechaHasta)
         Me.Panel10.Controls.Add(Me.FechaDesde)
         Me.Panel10.Controls.Add(Me.txtCuenta)
@@ -420,13 +429,42 @@ Partial Class frmEstadoCuenta
         Me.Panel10.Controls.Add(Me.Label3)
         Me.Panel10.Controls.Add(Me.Label2)
         Me.Panel10.Controls.Add(Me.btnGenerar)
-        Me.Panel10.Controls.Add(Me.Label1)
         Me.Panel10.Controls.Add(Me.Label8)
         Me.Panel10.Controls.Add(Me.Label7)
         Me.Panel10.Location = New System.Drawing.Point(6, 12)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(917, 97)
         Me.Panel10.TabIndex = 5
+        '
+        'txtDocumentoLink
+        '
+        Me.txtDocumentoLink.AutoSize = True
+        Me.txtDocumentoLink.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDocumentoLink.Location = New System.Drawing.Point(41, 14)
+        Me.txtDocumentoLink.Name = "txtDocumentoLink"
+        Me.txtDocumentoLink.Size = New System.Drawing.Size(96, 19)
+        Me.txtDocumentoLink.TabIndex = 34
+        Me.txtDocumentoLink.TabStop = True
+        Me.txtDocumentoLink.Text = "Documento:"
+        '
+        'txtTelefonos
+        '
+        Me.txtTelefonos.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtTelefonos.Location = New System.Drawing.Point(451, 66)
+        Me.txtTelefonos.Name = "txtTelefonos"
+        Me.txtTelefonos.Size = New System.Drawing.Size(461, 20)
+        Me.txtTelefonos.TabIndex = 33
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(378, 69)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(57, 13)
+        Me.Label4.TabIndex = 32
+        Me.Label4.Text = "Telefonos:"
         '
         'FechaHasta
         '
@@ -514,16 +552,6 @@ Partial Class frmEstadoCuenta
         Me.btnGenerar.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnGenerar.UseVisualStyleBackColor = False
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(8, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(125, 25)
-        Me.Label1.TabIndex = 21
-        Me.Label1.Text = "Documento:"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -543,6 +571,25 @@ Partial Class frmEstadoCuenta
         Me.Label7.Size = New System.Drawing.Size(51, 17)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "Desde:"
+        '
+        'txtgralpesos
+        '
+        Me.txtgralpesos.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtgralpesos.Location = New System.Drawing.Point(734, 5)
+        Me.txtgralpesos.Name = "txtgralpesos"
+        Me.txtgralpesos.Size = New System.Drawing.Size(192, 27)
+        Me.txtgralpesos.TabIndex = 5
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkOliveGreen
+        Me.Label1.Location = New System.Drawing.Point(611, 8)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(113, 19)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "General en $"
         '
         'frmEstadoCuenta
         '
@@ -605,7 +652,6 @@ Partial Class frmEstadoCuenta
     Friend WithEvents LinkLabel3 As Windows.Forms.LinkLabel
     Friend WithEvents LinkToPDF As Windows.Forms.LinkLabel
     Friend WithEvents LinkReporte As Windows.Forms.LinkLabel
-    Friend WithEvents Label1 As Windows.Forms.Label
     Friend WithEvents LinkDolares As Windows.Forms.LinkLabel
     Friend WithEvents LinkPesos As Windows.Forms.LinkLabel
     Friend WithEvents Panel10 As Windows.Forms.Panel
@@ -615,4 +661,9 @@ Partial Class frmEstadoCuenta
     Friend WithEvents txtCuenta As Aguinagalde.Controles.TextBoxNumerico
     Friend WithEvents FechaDesde As Windows.Forms.MaskedTextBox
     Friend WithEvents FechaHasta As Windows.Forms.MaskedTextBox
+    Friend WithEvents txtTelefonos As Windows.Forms.TextBox
+    Friend WithEvents Label4 As Windows.Forms.Label
+    Friend WithEvents txtDocumentoLink As Windows.Forms.LinkLabel
+    Friend WithEvents txtgralpesos As Windows.Forms.TextBox
+    Friend WithEvents Label1 As Windows.Forms.Label
 End Class

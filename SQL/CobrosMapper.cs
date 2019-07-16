@@ -5,7 +5,6 @@ using Aguiñagalde.Entidades;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.Common;
-using MySql.Data.MySqlClient;
 using System.Text;
 using System.Linq;
 using Aguiñagalde.XMLManager;
@@ -637,7 +636,9 @@ namespace Aguiñagalde.SQL
         {
             throw new Exception("No implementado");
         }
-        public int GenerarRemitos(object xRe, object xUsuario,object xClaves,object xCajaGeneral,bool xImprimir)
+
+
+        public int GenerarRemitos(object xRe, object xUsuario, object xClaves, object xCajaGeneral, bool xImprimir)
         {
             int Numero = -1;
             Empresa Claves = (Empresa)xClaves;
@@ -649,7 +650,7 @@ namespace Aguiñagalde.SQL
                     try
                     {
                         Remito R = (Remito)xRe;
-                        Numero = NumeroRecibo(R.Serie, Con, Tran,R.TipoDoc());
+                        Numero = NumeroRecibo(R.Serie, Con, Tran, R.TipoDoc());
                         GuardarCabecera(R, Con, Numero, Tran);
                         GuardarVentaLin(R, Con, Numero, Tran);
                         GuardarFVentas(R, Con, Numero, Tran);
@@ -657,7 +658,7 @@ namespace Aguiñagalde.SQL
                         GuardarTesoreria(R, Con, Numero, Tran);
                         if (R.Comentario.Length > 0)
                             GuardarComentario(R, Numero, ((Usuario)xUsuario).CodUsuario, Con, Tran);
-                        ImprimirRemito(R, Numero, Claves, (CajaGeneral)xCajaGeneral, xImprimir,Con,Tran);
+                        ImprimirRemito(R, Numero, Claves, (CajaGeneral)xCajaGeneral, xImprimir, Con, Tran);
                         Tran.Commit();
                     }
                     catch (Exception E)
@@ -669,6 +670,48 @@ namespace Aguiñagalde.SQL
             }
             return Numero;
         }
+
+        public void GenerarRemitos(List<object> xRems, object xUsuario, object xClaves, object xCajaGeneral, bool xImprimir)
+        {
+            int Numero = -1;
+            Remito R = null;
+            Empresa Claves = (Empresa)xClaves;
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlTransaction Tran = Con.BeginTransaction())
+                {
+                    try
+                    {
+                        foreach (object O in xRems)
+                        {
+                            R = (Remito)O;
+                            Numero = NumeroRecibo(R.Serie, Con, Tran, R.TipoDoc());
+                            GuardarCabecera(R, Con, Numero, Tran);
+                            GuardarVentaLin(R, Con, Numero, Tran);
+                            GuardarFVentas(R, Con, Numero, Tran);
+                            GuardatVentasTotales(R, Con, Numero, Tran);
+                            GuardarTesoreria(R, Con, Numero, Tran);
+                            if (R.Comentario.Length > 0)
+                            {
+                                GuardarComentario(R, Numero, ((Usuario)xUsuario).CodUsuario, Con, Tran);
+                            }
+#if !DEBUG
+                            ImprimirRemito(R, Numero, Claves, (CajaGeneral)xCajaGeneral, xImprimir, Con, Tran);
+#endif
+                        }
+                        Tran.Commit();
+                    }
+                    catch (Exception E)
+                    {
+                        throw new Exception(E.Message + "Serie: " + R.Serie + " " + R.Numero);
+                    }
+                }
+
+            }
+        }
+
+
         private void ImprimirRemito(Remito xRemito,int xNumeroRemito,Empresa xClaves,CajaGeneral xCaja,bool xImprimir,IDbConnection xCon,IDbTransaction xTran)
         {
             xRemito.Numero = xNumeroRemito;
@@ -790,7 +833,7 @@ namespace Aguiñagalde.SQL
             P.Add(new SqlParameter("@CODVENDEDOR", R.CodVendedor));
             P.Add(new SqlParameter("@TIPODOC", R.TipoDoc()));
             P.Add(new SqlParameter("@Z", R.NumeroZ()));
-            P.Add(new SqlParameter("@CAJA", R.SerieCaja()));
+            P.Add(new SqlParameter("@CAJA", R.Caja));
             P.Add(new SqlParameter("@TOTALCOSTEIVA", R.TotalCostoIva()));
 
             using (SqlCommand Com = new SqlCommand("INSERT INTO FACTURASVENTA (NUMSERIE,NUMFACTURA,N,CODCLIENTE,FECHA,TOTALBRUTO,TOTALIMPUESTOS,TOTALNETO,TOTALCOSTE,CODMONEDA,FACTORMONEDA,IVAINCLUIDO,CODVENDEDOR,TIPODOC,Z,CAJA,TOTALCOSTEIVA) VALUES (@NUMSERIE,@NUMFACTURA,@N,@CODCLIENTE,@FECHA,@TOTALBRUTO,@TOTALIMPUESTOS,@TOTALNETO,@TOTALCOSTE,@CODMONEDA,@FACTORMONEDA,@IVAINCLUIDO,@CODVENDEDOR,@TIPODOC,@Z,@CAJA,@TOTALCOSTEIVA)", (SqlConnection)xCon))
@@ -841,7 +884,6 @@ namespace Aguiñagalde.SQL
                     Com.Transaction = (SqlTransaction)xTran;
                     ExecuteNonQuery(Com, Lin);
                 }
-
             }
         }
         private void GuardarTesoreria(Remito R, IDbConnection xCon, int xNumero, IDbTransaction xTran)
@@ -1204,7 +1246,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT CV.CODCLIENTE,C.NOMBRECLIENTE,CV.FECVISITA,CV.DIRCOBRO,CV.FECAGENDADO,CV.COMENTARIO FROM COBVISITAS CV INNER JOIN CLIENTES C ON C.CODCLIENTE = CV.CODCLIENTE WHERE FECVISITA = @FECHA", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT CV.CODCLIENTE,C.NOMBRECLIENTE,CV.FECVISITA,CV.DIRCOBRO,MAX(CV.FECAGENDADO),CV.COMENTARIO FROM COBVISITAS CV INNER JOIN CLIENTES C ON C.CODCLIENTE = CV.CODCLIENTE  WHERE FECVISITA = @FECHA  GROUP BY CV.CODCLIENTE,C.NOMBRECLIENTE,CV.FECVISITA,CV.DIRCOBRO,CV.COMENTARIO", (SqlConnection)Con))
                 {
                     Com.Parameters.Add(new SqlParameter("@FECHA", xfecha.ToShortDateString()));
                     using (IDataReader Reader = ExecuteReader(Com))

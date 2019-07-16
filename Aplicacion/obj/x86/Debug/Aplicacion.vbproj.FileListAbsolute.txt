@@ -1,0 +1,101 @@
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Cuentas Corrientes.exe.config
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Cuentas Corrientes.exe.manifest
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Cuentas Corrientes.application
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Cuentas Corrientes.exe
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Cuentas Corrientes.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.Web.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Gestoras.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Reportes.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Tools.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\XMLManager.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\itextsharp.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\FabricaMapper.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\FlashControlV71.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\SQL.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\stdole.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\MySql.Data.dll
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Controles.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Gestoras.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Interfaces.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\Reportes.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\XMLManager.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\FabricaMapper.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\x86\Debug\SQL.pdb
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmAsociadoNuevo.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmAsociadosModificar.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmEmailMasivo.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmEstadoClearing.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmEstadoCuenta.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmGrillaClientes.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmImprimirFacturas.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmLimiteCredito.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmListarEstadosCuenta.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmMenuClientes.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmClienteNuevo.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmAsociadosMain.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmModificaCliente.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmECIncobrables.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmOpcionesAdc.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmCuentasMain.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmSubCuentaMod.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmSubCuentaNueva.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmBonificacion.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmBonificacionInco.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmBonifXML.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmDebito.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmOrdenesCompra.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.verDetalleBoleta.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmEmail.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.EscribirEmail.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmCargando.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmChangeLog.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmClave.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmPanelControl.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmParametros.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmPendientes.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmReporte.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.Main.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmImprimirArqueo.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmClientesMenu.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmCtaDiaMenu.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmIncobrablesMenu.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.AguiResources.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmLoader.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aguiñagalde.Aplicacion.frmNewKey.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Cuentas Corrientes.TrustInfo.xml
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Cuentas Corrientes.exe.manifest
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Cuentas Corrientes.application
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Cuentas Corrientes.exe
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\x86\Debug\Cuentas Corrientes.pdb

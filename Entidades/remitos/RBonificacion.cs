@@ -8,11 +8,6 @@ namespace Aguiñagalde.Entidades
 {
     public class RBonificacion : Remito
     {
-        
-      
-        
-
-
 
         public RBonificacion(string xSerie, DateTime xFecha, Moneda xMoneda, int xZ, string xCaja, int xCodTarifa, int xCodVendedor, ClienteActivo xCliente, List<LineaRemito> xLineas, string xComentario)
             : base(xSerie, xFecha, xMoneda, xCliente, xLineas, xCodTarifa, xComentario, xCodVendedor)
@@ -35,7 +30,6 @@ namespace Aguiñagalde.Entidades
             {
                 zSuma += L.Total();
             }
-            zSuma = Math.Abs(zSuma) * -1;
             return decimal.Round(zSuma, 2);
         }
 
@@ -44,9 +38,9 @@ namespace Aguiñagalde.Entidades
             decimal zSuma = 0;
             foreach (LineaRemito L in base.Lineas)
             {
-                zSuma += L.Precio * L.Unidadestotal;
+                zSuma += L.Precio * Math.Abs(L.Unidadestotal);
             }
-            zSuma = Math.Abs(zSuma) * -1;
+            zSuma = Math.Abs(zSuma) ;
             return decimal.Round(zSuma, 2);
         }
 
@@ -55,9 +49,8 @@ namespace Aguiñagalde.Entidades
             decimal zSuma = 0;
             foreach (LineaRemito L in base.Lineas)
             {
-                zSuma += -(Math.Abs(L.Total()) - Math.Abs(L.Precio));
+                zSuma += L.Total() - L.Precio;
             }
-            zSuma = Math.Abs(zSuma) * -1;
             return zSuma;
         }
 
@@ -83,8 +76,7 @@ namespace Aguiñagalde.Entidades
             {
                 zSuma += L.Costeiva;
             }
-            zSuma = Math.Abs(zSuma) * -1;
-            return Math.Abs(zSuma);
+            return zSuma;
         }
 
         public override bool CFE()

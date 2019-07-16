@@ -1,0 +1,4 @@
+C:\Users\alai\Source\Repos\Cuentas\Entidades\bin\x86\Release\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\Entidades\bin\x86\Release\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\Entidades\obj\x86\Release\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\Entidades\obj\x86\Release\Entidades.pdb

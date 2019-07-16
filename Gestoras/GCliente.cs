@@ -28,6 +28,10 @@ namespace Aguiñagalde.Gestoras
 
         private int _TopeMinimo = 1000;
 
+        public void Update()
+        {
+            DTClientes = (DataTable)SQL.ObtenerClientes();
+        }
 
         private GCliente(){
 
@@ -60,6 +64,11 @@ namespace Aguiñagalde.Gestoras
         public DataTable DetalleFactura(string xSerie,int xNumero)
         {
             return (DataTable)SQL.DetalleFactura(xSerie, xNumero);
+        }
+
+        public DataTable getClientesIncobrables()
+        {
+            return (DataTable)SQL.getClientesIncobrables();
         }
 
         private static GCliente _Instance = null;
@@ -234,6 +243,11 @@ namespace Aguiñagalde.Gestoras
             return Obj;
         }
 
+        internal void setEnvioEmail(int idCliente)
+        {
+            SQL.setEnvioEmail(idCliente);
+        }
+
         public List<ClienteActivo> getAll()
         {
 
@@ -392,15 +406,18 @@ namespace Aguiñagalde.Gestoras
             if(xCliente.CamposLibres.Email != null && xCliente.CamposLibres.Email.Length > 60)
                 throw new Exception("El email es demasiado largo");
 
+            if (xCliente.CamposLibres.Descuento < 0)
+                xCliente.CamposLibres.Descuento = 0;
 
             List<object> xListaCambio = new List<object>();
-
+            
             if (!GEmpresa.getInstance().Clave(xClave) && !GCobros.getInstance().Caja.Usuario.Permiso(5))
             {
                 xCliente.IsBloqueo = xAnterior.IsBloqueo;
                 xCliente.isMonedaUnica = xAnterior.isMonedaUnica;
                 xCliente.isOrden = xAnterior.isOrden;
                 xCliente.SoloTitular = xAnterior.SoloTitular;
+                xCliente.CamposLibres.Descuento = xAnterior.CamposLibres.Descuento;
                 SQL.Update(xCliente);
                 return 0;
             }

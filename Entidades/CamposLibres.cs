@@ -25,6 +25,7 @@ namespace Aguiñagalde.Entidades
         private string _ConyugeCargo;
         private string _ConyugeAntiguedad;
         private string _Conyuge;
+        private decimal _Descuento;
 
         public string Conyuge
         {
@@ -154,6 +155,12 @@ namespace Aguiñagalde.Entidades
         public CamposLibres(int xCodCliente)
         {
             _codCliente = xCodCliente;
+        }
+
+        public decimal Descuento
+        {
+            get { return _Descuento; }
+            set { _Descuento = value; }
         }
     }
 }

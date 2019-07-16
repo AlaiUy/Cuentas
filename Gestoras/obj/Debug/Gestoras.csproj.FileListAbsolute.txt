@@ -383,6 +383,8 @@ C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.CrystalRe
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.Shared.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.Windows.Forms.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\SpreadsheetLight.dll
+C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\MySql.Data.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
@@ -408,6 +410,7 @@ C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\SQL.pdb
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\XMLManager.pdb
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\EntityFramework.xml
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alai\Source\Repos\Cuentas\Gestoras\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\obj\Debug\Gestoras.csprojResolveAssemblyReference.cache
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\obj\Debug\Gestoras.dll
 C:\Users\alai\Source\Repos\Cuentas\Gestoras\obj\Debug\Gestoras.pdb

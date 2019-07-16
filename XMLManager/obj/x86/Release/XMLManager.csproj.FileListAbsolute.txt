@@ -1,0 +1,8 @@
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\x86\Release\XMLManager.dll
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\x86\Release\XMLManager.pdb
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\x86\Release\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\bin\x86\Release\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\x86\Release\Aguiñagalde.XMLManager.Properties.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\x86\Release\XMLManager.csproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\x86\Release\XMLManager.dll
+C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\x86\Release\XMLManager.pdb

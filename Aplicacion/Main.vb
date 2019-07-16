@@ -95,13 +95,7 @@ Public Class Main
         sender.FlatStyle = Windows.Forms.FlatStyle.Standard
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim fClientesMenu As New frmMenuClientes("I")
-        fClientesMenu.TopLevel = False
-        fClientesMenu.FormBorderStyle = Windows.Forms.FormBorderStyle.None
-        PanelCentral.Controls.Add(fClientesMenu)
-        fClientesMenu.Show()
-    End Sub
+
 
     Private Sub MainHeader_Paint(sender As Object, e As Windows.Forms.PaintEventArgs) Handles MainHeader.Paint
 
@@ -162,5 +156,13 @@ Public Class Main
         fDiaMenu.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         PanelCentral.Controls.Add(fDiaMenu)
         fDiaMenu.Show()
+    End Sub
+
+    Private Sub btnInformes_Click(sender As Object, e As EventArgs) Handles btnInformes.Click
+        Dim fClientesMenu As New frmMenuListados()
+        fClientesMenu.TopLevel = False
+        fClientesMenu.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+        PanelCentral.Controls.Add(fClientesMenu)
+        fClientesMenu.Show()
     End Sub
 End Class

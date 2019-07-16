@@ -206,6 +206,7 @@ namespace Aguiñagalde.SQL
 
             /* +++ parametros para tabla camposlibres +++ */
             Lista.Add(new SqlParameter("@INGRESOS", C.CamposLibres.Ingresos));
+            Lista.Add(new SqlParameter("@DTO", C.CamposLibres.Descuento));
             Lista.Add(new SqlParameter("@VEHICULOS", C.CamposLibres.Vehiculos.ToUpper()));
             Lista.Add(new SqlParameter("@CCARGO", C.CamposLibres.ConyugeCargo.ToUpper()));
             Lista.Add(new SqlParameter("@CANTIGUEDAD", C.CamposLibres.ConyugeAntiguedad.ToUpper()));
@@ -258,7 +259,7 @@ namespace Aguiñagalde.SQL
                         Command.CommandText = Query;
                         ExecuteNonQuery(Command, Lista);
                         Query = "SET ansi_warnings OFF; ";
-                        Query = Query + "UPDATE CLIENTESCAMPOSLIBRES SET ACTIVIDAD=@ACTIVIDAD,INGRESOS=@INGRESOS,CARGO=@CARGO,ESTADO_CIVIL=@CIVIL,CONYUGE=@CONYUGE,ACTIVIDAD1=@CACTIVIDAD,INGRESOS1=@CINGRESOS,ALQUILER=@ALQUILER,BIENES=@BIENES,VEHICULOS=@VEHICULOS,TARJ_CREDITO=@PLASTICOS,REF_COMERCIALES=@COMERCIALES,OBSERVACIONES_=@OBSERVACIONES,OBSERVACIONES1=@OOBSERVACIONES,MAIL=@EMAIL WHERE CODCLIENTE = @CODCLIENTE";
+                        Query = Query + "UPDATE CLIENTESCAMPOSLIBRES SET ACTIVIDAD=@ACTIVIDAD,INGRESOS=@INGRESOS,CARGO=@CARGO,ESTADO_CIVIL=@CIVIL,CONYUGE=@CONYUGE,ACTIVIDAD1=@CACTIVIDAD,INGRESOS1=@CINGRESOS,ALQUILER=@ALQUILER,BIENES=@BIENES,VEHICULOS=@VEHICULOS,TARJ_CREDITO=@PLASTICOS,REF_COMERCIALES=@COMERCIALES,OBSERVACIONES_=@OBSERVACIONES,OBSERVACIONES1=@OOBSERVACIONES,MAIL=@EMAIL,DTO = @DTO WHERE CODCLIENTE = @CODCLIENTE";
                         Command.CommandText = Query;
                         ExecuteNonQuery(Command);
                         Query = "UPDATE TARIFASCLIENTE SET IDTARIFAV = @IDTARIFA,DESCRIPCION = @TARIFADES where codcliente = @CODCLIENTE";
@@ -402,7 +403,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(CONVERT(VARCHAR(8),C.CODCLIENTE),'') CODIGO, ISNULL(C.TIPO,7) AS TIPO, ISNULL(C.ZONA,99) AS ZONA, ISNULL(C.ALIAS,'') AS CEDULA,ISNULL(C.CIF,'') as RUT,ISNULL(C.NOMBRECLIENTE,'') NOMBRE,ISNULL(C.DIRECCION1,'') AS DIRECCION,ISNULL(CONVERT(VARCHAR(8),C.TELEFONO1),'') AS TELEFONO,ISNULL(CONVERT(VARCHAR(9),C.TELEFONO2),'') AS CELULAR,ISNULL(L.MAIL,' ') AS EMAIL,ISNULL(C.NUMTARJETA,' ') AS RUTA FROM  CLIENTES C INNER JOIN CLIENTESCAMPOSLIBRES L ON C.CODCLIENTE = L.CODCLIENTE WHERE (C.TIPO > 0) and C.DESCATALOGADO = 'F'", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(CONVERT(VARCHAR(8),C.CODCLIENTE),'') CODIGO, ISNULL(C.TIPO,7) AS TIPO, ISNULL(C.ZONA,99) AS ZONA, ISNULL(C.ALIAS,'') AS CEDULA,ISNULL(C.CIF,'') as RUT,ISNULL(C.NOMBRECLIENTE,'') NOMBRE,ISNULL(C.DIRECCION1,'') AS DIRECCION,ISNULL(CONVERT(VARCHAR(8),C.TELEFONO1),'') AS TELEFONO,ISNULL(CONVERT(VARCHAR(9),C.TELEFONO2),'') AS CELULAR,ISNULL(L.MAIL,' ') AS EMAIL,ISNULL(C.NUMTARJETA,' ') AS RUTA,ISNULL(L.EMAILENVIADO,0) AS EMAILENVIADO FROM  CLIENTES C INNER JOIN CLIENTESCAMPOSLIBRES L ON C.CODCLIENTE = L.CODCLIENTE WHERE (C.TIPO > 0) and C.DESCATALOGADO = 'F'", (SqlConnection)Con))
                 {
                     DT.Load(ExecuteReader(Com));
                 }
@@ -1103,7 +1104,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT top 1 ACTIVIDAD,REF_COMERCIALES,ANTIGUEDAD,OBSERVACIONES_,OBSERVACIONES1,TARJ_CREDITO,MAIL,VEHICULOS,BIENES,ESTADO_CIVIL,ALQUILER,INGRESOS1,ACTIVIDAD1,CARGO,INGRESOS,CONYUGE FROM CLIENTESCAMPOSLIBRES WHERE CODCLIENTE = @CODCLIENTE", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT top 1 ISNULL(DTO,0) AS DTO,ACTIVIDAD,REF_COMERCIALES,ANTIGUEDAD,OBSERVACIONES_,OBSERVACIONES1,TARJ_CREDITO,MAIL,VEHICULOS,BIENES,ESTADO_CIVIL,ALQUILER,INGRESOS1,ACTIVIDAD1,CARGO,INGRESOS,CONYUGE FROM CLIENTESCAMPOSLIBRES WHERE CODCLIENTE = @CODCLIENTE", (SqlConnection)Con))
                 {
                     Com.Parameters.Add(new SqlParameter("@CODCLIENTE", xCodCliente));
                     using (IDataReader Reader = ExecuteReader(Com))
@@ -1127,7 +1128,7 @@ namespace Aguiñagalde.SQL
             using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
             {
                 Con.Open();
-                using (SqlCommand Com = new SqlCommand("SELECT CODCLIENTE,ACTIVIDAD,REF_COMERCIALES,ANTIGUEDAD,OBSERVACIONES_,OBSERVACIONES1,TARJ_CREDITO,MAIL,VEHICULOS,BIENES,ESTADO_CIVIL,ALQUILER,INGRESOS1,ACTIVIDAD1,CARGO,INGRESOS,CONYUGE FROM CLIENTESCAMPOSLIBRES", (SqlConnection)Con))
+                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(DTO,0) AS DTO,CODCLIENTE,ACTIVIDAD,REF_COMERCIALES,ANTIGUEDAD,OBSERVACIONES_,OBSERVACIONES1,TARJ_CREDITO,MAIL,VEHICULOS,BIENES,ESTADO_CIVIL,ALQUILER,INGRESOS1,ACTIVIDAD1,CARGO,INGRESOS,CONYUGE FROM CLIENTESCAMPOSLIBRES", (SqlConnection)Con))
                 {
                     using (IDataReader Reader = ExecuteReader(Com))
                     {
@@ -1165,6 +1166,7 @@ namespace Aguiñagalde.SQL
                 Temporal.ConyugeActividad = (string)(Reader["ACTIVIDAD1"] is DBNull ? string.Empty : Reader["ACTIVIDAD1"]);
                 Temporal.Cargo = (string)(Reader["CARGO"] is DBNull ? string.Empty : Reader["CARGO"]);
                 Temporal.Ingresos = (int)(Reader["INGRESOS"] is DBNull ? 0 : Reader["INGRESOS"]);
+                Temporal.Descuento = Convert.ToDecimal(Reader["DTO"] is DBNull ? 0 : Reader["DTO"]);
 
             }
             catch (Exception ex)
@@ -1271,7 +1273,7 @@ namespace Aguiñagalde.SQL
 
                 int ID = (int)(Reader["ID"]);
                 if (xCP == null)
-                    xCP = new CamposLibres(ID);
+                    xCP = new CamposLibres(-1);
 
                 string nombre = (string)(Reader["NOMBRE"] is DBNull ? string.Empty : Reader["NOMBRE"]);
                 string Cedula = (string)(Reader["CEDULA"] is DBNull ? string.Empty : Reader["CEDULA"]);
@@ -1307,7 +1309,7 @@ namespace Aguiñagalde.SQL
                 Temporal.Fecha = Convert.ToDateTime((Reader["FECHAN"] is DBNull ? DateTime.MinValue : Reader["FECHAN"]));
                 Temporal.Interno = getDBoolean((string)(Reader["TIPOINTERNO"] is DBNull ? bool.FalseString : Reader["TIPOINTERNO"]));
                 Temporal.SoloTitular = getDBoolean((string)(Reader["SOLOTITULAR"] is DBNull ? bool.FalseString : Reader["SOLOTITULAR"]));
-
+                Temporal.CamposLibres.Descuento  = Convert.ToDecimal((Reader["DTO"] is DBNull ? 0 : Reader["DTO"]));
             }
             catch (Exception ex)
             {
@@ -1560,6 +1562,33 @@ namespace Aguiñagalde.SQL
                 }
             }
             return Clientes;
+        }
+
+        public void setEnvioEmail(int idCliente)
+        {
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("UPDATE CLIENTESCAMPOSLIBRES SET EMAILENVIADO = 1 WHERE CODCLIENTE = @CODIGO", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@CODIGO", idCliente));
+                    ExecuteNonQuery(Com);
+                }
+            }
+        }
+
+        public DataTable getClientesIncobrables()
+        {
+            DataTable DT = new DataTable();
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("select c.codcliente,c.nombrecliente,cast(T1.SUMA as decimal(18,2)) as suma from clientes c INNER JOIN (SELECT T.CODIGOINTERNO,SUM(T.IMPORTE*FACTORMONEDA) as SUMA FROM TESORERIA T WHERE  origen= 'C' AND T.TIPODOCUMENTO = 'F' AND T.ESTADO = 'P' group by T.CODIGOINTERNO HAVING SUM(T.IMPORTE*FACTORMONEDA) > 1) AS T1 ON C.CODCLIENTE = T1.CODIGOINTERNO where c.tipo = 7 ORDER BY C.CODCLIENTE DESC", (SqlConnection)Con))
+                {
+                    DT.Load(ExecuteReader(Com));
+                }
+            }
+            return DT;
         }
 
 

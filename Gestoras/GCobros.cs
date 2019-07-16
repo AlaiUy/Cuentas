@@ -509,6 +509,98 @@ namespace Aguiñagalde.Gestoras
             }
         }
 
+
+        public void ConversionMoneda(ClienteActivo xClienteOrigen, MovimientoGeneral xMovimiento, ClienteActivo xClienteDestino, Moneda xMonedaDestino)
+        {
+            if (xClienteOrigen == null)
+                throw new Exception("Debe ingresar un cliente de origen");
+
+            if (xMovimiento == null)
+                throw new Exception("No ingreso un importe a enviar");
+
+            if (xClienteDestino == null)
+                throw new Exception("No ingreso un cliente de destino");
+
+            if(xMonedaDestino == null)
+                throw new Exception("No se ha indicado a que moneda se hace el cambio");
+
+            if(xClienteOrigen.IdCliente == xClienteDestino.IdCliente && xMovimiento.Moneda.Codmoneda == xMonedaDestino.Codmoneda)
+                throw new Exception("No se puede realizar este movimiento, es innecesario");
+
+            if(xMovimiento.Importe >= 0)
+                throw new Exception("El importe origen debe ser menor a 0");
+
+            decimal Cotizacion = _Caja.Cotizacion;
+            decimal CotizacionDestino;
+            decimal CotizacionOrigen;
+
+            if (xMonedaDestino.Codmoneda == 2)
+            {
+                CotizacionDestino = _Caja.Cotizacion;
+            }
+            else
+            {
+                CotizacionDestino = 1;
+            }
+
+            if (xMovimiento.Moneda.Codmoneda == 1)
+                CotizacionOrigen = 1;
+            else
+                CotizacionOrigen = _Caja.Cotizacion;
+
+
+
+            decimal ImporteDestino = 0;
+
+            if (xMovimiento.Moneda.Codmoneda == xMonedaDestino.Codmoneda)
+                ImporteDestino = xMovimiento.Importe;
+            else if (xMovimiento.Moneda.Codmoneda == 1)
+                ImporteDestino = Math.Abs(xMovimiento.Importe) / Cotizacion;
+            else
+                ImporteDestino = Math.Abs(xMovimiento.Importe) * Cotizacion;
+
+            string Serie; 
+            int Z = GCobros.getInstance().Caja.Z;
+            string Caja = GCobros.getInstance().Caja.Id;
+            int xFormaPago = -1;
+
+            if (xMovimiento.Moneda.Codmoneda == 1)
+                xFormaPago = 2;
+            else
+                xFormaPago = 107;
+
+            // Serie Debito
+            Serie = _Caja.Debito;
+            LineaRemito Linea = CrearLinea(1,Math.Abs(xMovimiento.Importe), 72419, "AJUSTECTA", Serie, Z, Caja, xMovimiento.Moneda.Codmoneda, "Conversion de moneda");
+            List<LineaRemito> Lineas = new List<LineaRemito>();
+            Lineas.Add(Linea);
+
+            RDebito Origen = new RDebito(Serie, DateTime.Today, xMovimiento.Moneda, Z, Caja, 2, _Caja.Usuario.CodVendedor, xClienteOrigen,Lineas, "Conversion de moneda", xFormaPago, 7);
+            Origen.FactorMoneda = CotizacionOrigen;
+            Origen.IS = xClienteOrigen.getSubCuentaCatalogada();
+            if (Origen.IS == null)
+                throw new Exception("No se encontro una subcuenta");           
+
+
+            // Serie Bonificacion
+            Serie = _Caja.SerieDescuento;
+            Linea = CrearLinea(-1,ImporteDestino, 72419, "AJUSTECTA", Serie, Z, Caja, xMonedaDestino.Codmoneda, "Conversion de moneda");
+            Lineas = new List<LineaRemito>();
+            Lineas.Add(Linea);
+
+            RBonificacion BonificacionDestino = new RBonificacion(Serie, DateTime.Today, xMonedaDestino, Z, Caja, 2, _Caja.Usuario.CodVendedor, xClienteDestino, Lineas, "Conversion de moneda");
+            BonificacionDestino.FactorMoneda = CotizacionDestino;
+            BonificacionDestino.IS = xClienteOrigen.getSubCuentaCatalogada();
+            if (BonificacionDestino.IS == null)
+                throw new Exception("No se encontro una subcuenta");
+
+            List<object> Documentos = new List<object>();
+            Documentos.Add(Origen);
+            Documentos.Add(BonificacionDestino);
+            PrintAndSaveRemitos(Documentos, false, -1);
+        }
+
+
         #endregion 
         public bool Debitar(decimal xImporte, ClienteActivo xCliente, Moneda xMoneda, SubCuenta SC, string xComentario, bool xImprimir,string xTextoLinea)
         {
@@ -644,25 +736,72 @@ namespace Aguiñagalde.Gestoras
             return Mora;
         }
 
+        private LineaRemito CrearLinea(decimal xUnidades,decimal xImporte,int xCodigoLinea,string xReferenciaProveedor,string xSerie,int xZ,string xCaja,int xCodMoneda,string xDescripcionLinea)
+        {
+            List<LineaRemito> Lineas = new List<LineaRemito>();
+            LineaRemito Linea = new LineaRemito(xCodigoLinea, xReferenciaProveedor);
+            string Serie = xSerie;
+            int Z = xZ;
+            string Caja = xCaja;
 
+            int xCodFormaPago, xTipoPago = 0;
+
+            if (xCodMoneda == 1)
+                xCodFormaPago = 2;
+            else
+                xCodFormaPago = 107;
+
+
+            xTipoPago = 7;
+            Linea.N = 'B';
+            Linea.NumLin = 1;
+            Linea.Descripcion = xDescripcionLinea;
+            Linea.Color = ".";
+            Linea.Talla = ".";
+            Linea.Iva = 22;
+            Linea.Unid1 = xUnidades;
+            Linea.Unid2 = xUnidades;
+            Linea.Unid3 = xUnidades;
+            Linea.Unid4 = xUnidades;
+            Linea.Unidadestotal = xUnidades;
+            Linea.Precio = xImporte / Convert.ToDecimal(1.22);
+            Linea.Dto = 0;
+            Linea.Precioiva = Linea.Total();
+            Linea.Tipoimpuesto = 1;
+            Linea.Codtarifa = 10;
+            Linea.CodAlmacen = "LB";
+            Linea.Precioiva = xImporte;
+            Linea.Udsexpansion = xUnidades;
+            Linea.Expandida = 'F';
+            Linea.Totalexpansion = xImporte;
+            Linea.Costeiva = 0;
+            Linea.Fechaentrega = DateTime.Today;
+            Linea.Numkgentrega = 0;
+            Linea.NumLin = Lineas.Count();
+            Linea.CodMoneda = 1;
+            Linea.Serie = Serie;
+            return Linea;
+        }
 
         private void PrintAndSaveRemitos(List<object> xList, bool xImprimir, int xNumRecibo)
         {
-            foreach (object o in xList)
+            Remito Re;
+            try
             {
-                try
+                foreach (object o in xList)
                 {
-                    Remito Re = (Remito)o;
+                
+                    Re = (Remito)o;
                     Re.Recibo = xNumRecibo;
                     Re.SerieRecibo = _Caja.Recibos;
                     Re.Caja = _Caja.Id;
                     Re.Z = Caja.Z;
-                    int NumeroRemito = DBCobros.GenerarRemitos(Re, _Caja.Usuario, Claves,_Caja,xImprimir);
                 }
-                catch (Exception e)
-                {
-                    throw new Exception(e.Message + " -- " + "Print And Save");
-                }
+                DBCobros.GenerarRemitos(xList, _Caja.Usuario, Claves, _Caja, xImprimir);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message + " -- "  + "Print And Save");
             }
         }
 

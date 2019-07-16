@@ -1,5 +1,6 @@
 ﻿Imports System.Collections.Generic
 Imports System.Data
+Imports System.Globalization
 Imports System.Linq
 Imports System.Net.Mail
 Imports System.Windows.Forms
@@ -15,6 +16,9 @@ Public Class frmEmailMasivo
 
 
     Private Sub btngetClientes_Click(sender As Object, e As EventArgs) Handles btngetClientes.Click
+        If Not IsNothing(tClientes) Then
+            GCliente.Instance().Update()
+        End If
         tClientes = GCliente.Instance().TablaClientes
         dgClientes.DataSource = tClientes
     End Sub
@@ -24,7 +28,7 @@ Public Class frmEmailMasivo
         Try
 
             tClientes = (From Cliente In tClientes.AsEnumerable()
-                         Where Cliente("EMAIL").Contains("@") And (Cliente("TIPO") <> 7 And Cliente("TIPO") <> 20) And (Cliente("ZONA") <> "99" And Cliente("ZONA") <> "69")
+                         Where Cliente("EMAIL").Contains("@") And (Cliente("TIPO") <> 7 And Cliente("TIPO") <> 20) And (Cliente("ZONA") <> "99" And Cliente("ZONA") <> "69") And (Not Cliente("EMAIL").Contains(";") Or Cliente("EMAIL").Contains(",")) And Cliente("EMAILENVIADO") = 0
                          Select Cliente).CopyToDataTable()
             dgClientes.DataSource = tClientes
             lblCantidad.Text = "cuentas: " & dgClientes.Rows.Count
@@ -56,11 +60,40 @@ Public Class frmEmailMasivo
         Catch ex As Exception
 
         End Try
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         For Each r As DataGridViewRow In dgClientes.SelectedRows
             dgClientes.Rows.Remove(r)
         Next
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim Lista As List(Of String) = New List(Of String)
+        Dim body As String = "Adjuntamos un comunicado para nuestros clientes."
+        Try
+            For Each Row As DataGridViewRow In dgClientes.Rows
+                Dim email As String = Row.Cells("EMAIL").Value
+                Lista.Add(email)
+
+            Next
+            GEmpresa.getInstance().EnvioECMensual(Lista, "C:\Com\1.pdf", "COMUNICADO.pdf", "COMUNICADO", body)
+            MsgBox("El correo fue enviado correctamente", vbOKOnly, "Exito!")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub dgClientes_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgClientes.CellContentClick
+
+    End Sub
+
+    Private Sub dgClientes_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgClientes.CellClick
+        Dim zSuma As Decimal = 0
+        For Each Row As DataGridViewRow In dgClientes.SelectedRows
+            zSuma += 1
+        Next
+        Label2.Text = zSuma
     End Sub
 End Class

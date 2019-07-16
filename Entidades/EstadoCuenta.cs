@@ -13,7 +13,7 @@ namespace Aguiñagalde.Entidades
     {
         private Persona _Cliente;
         private DateTime _fecha, _hasta;
-        private decimal _AnteriorPesos, _DescuentoPesos, _AnteriorDolares, _DescuentoDolares, _VencidoPesos, _VencidoDolares = 0;
+        private decimal _AnteriorPesos = 0, _DescuentoPesos = 0, _AnteriorDolares = 0, _DescuentoDolares = 0, _VencidoPesos = 0, _VencidoDolares = 0;
         private decimal _PendientePesos;
         private decimal _PendienteDolares;
         private decimal _MoraPesos, _MoraDolares;
@@ -314,13 +314,13 @@ namespace Aguiñagalde.Entidades
             RowAnterior["Movimiento"] = "Saldo anterior...";
             if (_AnteriorPesos != 0)
             {
-                RowAnterior["IMPORTE"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _AnteriorPesos);
+                RowAnterior["TOTAL PESOS"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _AnteriorPesos);
                 Agregar = true;
 
             }
             if (_AnteriorDolares != 0)
             {
-                RowAnterior["IMPORTE"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _AnteriorDolares);
+                RowAnterior["TOTAL DOLARES"] = String.Format(CultureInfo.InvariantCulture, "{0:0,0.00}", _AnteriorDolares);
                 Agregar = true;
             }
 

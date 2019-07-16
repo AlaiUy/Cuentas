@@ -23,6 +23,8 @@ Partial Class frmEmailMasivo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnEnviar = New System.Windows.Forms.Button()
         Me.lblCantidad = New System.Windows.Forms.Label()
         Me.btnFiltro = New System.Windows.Forms.Button()
@@ -30,7 +32,7 @@ Partial Class frmEmailMasivo
         Me.dgClientes = New System.Windows.Forms.DataGridView()
         Me.btngetClientes = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.dgClientes, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -42,6 +44,8 @@ Partial Class frmEmailMasivo
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.btnEnviar)
         Me.Panel1.Controls.Add(Me.lblCantidad)
@@ -53,6 +57,24 @@ Partial Class frmEmailMasivo
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1037, 446)
         Me.Panel1.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(575, 14)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "Label2"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(321, 8)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Borrar"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'btnEnviar
         '
@@ -124,14 +146,16 @@ Partial Class frmEmailMasivo
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Obtener Clientes"
         '
-        'Button1
+        'Button2
         '
-        Me.Button1.Location = New System.Drawing.Point(321, 8)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Borrar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button2.Enabled = False
+        Me.Button2.Location = New System.Drawing.Point(933, 414)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Enviar Comunicado"
+        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Visible = False
         '
         'frmEmailMasivo
         '
@@ -161,4 +185,6 @@ Partial Class frmEmailMasivo
     Friend WithEvents lblCantidad As Windows.Forms.Label
     Friend WithEvents btnEnviar As Windows.Forms.Button
     Friend WithEvents Button1 As Windows.Forms.Button
+    Friend WithEvents Label2 As Windows.Forms.Label
+    Friend WithEvents Button2 As Windows.Forms.Button
 End Class

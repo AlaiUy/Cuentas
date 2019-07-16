@@ -1,0 +1,9 @@
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\x86\Release\WebServices.dll.config
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\x86\Release\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\x86\Release\WebServices.XmlSerializers.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\x86\Release\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\x86\Release\Aguiñagalde.WebServices.Properties.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\x86\Release\WebServices.csproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\x86\Release\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\x86\Release\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\x86\Release\WebServices.XmlSerializers.dll

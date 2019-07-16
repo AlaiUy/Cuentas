@@ -1,4 +1,6 @@
 ﻿Imports System.Collections.Generic
+Imports System.Data
+Imports System.Data.SqlClient
 Imports System.Windows.Forms
 Imports Aguiñagalde.Entidades
 Imports Aguiñagalde.Gestoras
@@ -85,4 +87,6 @@ Public Class frmImprimirFacturas
             btnBuscar.PerformClick()
         End If
     End Sub
+
+
 End Class

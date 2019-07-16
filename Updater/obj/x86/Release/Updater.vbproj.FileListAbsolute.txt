@@ -1,0 +1,11 @@
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\x86\Release\Updater.exe
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\x86\Release\Updater.pdb
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\x86\Release\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\x86\Release\DotNetZip.dll
+C:\Users\alai\Source\Repos\Cuentas\Updater\bin\x86\Release\DotNetZip.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.frmUpMain.resources
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.vbproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.exe
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.xml
+C:\Users\alai\Source\Repos\Cuentas\Updater\obj\x86\Release\Updater.pdb

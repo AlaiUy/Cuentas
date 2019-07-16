@@ -165,8 +165,9 @@ namespace Aguiñagalde.Gestoras
                                     {
                                         MailSetup.To.Add(C.CamposLibres.Email);
                                         SMTP.Send(MailSetup);
+                                        GCliente.Instance().setEnvioEmail(C.IdCliente);
                                     }
-                                    catch (Exception)
+                                    catch (Exception ex)
                                     {
                                         if (File.Exists(xArchivo))
                                         {
@@ -186,9 +187,61 @@ namespace Aguiñagalde.Gestoras
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 File.Create("C:/EstadosCuentaPDF/" + idCliente + ".txt");
+            }
+        }
+
+
+        public void EnvioECMensual(List<string> xEmails, string xPath, string xAdjuntoName, string xAsunto, string xBody)
+        {
+            decimal cotizacion = GCobros.getInstance().Caja.Cotizacion;
+            string idCliente = "";
+
+            try
+            {
+                foreach (string E in xEmails)
+                {
+                    if (!E.Contains(";"))
+                    {
+                        idCliente = E;
+                        Attachment xAdjunto = new Attachment(xPath);
+                        xAdjunto.Name = xAdjuntoName;
+                        using (MailMessage MailSetup = new MailMessage())
+                        {
+                            MailSetup.Subject = xAsunto;
+
+
+                            MailSetup.From = new MailAddress("rossana@aguinagalde.com.uy");
+                            MailSetup.IsBodyHtml = true;
+
+                            MailSetup.Body = xBody;
+                            MailSetup.Attachments.Add(xAdjunto);
+                            using (SmtpClient SMTP = new SmtpClient("smtp.gmail.com"))
+                            {
+                                SMTP.Port = 587;
+                                SMTP.EnableSsl = true;
+                                SMTP.Credentials = new NetworkCredential("aguinagalderossana@gmail.com", "t0sud4cl4v3");
+                                try
+                                {
+                                    MailSetup.To.Add(E);
+                                    SMTP.Send(MailSetup);
+                                }
+                                catch (Exception exc)
+                                {
+
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+            catch (Exception Ex)
+            {
+
             }
         }
 
@@ -287,11 +340,8 @@ namespace Aguiñagalde.Gestoras
 
         public bool Clave(string xPassWord)
         {
-            if (xPassWord == "dc9cb5e08acd25a4a6cdb9e1ddaa4b2c" /* jose */ )
-
-            {
+            if (xPassWord == "dc9cb5e08acd25a4a6cdb9e1ddaa4b2c" /* cel Jose  */ )
                 return true;
-            }
             return false;
         }
     }

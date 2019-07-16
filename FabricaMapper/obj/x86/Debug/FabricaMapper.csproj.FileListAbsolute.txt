@@ -1,0 +1,14 @@
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\FabricaMapper.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\FabricaMapper.pdb
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\Interfaces.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\SQL.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\XMLManager.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\MySql.Data.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\Interfaces.pdb
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\SQL.pdb
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\Entidades.pdb
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\bin\x86\Debug\XMLManager.pdb
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\x86\Debug\FabricaMapper.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\x86\Debug\FabricaMapper.dll
+C:\Users\alai\Source\Repos\Cuentas\FabricaMapper\obj\x86\Debug\FabricaMapper.pdb

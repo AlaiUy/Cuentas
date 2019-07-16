@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 
@@ -102,7 +103,6 @@ namespace Aguiñagalde.SQL
             if (MySQL.State == System.Data.ConnectionState.Closed)
             {
                 MySQL.Open();
-                
                 DbCommand Command = new MySqlCommand("INSERT INTO clientes(nombre,direccion,telefono,telefono2,id_campania,llamar,id_client,terminado) values (@NOMBRE,@DIRECCION,@CELULAR,@ALTERNATIVO,@CAMPANIA,1,@CEDULA,0)", (MySqlConnection)MySQL);
                 ExecuteNonQuery(Command, P);
                 CerrarConexion(MySQL);

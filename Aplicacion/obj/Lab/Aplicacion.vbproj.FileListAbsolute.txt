@@ -49,3 +49,4 @@ C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\obj\Lab\Aguiñag
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\obj\Lab\Aguiñagalde.Aplicacion.frmNewKey.resources
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Aplicacion\obj\Lab\Aplicacion.vbproj.GenerateResource.Cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Aplicacion\bin\Lab\Cuentas Corrientes.exe.config
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\bin\Lab\Cuentas Corrientes.exe.config

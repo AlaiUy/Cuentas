@@ -365,7 +365,9 @@ C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\CrystalDecisions.ReportSou
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\CrystalDecisions.Shared.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\CrystalDecisions.Web.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\Entidades.dll
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\SpreadsheetLight.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\Tools.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\itextsharp.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
@@ -385,8 +387,10 @@ C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\stdole.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\Entidades.pdb
 C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\Tools.pdb
+C:\Users\alai\Source\Repos\Cuentas\Reportes\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Reportes.csprojResolveAssemblyReference.cache
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Aguiñagalde.Reportes.frmImpresion.resources
+C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Aguiñagalde.Reportes.Properties.Resources.resources
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Reportes.csproj.GenerateResource.Cache
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Reportes.dll
 C:\Users\alai\Source\Repos\Cuentas\Reportes\obj\Debug\Reportes.pdb

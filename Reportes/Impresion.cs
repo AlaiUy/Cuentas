@@ -8,6 +8,9 @@ using System.Globalization;
 using System.Collections;
 using System.Collections.Generic;
 using Aguiñagalde.Tools;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Spreadsheet;
+using SpreadsheetLight;
 
 namespace Aguiñagalde.Reportes
 {
@@ -34,14 +37,14 @@ namespace Aguiñagalde.Reportes
                         GenerarPDF(xObj, xMostar);
                         return;
                     }
-                        
+
                 }
-                
+
                 ImprimirEstadoCuenta(xObj, xMostar);
                 return;
             }
 
-          
+
 
             if (xObj is Arqueo)
             {
@@ -55,6 +58,71 @@ namespace Aguiñagalde.Reportes
             }
         }
 
+        public void export(DataTable xData, string xDestino)
+        {
+            try
+            {
+                //creamos el objeto SLDocument el cual creara el excel
+                SLDocument sl = new SLDocument();
+
+                //creamos las celdas en diagonal
+                //utilizando la función setcellvalue pueden navegar sobre el documento
+                //primer parametro es la fila el segundo la columna y el tercero el dato de la celda
+                sl.SetCellValue(1, 1, "CODIGO CLIENTE");
+                sl.SetCellValue(1, 2, "NOMBRE DEL CLIENTE");
+                sl.SetCellValue(1, 3, "IMPORTE DE LA DEUDA");
+
+                SLStyle style = sl.CreateStyle();
+                style.Font.FontSize = 14;
+                style.Font.FontColor = System.Drawing.Color.Black;
+                style.Font.Bold = true;
+                style.SetTopBorder(BorderStyleValues.DashDot, System.Drawing.Color.Blue);
+                style.SetBottomBorder(BorderStyleValues.DashDot, System.Drawing.Color.Blue);
+                sl.SetCellStyle(1, 1, style);
+                sl.SetCellStyle(1, 2, style);
+                sl.SetCellStyle(1, 3, style);
+
+                int Index = 2;
+                foreach (DataRow row in xData.Rows)
+                {
+                    sl.SetCellValue(Index, 1, row[0].ToString());
+                    sl.SetCellValue(Index, 2, row[1].ToString());
+                    sl.SetCellValue(Index, 3, row[2].ToString());
+                    style = sl.CreateStyle();
+                    style.SetHorizontalAlignment(HorizontalAlignmentValues.Right);
+                   
+                    sl.SetCellStyle(Index, 3, style);
+                    Index += 1;
+                }
+
+                sl.AutoFitColumn(1);
+                sl.AutoFitColumn(2);
+
+                sl.AutoFitColumn(3);
+
+
+                //Guardar como, y aqui ponemos la ruta de nuestro archivo
+                if (xDestino == null)
+                {
+                    sl.SaveAs("C:/INFORMES/inco.xlsx");
+                }
+                else
+                {
+                    sl.SaveAs(xDestino);
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
+
+
+
         public void ImprimirAgenda(object xAgenda)
         {
             Agenda A = (Agenda)xAgenda;
@@ -65,6 +133,11 @@ namespace Aguiñagalde.Reportes
             CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
             RP.ReportSource = rptDoc;
             frmReport.Show();
+        }
+
+        public void ImprimirN()
+        {
+
         }
 
         public void ImprimirSaldos(object xObj, bool xMostar, object xArgs)
@@ -212,10 +285,10 @@ namespace Aguiñagalde.Reportes
             rptDoc.PrintOptions.PrinterName.ToString();
             TextObject Campo;
 
-            
 
 
-            DataTable d = EC.ImpresionViejo();
+
+            System.Data.DataTable d = EC.ImpresionViejo();
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
             Campo.Text = string.Format(EC.Cliente.Nombre);
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtCuenta"];
@@ -227,10 +300,18 @@ namespace Aguiñagalde.Reportes
             rptDoc.SetDataSource(d);
             if (xMostrar)
             {
-                frmImpresion frmReport = new Reportes.frmImpresion();
-                CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
-                RP.ReportSource = rptDoc;
-                frmReport.Show();
+                try
+                {
+                    frmImpresion frmReport = new frmImpresion();
+                    CrystalReportViewer RP = (CrystalReportViewer)frmReport.Controls["RPViewer"];
+                    RP.ReportSource = rptDoc;
+                    frmReport.ShowDialog();
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+
             }
             else
             {
@@ -252,10 +333,10 @@ namespace Aguiñagalde.Reportes
             rptDoc.PrintOptions.PrinterName.ToString();
             TextObject Campo;
 
-           
+
 
             PDF fPDF = new PDF();
-            DataTable d = EC.ImpresionViejo();
+            System.Data.DataTable d = EC.ImpresionViejo();
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblNombre"];
             Campo.Text = string.Format(EC.Cliente.Nombre);
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["txtCuenta"];
@@ -265,7 +346,7 @@ namespace Aguiñagalde.Reportes
             Campo = (TextObject)rptDoc.ReportDefinition.ReportObjects["lblTelefono"];
             Campo.Text = string.Format(EC.Cliente.Telefono + "-" + EC.Cliente.Telefono);
             rptDoc.SetDataSource(d);
-            string Nombre = "C:/EstadosCuentaPDF/" + "EC" + EC.Cliente.IdCliente+".pdf";
+            string Nombre = "C:/EstadosCuentaPDF/" + "EC" + EC.Cliente.IdCliente + ".pdf";
             fPDF.ExportToPdfReport(rptDoc, "EC" + EC.Cliente.IdCliente, false);
             rptDoc.Dispose();
             SetRegion();
@@ -280,9 +361,9 @@ namespace Aguiñagalde.Reportes
             System.Threading.Thread.CurrentThread.CurrentCulture = r;
         }
 
-        private DataTable getMovimientosCP(ArqueoCP xArqueo)
+        private System.Data.DataTable getMovimientosCP(ArqueoCP xArqueo)
         {
-            DataTable Table = new DataTable("Movimientos");
+            System.Data.DataTable Table = new System.Data.DataTable("Movimientos");
             DataColumn ColSer = Table.Columns.Add("Serie", Type.GetType("System.String"));
             DataColumn ColFec = Table.Columns.Add("Fecha", Type.GetType("System.String"));
             DataColumn ColNum = Table.Columns.Add("Numero", Type.GetType("System.Int32"));
@@ -306,7 +387,7 @@ namespace Aguiñagalde.Reportes
 
         public void ImprimirPendientes(EstadoCuenta xEC, bool xMostrar)
         {
-            DataTable Table = new DataTable("Facturas");
+            System.Data.DataTable Table = new System.Data.DataTable("Facturas");
             DataColumn ColSer = Table.Columns.Add("Serie", Type.GetType("System.String"));
             DataColumn ColFec = Table.Columns.Add("Fecha", Type.GetType("System.String"));
             DataColumn ColNum = Table.Columns.Add("Numero", Type.GetType("System.String"));
@@ -392,7 +473,7 @@ namespace Aguiñagalde.Reportes
         private void ImprimirRecibo(object xRecibo, Hashtable xSaldos)
         {
             Recibo R = (Recibo)xRecibo;
-            DataTable Table = new DataTable("Recibo");
+            System.Data.DataTable Table = new System.Data.DataTable("Recibo");
             DataColumn ColSer = Table.Columns.Add("Serie", Type.GetType("System.String"));
             DataColumn ColNum = Table.Columns.Add("Numero", Type.GetType("System.String"));
             DataColumn ColPesos = Table.Columns.Add("Importe", Type.GetType("System.Decimal"));

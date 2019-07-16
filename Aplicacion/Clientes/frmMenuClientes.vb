@@ -3,6 +3,7 @@ Imports Aguiñagalde.Gestoras
 
 Public Class frmMenuClientes
     Private _Tipo As Char
+    Private btnCambioMoneda As Object
 
     Public Sub New(ByVal xTipo As Char)
 
@@ -35,6 +36,8 @@ Public Class frmMenuClientes
                 AddHandler btnAgendarCobro.Click, AddressOf btnAgendarCobro_click
                 Dim btnEnvioMail As Button = GControles.GetInstance.CrearBoton(Drawing.Color.White, "btnEnvioMail", "Email Masivo", My.Resources.SearchDocument)
                 AddHandler btnEnvioMail.Click, AddressOf btnEnvioMail_click
+                Dim btnCambioMoneda As Button = GControles.GetInstance.CrearBoton(Drawing.Color.White, "btnEnvioMail", "Cambiar Moneda", My.Resources.Transfer)
+                AddHandler btnCambioMoneda.Click, AddressOf btnCambioMoneda_click
 
                 LayoutMain.Controls.Add(btnEstadoCuenta)
                 LayoutMain.Controls.Add(btnSubCuentaNueva)
@@ -45,6 +48,7 @@ Public Class frmMenuClientes
                 LayoutMain.Controls.Add(btnImprimir)
                 LayoutMain.Controls.Add(btnAgendarCobro)
                 LayoutMain.Controls.Add(btnEnvioMail)
+                LayoutMain.Controls.Add(btnCambioMoneda)
             Case "D"
                 Dim btnBonificacion As Button = GControles.GetInstance.CrearBoton(Drawing.Color.White, "btnBonificacion", "Nuev. Bonif.", My.Resources.Bonificacion)
                 AddHandler btnBonificacion.Click, AddressOf btnBonificacion_click
@@ -82,6 +86,11 @@ Public Class frmMenuClientes
 
 
 
+    End Sub
+
+    Private Sub btnCambioMoneda_click(sender As Object, e As EventArgs)
+        Dim CM As New frmCambioMoneda()
+        CM.ShowDialog()
     End Sub
 
     Private Sub btnEnvioMail_click(sender As Object, e As EventArgs)

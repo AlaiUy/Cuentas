@@ -234,7 +234,8 @@ Public Class frmLimiteCredito
         End Try
 
 
-
+        lblCheDes.Text = String.Format("Cuenta con {0} % ", _Cliente.CamposLibres.Descuento)
+        lblCheDes.Visible = True
         txtsituacion.Text = _Cliente.Tipo()
         txtsituacion.Enabled = False
         txtsituacion.BackColor = Drawing.Color.White
@@ -382,12 +383,6 @@ Public Class frmLimiteCredito
     End Sub
 
     Private Sub txtcuenta_TextChanged(sender As Object, e As EventArgs) Handles txtcuenta.TextChanged
-
-    End Sub
-
-
-
-    Private Sub Panel7_Paint(sender As Object, e As Windows.Forms.PaintEventArgs) Handles PanelOpc.Paint
 
     End Sub
 End Class

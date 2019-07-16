@@ -14,6 +14,8 @@ namespace Aguiñagalde.Interfaces
         object getCajaByID(string xNombreMaquina,object xUser);
         List<object> getListaMonedas();
         int GenerarRemitos(object xRe, object xUsuario, object xClaves, object xCajaGeneral, bool xImprimir);
+
+        void GenerarRemitos(List<object> xRems, object xUsuario, object xClaves, object xCajaGeneral, bool xImprimir);
         object getClavesEmpresa(int xSucursal);
         object getUsuario(string xUsuario, string xPassword);
         

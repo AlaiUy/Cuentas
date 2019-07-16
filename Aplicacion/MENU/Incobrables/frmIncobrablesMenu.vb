@@ -12,4 +12,5 @@
         Dim frmBon As New frmBonificacionInco
         frmBon.ShowDialog()
     End Sub
+
 End Class
