@@ -52,4 +52,8 @@ Public Class frmUpMain : Implements IObserver
         Reader.Close()
         Return True
     End Function
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
 End Class

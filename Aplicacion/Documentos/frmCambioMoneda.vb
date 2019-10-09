@@ -93,14 +93,11 @@ Public Class frmCambioMoneda
         End If
     End Sub
 
-
-
     Private Function getMovimientoFromPendientes(ByVal xSerie As String, ByVal xNumero As Integer, ByVal xPosicion As Integer) As MovimientoGeneral
         Return _Movimientos.Find(Function(M As MovimientoGeneral) M.Serie = xSerie And M.Numero = xNumero And M.Posicion = xPosicion)
     End Function
 
     Private Sub frmCambioMoneda_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
         PopularForm()
     End Sub
 
@@ -135,14 +132,6 @@ Public Class frmCambioMoneda
         Else
             txtImporteDestino.Text = Math.Abs(_Movimiento.Importe) * Cotizacion
         End If
-
-
-
-
-
-
-
-
     End Sub
 
     Private Sub txtClienteDestino_KeyDown(sender As Object, e As KeyEventArgs) Handles txtClienteDestino.KeyDown

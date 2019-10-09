@@ -7,3 +7,7 @@ C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Controles\bin\Release\Contr
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Controles\bin\Release\Controles.pdb
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Controles\obj\Release\Controles.dll
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\Controles\obj\Release\Controles.pdb
+C:\Users\alai\Source\Repos\Cuentas\Controles\bin\Release\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\Controles\bin\Release\Controles.pdb
+C:\Users\alai\Source\Repos\Cuentas\Controles\obj\Release\Controles.dll
+C:\Users\alai\Source\Repos\Cuentas\Controles\obj\Release\Controles.pdb

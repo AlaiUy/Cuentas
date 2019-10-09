@@ -991,6 +991,7 @@ C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmTeclado.resources
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmAgendaCobros.resources
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCuentasInactivas.resources
+C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmGrilla.resources
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmMenuListados.resources
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.Main.resources
 C:\Users\alai\Source\Repos\Cuentas\Aplicacion\obj\Debug\Aguiñagalde.Aplicacion.frmCreditoDiaMain.resources

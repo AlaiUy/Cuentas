@@ -43,5 +43,7 @@ namespace Aguiñagalde.Interfaces
         int getz(Caja xCaja);
 
         object Parametros(string xNombreMaquina, List<int> Indexs);
+        bool Existevisita(string xCodCLiente, DateTime xFechaVisita);
+        DataTable getHistoria(string text);
     }
 }

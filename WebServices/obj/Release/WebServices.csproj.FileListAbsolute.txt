@@ -54,3 +54,13 @@ C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Release\Web
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Release\WebServices.dll
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Release\WebServices.pdb
 C:\Users\alai\Desktop\Jose\Src\CTAManager\CTAManager\WebServices\obj\Release\WebServices.XmlSerializers.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Release\WebServices.dll.config
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Release\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Release\WebServices.XmlSerializers.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\bin\Release\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\WebServices.csprojResolveAssemblyReference.cache
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\Aguiñagalde.WebServices.Properties.Resources.resources
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\WebServices.csproj.GenerateResource.Cache
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\WebServices.dll
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\WebServices.pdb
+C:\Users\alai\Source\Repos\Cuentas\WebServices\obj\Release\WebServices.XmlSerializers.dll

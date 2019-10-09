@@ -1268,6 +1268,40 @@ namespace Aguiñagalde.SQL
             }
             return A;
         }
+
+        public bool Existevisita(string xCodCLiente, DateTime xFechaVisita)
+        {
+            int Numero = -1;
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(COUNT(CODCLIENTE),-1) AS CODIGO FROM COBVISITAS WHERE FECVISITA = @FECHA AND CODCLIENTE = @CLIENTE", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@FECHA", xFechaVisita.ToShortDateString()));
+                    Com.Parameters.Add(new SqlParameter("@CLIENTE", xCodCLiente));
+                    Numero = (int)ExecuteScalar(Com);
+                }
+            }
+            if (Numero > 0)
+                return true;
+            return false;
+        }
+
+        public DataTable getHistoria(string text)
+        {
+            DataTable DT;
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("SELECT * FROM COBVISITAS WHERE CODCLIENTE = @CLIENTE", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@CLIENTE", text));
+                    DT = new DataTable();
+                    DT.Load(ExecuteReader(Com));
+                }
+            }
+            return DT;
+        }
     }
 }
 

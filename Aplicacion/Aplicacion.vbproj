@@ -369,6 +369,13 @@
     <Compile Include="INFORMES\frmCuentasInactivas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LeerIni.vb" />
+    <Compile Include="LISTADOS\frmGrilla.Designer.vb">
+      <DependentUpon>frmGrilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LISTADOS\frmGrilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LISTADOS\frmMenuListados.Designer.vb">
       <DependentUpon>frmMenuListados.vb</DependentUpon>
     </Compile>
@@ -576,6 +583,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="INFORMES\frmCuentasInactivas.resx">
       <DependentUpon>frmCuentasInactivas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LISTADOS\frmGrilla.resx">
+      <DependentUpon>frmGrilla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LISTADOS\frmMenuListados.resx">
       <DependentUpon>frmMenuListados.vb</DependentUpon>

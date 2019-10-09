@@ -25,7 +25,16 @@ Partial Class frmAgendaCobros
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtCodCLienteHistoria = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.btnDaily = New System.Windows.Forms.Button()
+        Me.FecDate = New System.Windows.Forms.DateTimePicker()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtDireccion = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -42,6 +51,9 @@ Partial Class frmAgendaCobros
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -56,12 +68,12 @@ Partial Class frmAgendaCobros
         Me.Panel1.Location = New System.Drawing.Point(4, 2)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(825, 473)
+        Me.Panel1.Size = New System.Drawing.Size(1019, 473)
         Me.Panel1.TabIndex = 7
         '
         'btnAgregar
         '
-        Me.btnAgregar.Location = New System.Drawing.Point(696, 439)
+        Me.btnAgregar.Location = New System.Drawing.Point(890, 439)
         Me.btnAgregar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(124, 28)
@@ -74,7 +86,7 @@ Partial Class frmAgendaCobros
         Me.Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel3.Controls.Add(Me.btnDaily)
+        Me.Panel3.Controls.Add(Me.Panel2)
         Me.Panel3.Controls.Add(Me.Label7)
         Me.Panel3.Controls.Add(Me.txtDireccion)
         Me.Panel3.Controls.Add(Me.Label5)
@@ -92,17 +104,106 @@ Partial Class frmAgendaCobros
         Me.Panel3.Location = New System.Drawing.Point(5, 4)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(815, 427)
+        Me.Panel3.Size = New System.Drawing.Size(1009, 427)
         Me.Panel3.TabIndex = 0
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.GroupBox2)
+        Me.Panel2.Controls.Add(Me.GroupBox1)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel2.Location = New System.Drawing.Point(807, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(200, 425)
+        Me.Panel2.TabIndex = 22
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Button1)
+        Me.GroupBox2.Controls.Add(Me.txtCodCLienteHistoria)
+        Me.GroupBox2.Controls.Add(Me.Label11)
+        Me.GroupBox2.Controls.Add(Me.Label10)
+        Me.GroupBox2.Location = New System.Drawing.Point(6, 152)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(190, 270)
+        Me.GroupBox2.TabIndex = 24
+        Me.GroupBox2.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(10, 110)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(174, 23)
+        Me.Button1.TabIndex = 26
+        Me.Button1.Text = "Ver!"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'txtCodCLienteHistoria
+        '
+        Me.txtCodCLienteHistoria.Location = New System.Drawing.Point(71, 73)
+        Me.txtCodCLienteHistoria.Name = "txtCodCLienteHistoria"
+        Me.txtCodCLienteHistoria.Size = New System.Drawing.Size(108, 21)
+        Me.txtCodCLienteHistoria.TabIndex = 25
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(6, 71)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(63, 19)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "Cliente:"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(37, 17)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(109, 19)
+        Me.Label10.TabIndex = 23
+        Me.Label10.Text = "Ver historial"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.btnDaily)
+        Me.GroupBox1.Controls.Add(Me.FecDate)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 5)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(190, 141)
+        Me.GroupBox1.TabIndex = 23
+        Me.GroupBox1.TabStop = False
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(13, 26)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(166, 19)
+        Me.Label9.TabIndex = 22
+        Me.Label9.Text = "Datos de impresion"
         '
         'btnDaily
         '
-        Me.btnDaily.Location = New System.Drawing.Point(714, 4)
+        Me.btnDaily.Location = New System.Drawing.Point(6, 93)
         Me.btnDaily.Name = "btnDaily"
-        Me.btnDaily.Size = New System.Drawing.Size(89, 42)
+        Me.btnDaily.Size = New System.Drawing.Size(178, 42)
         Me.btnDaily.TabIndex = 9
-        Me.btnDaily.Text = "Imprimir Agenda de Hoy"
+        Me.btnDaily.Text = "Imprimir Agenda"
         Me.btnDaily.UseVisualStyleBackColor = True
+        '
+        'FecDate
+        '
+        Me.FecDate.CustomFormat = "dd/MM/YYYY"
+        Me.FecDate.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FecDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.FecDate.Location = New System.Drawing.Point(17, 60)
+        Me.FecDate.Name = "FecDate"
+        Me.FecDate.Size = New System.Drawing.Size(158, 27)
+        Me.FecDate.TabIndex = 21
         '
         'Label7
         '
@@ -250,7 +351,7 @@ Partial Class frmAgendaCobros
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(831, 478)
+        Me.ClientSize = New System.Drawing.Size(1025, 478)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -261,6 +362,11 @@ Partial Class frmAgendaCobros
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -283,4 +389,13 @@ Partial Class frmAgendaCobros
     Friend WithEvents Label4 As Windows.Forms.Label
     Friend WithEvents txtCliente As Windows.Forms.TextBox
     Friend WithEvents Label1 As Windows.Forms.Label
+    Friend WithEvents FecDate As Windows.Forms.DateTimePicker
+    Friend WithEvents Panel2 As Windows.Forms.Panel
+    Friend WithEvents GroupBox2 As Windows.Forms.GroupBox
+    Friend WithEvents Button1 As Windows.Forms.Button
+    Friend WithEvents txtCodCLienteHistoria As Windows.Forms.TextBox
+    Friend WithEvents Label11 As Windows.Forms.Label
+    Friend WithEvents Label10 As Windows.Forms.Label
+    Friend WithEvents GroupBox1 As Windows.Forms.GroupBox
+    Friend WithEvents Label9 As Windows.Forms.Label
 End Class

@@ -1,4 +1,5 @@
-﻿Imports System.Windows.Forms
+﻿Imports System.Data
+Imports System.Windows.Forms
 Imports Aguiñagalde.Entidades
 Imports Aguiñagalde.Gestoras
 Imports Aguiñagalde.Reportes
@@ -8,7 +9,7 @@ Public Class frmAgendaCobros
 
     Private Sub btnAgregar_Click(sender As Object, e As EventArgs) Handles btnAgregar.Click
         Try
-            GCobros.getInstance.addAgendaLin(txtCliente.Text, dtvisita.Value.ToShortDateString, GCobros.getInstance.Caja.Usuario.CodUsuario, txtDireccionVisita.Text, txtComentario.Text)
+            GCobros.getInstance.addAgendaLin(txtCliente.Text, dtvisita.Value, GCobros.getInstance.Caja.Usuario.CodUsuario, txtDireccionVisita.Text, txtComentario.Text)
             MsgBox("Agenda agregada exitosamente")
             BorrarCampos()
         Catch ex As Exception
@@ -63,7 +64,7 @@ Public Class frmAgendaCobros
 
     Private Sub btnDaily_Click(sender As Object, e As EventArgs) Handles btnDaily.Click
         Try
-            Dim A As Agenda = GCobros.getInstance().getAgenda(Today.ToShortDateString)
+            Dim A As Agenda = GCobros.getInstance().getAgenda(FecDate.Value.ToShortDateString())
             Dim Imp As New Impresion()
             Imp.Imprimir(A, True, Nothing)
         Catch ex As Exception
@@ -83,5 +84,18 @@ Public Class frmAgendaCobros
                 MsgBox(ex.Message)
             End Try
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Data As DataTable = Nothing
+        Try
+            Data = GCobros.getInstance().getHistoria(txtCodCLienteHistoria.Text)
+            Dim fGrilla As Form = New frmGrilla(Data)
+            fGrilla.ShowDialog()
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+
     End Sub
 End Class

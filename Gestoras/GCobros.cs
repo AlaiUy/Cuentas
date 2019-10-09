@@ -161,6 +161,11 @@ namespace Aguiñagalde.Gestoras
             
         }
 
+        public DataTable getHistoria(string text)
+        {
+           return DBCobros.getHistoria(text);
+        }
+
         public Usuario getUsuario(string xNombre,string xPassword)
         {
             return (Usuario)DBCobros.getUsuario(xNombre, xPassword); 
@@ -210,6 +215,8 @@ namespace Aguiñagalde.Gestoras
                 throw new Exception("Debe indicar un lugar de visita");
             if (xFechaVisita == null)
                 throw new Exception("Debe indicar un dia para la visita");
+            if(DBCobros.Existevisita(xCodCLiente,xFechaVisita))
+                throw new Exception("Ya se agendo este cliente");
             try
             {
                 DBCobros.AgregarAgengaLin(xCodCLiente, xFechaVisita, xCodUsuario, xDirCobro, xComentario);
