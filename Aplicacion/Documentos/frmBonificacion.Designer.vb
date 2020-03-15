@@ -22,10 +22,11 @@ Partial Class frmBonificacion
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtComentario = New System.Windows.Forms.TextBox()
         Me.txtImporteBonificar = New System.Windows.Forms.TextBox()
@@ -71,6 +72,7 @@ Partial Class frmBonificacion
         '
         'Panel4
         '
+        Me.Panel4.Controls.Add(Me.Button1)
         Me.Panel4.Controls.Add(Me.Label5)
         Me.Panel4.Controls.Add(Me.txtComentario)
         Me.Panel4.Controls.Add(Me.txtImporteBonificar)
@@ -81,6 +83,20 @@ Partial Class frmBonificacion
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(778, 87)
         Me.Panel4.TabIndex = 1
+        '
+        'Button1
+        '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Image = Global.Aguiñagalde.Aplicacion.My.Resources.Resources.DoIt
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.Location = New System.Drawing.Point(518, 17)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 59)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Bonificar"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Visible = False
         '
         'Label5
         '
@@ -214,27 +230,27 @@ Partial Class frmBonificacion
         Me.DGMovimientos.AllowUserToResizeRows = False
         Me.DGMovimientos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DGMovimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Transparent
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGMovimientos.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Transparent
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGMovimientos.DefaultCellStyle = DataGridViewCellStyle1
         Me.DGMovimientos.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DGMovimientos.Location = New System.Drawing.Point(0, 0)
         Me.DGMovimientos.MultiSelect = False
         Me.DGMovimientos.Name = "DGMovimientos"
         Me.DGMovimientos.ReadOnly = True
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Transparent
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGMovimientos.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Transparent
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGMovimientos.RowHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DGMovimientos.RowHeadersVisible = False
         Me.DGMovimientos.RowTemplate.Height = 24
         Me.DGMovimientos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -365,4 +381,5 @@ Partial Class frmBonificacion
     Friend WithEvents txtComentario As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As Windows.Forms.Label
     Friend WithEvents chkImprimir As Windows.Forms.CheckBox
+    Friend WithEvents Button1 As Windows.Forms.Button
 End Class

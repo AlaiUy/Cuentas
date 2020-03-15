@@ -258,12 +258,19 @@ namespace Aguiñagalde.Entidades
         public decimal Total()
         {
             return _Unidadestotal * (_Precio * (1+ (_Iva / 100)));
+            
+        }
+
+        public decimal TotalConIva()
+        {
+            return _Unidadestotal * (_Precio * (1+ (_Iva / 100)));
         }
 
         public decimal PrecioDefecto()
         {
-           
-                return Math.Abs(this.Total());
+
+            //return Math.Abs(this.Total());
+            return 0;
         }
 
         public decimal TotalBruto()

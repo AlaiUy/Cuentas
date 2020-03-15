@@ -1,0 +1,12 @@
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\bin\Debug\Updater.exe
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\bin\Debug\Updater.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\bin\Debug\Updater.xml
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\bin\Debug\DotNetZip.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\bin\Debug\DotNetZip.xml
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.vbprojResolveAssemblyReference.cache
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.frmUpMain.resources
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.Resources.resources
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.vbproj.GenerateResource.Cache
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.exe
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.xml
+C:\Users\Alai\Documents\GitHub\Cuentas\Updater\obj\Debug\Updater.pdb

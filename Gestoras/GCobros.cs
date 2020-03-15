@@ -212,6 +212,11 @@ namespace Aguiñagalde.Gestoras
                 throw new Exception("Debe indicar un dia para la visita");
             try
             {
+                if (DBCobros.ExisteAgenda(xCodCLiente, xFechaVisita))
+                {
+                    throw new Exception("El Cliente ya esta agendado para esa fecha");
+                }
+                   
                 DBCobros.AgregarAgengaLin(xCodCLiente, xFechaVisita, xCodUsuario, xDirCobro, xComentario);
             }catch(Exception e)
             {
@@ -420,6 +425,52 @@ namespace Aguiñagalde.Gestoras
                 throw new Exception("Algun documento tiene una sub cuenta invalida.");
             }
         }
+
+        public bool BonificarWithLine(string xLinea,List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir)
+        {
+
+
+            if (xComentario.Length < 1)
+                throw new Exception("Hay que escribir un comentario");
+
+            if (xCliente == null)
+                throw new Exception("Hay que seleccionar un cliente");
+            if (xMoneda == null)
+                throw new Exception("Hay que seleccionar una moneda");
+
+            List<object> docs = new List<object>();
+
+            if (xMovs != null && xImporte == 0 && xSC == null)
+                docs = BonificacionesWithLine(xLinea,xMovs, xCliente, xMoneda, xComentario, TipoBonificacion.Comun);
+
+
+            if (xImporte > 0 && xSC != null)
+            {
+                decimal cotizacion = 1;
+                if (xMoneda.Codmoneda == 2)
+                    cotizacion = GCobros.getInstance().Caja.Cotizacion;
+
+                RBonificacion B;
+                if (xMovs != null && xMovs.Count > 0)
+                    B = (RBonificacion)CrearBonificacionWithLine(xLinea,xImporte, xMoneda, xCliente, xSC, xMovs, cotizacion, xComentario, TipoBonificacion.Comun);
+                else
+                    B = (RBonificacion)CrearBonificacionWithLine(xLinea, xImporte, xMoneda, xCliente, xSC, null, cotizacion, xComentario, TipoBonificacion.Comun);
+
+                if (B == null)
+                    return false;
+                docs.Add(B);
+            }
+            if (docs.Count > 0)
+            {
+                PrintAndSaveRemitos(docs, xImprimir, -1);
+                return true;
+            }
+            else
+            {
+                throw new Exception("Algun documento tiene una sub cuenta invalida.");
+            }
+        }
+
 
         public bool BonificarXML(List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, decimal xImporte, SubCuenta xSC, string xComentario, bool xImprimir, string xSerie, int xNumero)
         {
@@ -764,7 +815,7 @@ namespace Aguiñagalde.Gestoras
             Linea.Unid3 = xUnidades;
             Linea.Unid4 = xUnidades;
             Linea.Unidadestotal = xUnidades;
-            Linea.Precio = xImporte / Convert.ToDecimal(1.22);
+            Linea.Precio = Math.Abs(xImporte / Convert.ToDecimal(1.22));
             Linea.Dto = 0;
             Linea.Precioiva = Linea.Total();
             Linea.Tipoimpuesto = 1;
@@ -773,7 +824,7 @@ namespace Aguiñagalde.Gestoras
             Linea.Precioiva = xImporte;
             Linea.Udsexpansion = xUnidades;
             Linea.Expandida = 'F';
-            Linea.Totalexpansion = xImporte;
+            Linea.Totalexpansion = Math.Abs(xImporte / Convert.ToDecimal(1.22));
             Linea.Costeiva = 0;
             Linea.Fechaentrega = DateTime.Today;
             Linea.Numkgentrega = 0;
@@ -926,6 +977,77 @@ namespace Aguiñagalde.Gestoras
             return Lts;
         }
 
+
+        private List<object> BonificacionesWithLine(string xLinea,List<object> xMovs, ClienteActivo xCliente, Moneda xMoneda, string xComentario, TipoBonificacion xTipo)
+        {
+            if (xMovs.Count < 1)
+                return null;
+
+            if (xCliente == null)
+                return null;
+
+            decimal zCotizacion;
+            if (xMoneda.Codmoneda == 1)
+                zCotizacion = 1;
+            else
+                zCotizacion = GCobros.getInstance().Caja.Cotizacion;
+            List<object> Lts = new List<object>();
+
+            if (xTipo == TipoBonificacion.Incobrable && (xCliente.IdCliente > 59000 && xCliente.IdCliente < 100000))
+            {
+                if (xMovs.Count > 0)
+                {
+                    decimal zGlobal = 0;
+                    List<object> ListaGlobal = new List<object>();
+                    foreach (MovimientoGeneral M in xMovs)
+                    {
+                        zGlobal += M.Importe;
+                        ListaGlobal.Add(M);
+                    }
+                    if (zGlobal > 0)
+                    {
+                        Lts.Add(CrearBonificacionWithLine(xLinea,zGlobal, xMoneda, xCliente, new SubCuenta(xCliente.IdCliente, 1), ListaGlobal, zCotizacion, xComentario, xTipo));
+                    }
+                    return Lts;
+                }
+
+            }
+
+            foreach (SubCuenta SC in xCliente.SubCuentas)
+            {
+                decimal zGlobal = 0, zCFE = 0;
+                List<object> ListaCFEs = new List<object>();
+                List<object> ListaGlobal = new List<object>();
+                foreach (MovimientoGeneral M in xMovs)
+                {
+                    if (M.Subcta == SC.Codigo)
+                    {
+                        if (M.CFE != null)
+                        {
+                            zCFE += M.Importe;
+                            ListaCFEs.Add(M);
+                        }
+                        else
+                        {
+                            zGlobal += M.Importe;
+                            ListaGlobal.Add(M);
+                        }
+                    }
+                }
+                if (zCFE > 0)
+                {
+                    Lts.Add(CrearBonificacionWithLine(xLinea,zCFE, xMoneda, xCliente, SC, ListaCFEs, zCotizacion, xComentario, xTipo));
+                }
+                if (zGlobal > 0)
+                {
+                    Lts.Add(CrearBonificacionWithLine(xLinea,zGlobal, xMoneda, xCliente, SC, ListaGlobal, zCotizacion, xComentario, xTipo));
+                }
+
+            }
+            return Lts;
+        }
+
+
         private Remito CrearBonificacion(decimal xImporte, Moneda xMoneda, ClienteActivo xCliente, SubCuenta xSubCuenta, List<object> xMovs, decimal xFactorMoneda, string xComentario, TipoBonificacion xTipo)
         {
             string Serie = "";
@@ -994,6 +1116,74 @@ namespace Aguiñagalde.Gestoras
             return R;
         }
 
+
+        private Remito CrearBonificacionWithLine(string xLinea,decimal xImporte, Moneda xMoneda, ClienteActivo xCliente, SubCuenta xSubCuenta, List<object> xMovs, decimal xFactorMoneda, string xComentario, TipoBonificacion xTipo)
+        {
+            string Serie = "";
+            int Z = GCobros.getInstance().Caja.Z;
+            string Caja = GCobros.getInstance().Caja.Id;
+
+            List<LineaRemito> Lineas = new List<LineaRemito>();
+            LineaRemito Linea = null;
+            switch (xTipo)
+            {
+                case TipoBonificacion.Comun:
+                    Serie = "V";
+                    Linea = new LineaRemito(100001, "DESCUENTO");
+                    Linea.Descripcion = xLinea;
+                    break;
+                case TipoBonificacion.Incobrable:
+                    Serie = "V";
+                    Linea = new LineaRemito(1311, "INCOBRABLE");
+                    Linea.Descripcion = xLinea;
+                    break;
+            }
+            Linea.N = 'B';
+            Linea.Color = ".";
+            Linea.Talla = ".";
+            Linea.Iva = 22;
+            Linea.Unid1 = -1;
+            Linea.Unid2 = 1;
+            Linea.Unid3 = 1;
+            Linea.Unid4 = 1;
+            Linea.Unidadestotal = -1;
+            Linea.Precio = xImporte / Convert.ToDecimal(1.22);
+            Linea.Dto = 0;
+            Linea.Tipoimpuesto = 1;
+            Linea.Codtarifa = 2;
+            Linea.CodAlmacen = "LB";
+            Linea.Precioiva = Math.Abs(xImporte);
+            Linea.Udsexpansion = -1;
+            Linea.Expandida = 'F';
+            Linea.Totalexpansion = xImporte;
+            Linea.Costeiva = 0;
+            Linea.Fechaentrega = DateTime.Today;
+            Linea.Numkgentrega = 0;
+            Linea.NumLin = Lineas.Count() + 1;
+            Linea.CodMoneda = 1;
+            Linea.Serie = Serie;
+            Lineas.Add(Linea);
+            //22
+            Remito R = null;
+            switch (xTipo)
+            {
+                case TipoBonificacion.Comun:
+                    R = new RBonificacion(Serie, DateTime.Today, xMoneda, Z, Caja, 2, _Caja.Usuario.CodVendedor, xCliente, Lineas, xComentario);
+                    break;
+                case TipoBonificacion.Incobrable:
+                    R = new RBonificacionInco(Serie, DateTime.Today, xMoneda, Z, Caja, 2, _Caja.Usuario.CodVendedor, xCliente, Lineas, xComentario);
+                    break;
+            }
+
+            R.AgregarMovimientos(xMovs);
+            if (xSubCuenta != null)
+                R.IS = xSubCuenta;
+            else
+                R.IS = new SubCuenta(xCliente.IdCliente, 1);
+            R.FactorMoneda = xFactorMoneda;
+
+            return R;
+        }
         public void CambiarCalve(Usuario xUsuario)
         {
             if (xUsuario == null)

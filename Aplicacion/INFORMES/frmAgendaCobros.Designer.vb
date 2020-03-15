@@ -25,6 +25,10 @@ Partial Class frmAgendaCobros
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.DatePick = New System.Windows.Forms.DateTimePicker()
+        Me.btnPrintAgend = New System.Windows.Forms.Button()
         Me.btnDaily = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtDireccion = New System.Windows.Forms.TextBox()
@@ -42,6 +46,7 @@ Partial Class frmAgendaCobros
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -74,6 +79,7 @@ Partial Class frmAgendaCobros
         Me.Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Panel2)
         Me.Panel3.Controls.Add(Me.btnDaily)
         Me.Panel3.Controls.Add(Me.Label7)
         Me.Panel3.Controls.Add(Me.txtDireccion)
@@ -95,11 +101,50 @@ Partial Class frmAgendaCobros
         Me.Panel3.Size = New System.Drawing.Size(815, 427)
         Me.Panel3.TabIndex = 0
         '
+        'Panel2
+        '
+        Me.Panel2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel2.Controls.Add(Me.Label9)
+        Me.Panel2.Controls.Add(Me.DatePick)
+        Me.Panel2.Controls.Add(Me.btnPrintAgend)
+        Me.Panel2.Location = New System.Drawing.Point(591, 65)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(212, 117)
+        Me.Panel2.TabIndex = 21
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(17, 22)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(179, 13)
+        Me.Label9.TabIndex = 25
+        Me.Label9.Text = "Indique la fecha para Imprimir"
+        '
+        'DatePick
+        '
+        Me.DatePick.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DatePick.Location = New System.Drawing.Point(5, 53)
+        Me.DatePick.Name = "DatePick"
+        Me.DatePick.Size = New System.Drawing.Size(200, 21)
+        Me.DatePick.TabIndex = 24
+        '
+        'btnPrintAgend
+        '
+        Me.btnPrintAgend.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPrintAgend.Location = New System.Drawing.Point(4, 83)
+        Me.btnPrintAgend.Name = "btnPrintAgend"
+        Me.btnPrintAgend.Size = New System.Drawing.Size(203, 30)
+        Me.btnPrintAgend.TabIndex = 23
+        Me.btnPrintAgend.Text = "Imprimir Agenda "
+        Me.btnPrintAgend.UseVisualStyleBackColor = True
+        '
         'btnDaily
         '
-        Me.btnDaily.Location = New System.Drawing.Point(714, 4)
+        Me.btnDaily.Location = New System.Drawing.Point(591, 4)
         Me.btnDaily.Name = "btnDaily"
-        Me.btnDaily.Size = New System.Drawing.Size(89, 42)
+        Me.btnDaily.Size = New System.Drawing.Size(212, 55)
         Me.btnDaily.TabIndex = 9
         Me.btnDaily.Text = "Imprimir Agenda de Hoy"
         Me.btnDaily.UseVisualStyleBackColor = True
@@ -261,6 +306,8 @@ Partial Class frmAgendaCobros
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -283,4 +330,8 @@ Partial Class frmAgendaCobros
     Friend WithEvents Label4 As Windows.Forms.Label
     Friend WithEvents txtCliente As Windows.Forms.TextBox
     Friend WithEvents Label1 As Windows.Forms.Label
+    Friend WithEvents Panel2 As Windows.Forms.Panel
+    Friend WithEvents btnPrintAgend As Windows.Forms.Button
+    Friend WithEvents Label9 As Windows.Forms.Label
+    Friend WithEvents DatePick As Windows.Forms.DateTimePicker
 End Class

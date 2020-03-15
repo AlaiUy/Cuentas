@@ -67,3 +67,10 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\bin\Releas
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\Interfaces\obj\Release\Interfaces.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\bin\Release\Interfaces.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\bin\Release\Interfaces.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\bin\Release\Entidades.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\bin\Release\Entidades.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\obj\Release\Interfaces.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\Interfaces\obj\Release\Interfaces.pdb

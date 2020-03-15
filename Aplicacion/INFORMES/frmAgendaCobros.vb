@@ -84,4 +84,14 @@ Public Class frmAgendaCobros
             End Try
         End If
     End Sub
+
+    Private Sub btnPrintAgend_Click(sender As Object, e As EventArgs) Handles btnPrintAgend.Click
+        Try
+            Dim A As Agenda = GCobros.getInstance().getAgenda(DatePick.Value.ToShortDateString())
+            Dim Imp As New Impresion()
+            Imp.Imprimir(A, True, Nothing)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
 End Class

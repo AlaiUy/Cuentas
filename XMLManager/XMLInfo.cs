@@ -479,6 +479,31 @@ namespace Aguiñagalde.XMLManager
                 Writer.WriteEndElement();
                 Index += 1;
             }
+
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("DscRcgGlobal");
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("MediosPago");
+            Writer.WriteStartElement("MediosPagoItem");
+
+            Writer.WriteStartElement("MedPagNroLinMP");
+            Writer.WriteValue(1);
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("MedPagCodMP");
+            Writer.WriteValue(1);
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("MedPagGlosaMP");
+            Writer.WriteString("-");
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("MedPagOrdenMP");
+            Writer.WriteValue(1);
+            Writer.WriteEndElement();
+            Writer.WriteStartElement("MedPagValorPago");
+            Writer.WriteValue(Math.Abs(R.Importe()));
+            Writer.WriteEndElement();
+
+            Writer.WriteEndElement();
+            Writer.WriteEndElement();
             Writer.WriteEndElement();
             Writer.WriteEndElement();
             Writer.WriteEndElement();

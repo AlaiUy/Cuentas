@@ -33,6 +33,8 @@ namespace Aguiñagalde.Entidades
             return decimal.Round(zSuma, 2);
         }
 
+        
+
         public override decimal TotalBruto()
         {
             decimal zSuma = 0;
@@ -41,7 +43,7 @@ namespace Aguiñagalde.Entidades
                 zSuma += L.Precio * Math.Abs(L.Unidadestotal);
             }
             zSuma = Math.Abs(zSuma) ;
-            return decimal.Round(zSuma, 2);
+            return decimal.Round(zSuma, 2)*-1;
         }
 
         public override decimal TotalImpuestos()
@@ -51,7 +53,7 @@ namespace Aguiñagalde.Entidades
             {
                 zSuma += L.Total() - L.Precio;
             }
-            return zSuma;
+            return Math.Abs(zSuma)*-1;
         }
 
         public override decimal Costo()
@@ -61,12 +63,13 @@ namespace Aguiñagalde.Entidades
             {
                 zSuma += L.Costo;
             }
-            return Math.Abs(zSuma);
+            //return Math.Abs(zSuma);
+            return 0;
         }
 
         public override decimal TotalIva()
         {
-            return this.Importe() - this.TotalBruto();
+            return Math.Abs(this.Importe() - this.TotalBruto())*-1;
         }
 
         public override decimal TotalCostoIva()

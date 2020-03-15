@@ -285,3 +285,34 @@ C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\bin\Release\Entit
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.csprojResolveAssemblyReference.cache
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.dll
 C:\Users\alai\Desktop\CTA ANTES REPO\CTAManager\CTAManager\SQL\obj\Release\SQL.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\SQL.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\SQL.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Entidades.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\EntityFramework.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Interfaces.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Tools.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\XMLManager.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\itextsharp.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\stdole.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Entidades.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Tools.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\Interfaces.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\XMLManager.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\bin\Release\EntityFramework.xml
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\obj\Release\SQL.csprojResolveAssemblyReference.cache
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\obj\Release\SQL.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\SQL\obj\Release\SQL.pdb

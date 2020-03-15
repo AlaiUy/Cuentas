@@ -339,4 +339,46 @@ Public Class frmBonificacion
     Private Sub tbimporte_TextChanged(sender As Object, e As EventArgs) Handles tbimporte.TextChanged
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim frClave As New frmClave()
+        Dim xClave As String
+
+
+        If ObtenerSeleccionados().Count < 1 Then
+            MsgBox("Debe seleccionar algun movimiento", vbOKOnly, "Error!")
+            Return
+        End If
+        If txtComentario.Text.Length < 1 Then
+            MsgBox("Debe especificar un comentario", vbOKOnly, "Error!")
+            Return
+        End If
+        If txtComentario.Text.Length < 1 Then
+            MsgBox("Debe ingresar un comentario")
+            Return
+        End If
+        If MsgBox("Desea hacer la bonificacion", vbOKCancel, "Esta seguro") = MsgBoxResult.Cancel Then
+            Return
+        End If
+        If _Cliente.Tarifa.ID = 1 Then
+            If frClave.ShowDialog = DialogResult.OK Then
+                xClave = frClave.Clave
+                If Not GEmpresa.getInstance().Clave(xClave) Then
+                    MsgBox("No se puede realizar bonificacion")
+                    Return
+                End If
+            End If
+        End If
+        Try
+            btnBonificar.Enabled = False
+            Application.DoEvents()
+            GCobros.getInstance().BonificarWithLine(txtComentario.Text, ObtenerSeleccionados(), _Cliente, cbMonedas.SelectedItem, 0, Nothing, txtComentario.Text, chkImprimir.Checked)
+            txtImporteBonificar.Text = ""
+            CargarDatos()
+            MsgBox("Bonificacion Realizada", MsgBoxStyle.Information)
+            btnBonificar.Enabled = True
+        Catch ex As Exception
+            MsgBox(ex.Message, vbOKOnly, "Error!")
+        End Try
+    End Sub
 End Class

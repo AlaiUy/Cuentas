@@ -864,7 +864,7 @@ namespace Aguiñagalde.SQL
                 Lin.Add(new SqlParameter("@UNIDADESTOTAL", L.Unidadestotal));
                 Lin.Add(new SqlParameter("@PRECIO", L.Precio));
                 Lin.Add(new SqlParameter("@DTO", L.Dto));
-                Lin.Add(new SqlParameter("@TOTAL", L.Total()));
+                Lin.Add(new SqlParameter("@TOTAL", L.TotalBruto()));
                 Lin.Add(new SqlParameter("@COSTE", L.Costo));
                 Lin.Add(new SqlParameter("@PRECIODEFECTO", L.PrecioDefecto()));
                 Lin.Add(new SqlParameter("@TIPOIMPUESTO", L.Tipoimpuesto));
@@ -1267,6 +1267,34 @@ namespace Aguiñagalde.SQL
                 }
             }
             return A;
+        }
+
+        public bool ExisteAgenda(string xCodCLiente, DateTime xFechaVisita)
+        {
+
+            int Numero = 0;
+
+            using (SqlConnection Con = new SqlConnection(GlobalConnectionString))
+            {
+                Con.Open();
+                using (SqlCommand Com = new SqlCommand("SELECT ISNULL(CV.CODCLIENTE,-1) FROM COBVISITAS CV WHERE CV.FECVISITA = @FECHA  AND CV.CODCLIENTE = @CLIENTE", (SqlConnection)Con))
+                {
+                    Com.Parameters.Add(new SqlParameter("@FECHA", xFechaVisita.ToShortDateString()));
+                    Com.Parameters.Add(new SqlParameter("@CLIENTE", xCodCLiente));
+                    try
+                    {
+                        Numero = Convert.ToInt32(ExecuteScalar(Com));
+                    }
+                    catch (Exception e)
+                    {
+                        string x = e.Message;
+                    }
+                   
+                }
+            }
+            if (Numero > 0)
+                return true;
+            return false;
         }
     }
 }

@@ -121,3 +121,12 @@ C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\Aguiñagalde.XMLManager.
 C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.csproj.GenerateResource.Cache
 C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.dll
 C:\Users\alai\Source\Repos\Cuentas\XMLManager\obj\Debug\XMLManager.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\bin\Debug\XMLManager.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\bin\Debug\XMLManager.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\bin\Debug\Entidades.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\bin\Debug\Entidades.pdb
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\obj\Debug\XMLManager.csprojResolveAssemblyReference.cache
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\obj\Debug\Aguiñagalde.XMLManager.Properties.Resources.resources
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\obj\Debug\XMLManager.csproj.GenerateResource.Cache
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\obj\Debug\XMLManager.dll
+C:\Users\Alai\Documents\GitHub\Cuentas\XMLManager\obj\Debug\XMLManager.pdb
