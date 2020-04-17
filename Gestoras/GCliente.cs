@@ -687,10 +687,11 @@ namespace Aguiñagalde.Gestoras
         
 
             SQL.GuardarBitacora(xListaCambio, GCobros.getInstance().Caja.Usuario.Nombre);
-    
+
 
             //Retrieve the NetBIOS name. 
-            result = System.Environment.MachineName;
+            //result = System.Environment.MachineName;
+            result = Environment.MachineName;
             if (User != null)
             {
                  SQL.ModificarLimites(xCliente, xTope, xLimite, Comentario, User.CodUsuario, result);

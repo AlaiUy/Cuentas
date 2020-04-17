@@ -511,7 +511,7 @@ namespace Aguiñagalde.SQL
                 Com.Parameters.Add(new SqlParameter("@SERIERECIBO", xSerie));
                 Com.Parameters.Add(new SqlParameter("@TIPO", xTipoDoc));
                 ExecuteNonQuery(Com);
-                Com.CommandText = "SELECT  CONTADORB+1 FROM SERIESDOC WHERE (SERIE = @SERIERECIBO) AND TIPODOC = @TIPO";
+                Com.CommandText = "SELECT CONTADORB+1 FROM SERIESDOC WHERE (SERIE = @SERIERECIBO) AND TIPODOC = @TIPO";
                 Numero = (int)ExecuteScalar(Com);
             }
             return Numero;
